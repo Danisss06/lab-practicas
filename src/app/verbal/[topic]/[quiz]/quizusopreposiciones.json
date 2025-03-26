@@ -1,0 +1,50 @@
+{
+  "title": "Uso Correcto e Incorrecto de Palabras en Oraciones",
+  "description": "Selecciona el inciso en el cual la palabra subrayada está empleada correctamente o incorrectamente según se solicita.",
+  "questions": [
+    {
+      "question": "Es el inciso en el cual la palabra subrayada está empleada correctamente.",
+      "options": [
+        "Carlos irá al cine, a menos de que tenga que ir al aeropuerto.",
+        "Iré a visitar a mi abuelo, con tal de que me regale un auto.",
+        "Estaba segura de que él vendría a buscarla.",
+        "Todo me gusta, a parte de esto."
+      ],
+      "answer": 2,
+      "explanation": "Correctamente empleada, ya que aporta mayor claridad al enunciado."
+    },
+    {
+      "question": "Es el inciso en el cual la palabra subrayada está empleada incorrectamente.",
+      "options": [
+        "En este momento Laura está por salir de su casa.",
+        "Iremos a la playa por vacaciones.",
+        "Trabaja mucho por su familia.",
+        "Iremos a Morelia, para la navidad."
+      ],
+      "answer": 0,
+      "explanation": "Incorrectamente empleada porque 'estar por' indica 'estar a favor de'. Lo correcto es 'está para salir', lo cual indica que está preparada para salir."
+    },
+    {
+      "question": "Es el inciso en el cual la palabra subrayada está empleada correctamente.",
+      "options": [
+        "Se mueve bajo la acción de gravedad.",
+        "Vino a ver a Carmen con el pretexto de traer un libro.",
+        "Escribe en dondequiera que puede.",
+        "Karla irá al baile con o sin el consentimiento de su novio."
+      ],
+      "answer": 1,
+      "explanation": "Correctamente empleada. Es la palabra enlazante correcta."
+    },
+    {
+      "question": "Es el inciso en el cual la palabra subrayada está empleada incorrectamente.",
+      "options": [
+        "Emilio está para marcharse.",
+        "Para ser pequeño habla muy bien.",
+        "Me hablo bajo la excusa de saber de Pablo.",
+        "Coloca tu ropa dentro de la maleta."
+      ],
+      "answer": 2,
+      "explanation": "Incorrectamente empleada, exhibe pobreza del lenguaje. Lo correcto es 'con la excusa'."
+    }
+  ]
+}

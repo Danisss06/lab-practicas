@@ -1,0 +1,49 @@
+{
+  "title": [
+    "Laboratorio de Prácticas", 
+    "Laboratorio de Prácticas", 
+    "Laboratorio de Prácticas", 
+    "Laboratorio de Prácticas", 
+    "Laboratorio de Prácticas" 
+  ],
+  "description": [
+    "Bienvenido al Laboratorio de prácticas para el desarrollo de habilidades cognitivas, matemáticas y de razonamiento verbal. \n Este laboratorio es un espacio que te brindará la oportunidad de reforzar tus competencias cognitivas y tus habilidades de razonamiento matemático y verbal. \n La práctica de estos ejercicios pretende llevar al maestro a una reflexión sobre la importancia de formar niños y jóvenes más independientes en su aprendizaje y la necesidad de diseñar estrategias que lleven a los alumnos a estimular y desarrollar cada una de sus habilidades.",
+    "Toma cursos en línea de diversos temas y adquiere nuevas habilidades para el trabajo. \n Encuentra cursos gratuitos en línea sobre temas como la programación, tecnología informativa, desarrollo personal, educación financiera, idiomas, emprendimiento, entre muchos otros. \n Aprende a tu propio ritmo y obtén una certificación de finalización para destacar en tu currículum o perfil profesional.",
+    "Aprende como iniciar y mejorar tu negocio. \n Encuentra recursos para ayudarte a iniciar y mejorar tu negocio. \n Explora temas como la creación de un plan de negocios, la gestión de las finanzas y la comercialización de tu producto o servicio.",
+    "Conoce e involúcrate en acciones para combatir el cambio climático. \n Descubre cómo puedes participar en acciones para combatir el cambio climático y proteger el medio ambiente. \n Aprende sobre la importancia de la sostenibilidad y cómo puedes contribuir a un futuro más sostenible.",
+    "Toma cursos en línea y aprende nuevas habilidades para el trabajo. \n Aprende a tu propio ritmo con cursos gratuitos en línea. \n Explora las habilidades que te interesan y obtén una certificación de finalización para destacar en tu currículum o perfil profesional."
+  ],
+  "imageURL": [
+    "/images/shutterstock_2404300609.jpg",
+    "/images/shutterstock_2480344323.jpg",
+    "/images/shutterstock_2489482857.jpg",
+    "/images/shutterstock_2491645949.jpg",
+    "/images/shutterstock_2499137801.jpg"
+  ],
+  "courses": [
+    {
+      "cognitive": {
+        "title": "Unidad 1: Cognitiva",
+        "description": "Los ejercicios de práctica presentados en esta sección pretenden reforzar tus habilidades de razonamiento.",
+        "path": "/cognitive",
+        "icon": "fa-solid fa-brain"
+      }
+    },
+    {
+      "verbal": {
+        "title": "Unidad 2: Verbal",
+        "description": "Los ejercicios que encontrarás en este apartado, tienen como propósito ayudarte a recordar las reglas básicas de la escritura, lectura y buen uso de nuestro lenguaje.",
+        "path": "/verbal",
+        "icon": "fa-solid fa-book"
+      }
+    },
+    {
+      "mathematics": {
+        "title": "Unidad 3: Matemática",
+        "description": "Los ejercicios de esta área te permitirán practicar los contenidos de: aritmética, geometría, álgebra, probabilidad y estadística, que son temas que has estudiado en tus etapas académicas previas.",
+        "path": "/mathematics",
+        "icon": "fa-solid fa-calculator"
+      }
+    }
+  ]
+}

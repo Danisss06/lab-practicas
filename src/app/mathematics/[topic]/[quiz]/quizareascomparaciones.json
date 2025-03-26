@@ -1,0 +1,116 @@
+{
+  "title": "Áreas y Relaciones Geométricas",
+  "description": "Selecciona el inciso que contiene la respuesta correcta basada en las figuras y datos proporcionados.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el área del paralelogramo ABDE que aparece en la figura de arriba:",
+      "options": [
+        "7.5 cm²",
+        "75 cm²",
+        "15 cm²",
+        "150 cm²"
+      ],
+      "answer": 1,
+      "explanation": "El área del paralelogramo ABDE es 75 cm²."
+    },
+    {
+      "question": "¿El inciso que tiene el área del cuadrado MNOP es?",
+      "options": [
+        "84 cm²",
+        "9 cm²",
+        "126 cm²",
+        "63 cm²"
+      ],
+      "answer": 3,
+      "explanation": "El área del cuadrado MNOP es 63 cm², dado que el área interior mide 21 cm²."
+    },
+    {
+      "question": "Si B está en AC, D está en AE y además se define la trayectoria 1 y 2 como sigue: Trayectoria 1 = AF + FB + BD + DC y Trayectoria 2 = AE + EC. ¿El inciso que tiene la relación correcta entre las dos trayectorias es?",
+      "options": [
+        "Trayectoria 1 > Trayectoria 2",
+        "Trayectoria 1 = Trayectoria 2",
+        "Trayectoria 1 < Trayectoria 2",
+        "No se puede saber"
+      ],
+      "answer": 1,
+      "explanation": "Las trayectorias son iguales, por lo que Trayectoria 1 = Trayectoria 2."
+    },
+    {
+      "question": "La figura KMNO es un rectángulo, el punto L está sobre el lado KM. ¿El inciso que tiene la relación correcta entre la medida de las áreas de los dos triángulos es?",
+      "options": [
+        "No se puede saber",
+        "Área del triángulo OLN > Área del triángulo OMN",
+        "Área del triángulo OLN < Área del triángulo OMN",
+        "Área del triángulo OLN = Área del triángulo OMN"
+      ],
+      "answer": 3,
+      "explanation": "Ambas áreas son iguales porque comparten la misma base y altura."
+    },
+    {
+      "question": "Es el inciso que tiene la comparación correcta entre el perímetro de la región coloreada de celeste y el perímetro del rectángulo AFEC.",
+      "options": [
+        "Perímetro del rectángulo AFEC = perímetro de la región celeste",
+        "Perímetro del rectángulo AFEC > perímetro de la región celeste",
+        "Perímetro del rectángulo AFEC < perímetro de la región celeste",
+        "No se puede saber"
+      ],
+      "answer": 0,
+      "explanation": "El perímetro del rectángulo AFEC es igual al perímetro de la región celeste."
+    },
+    {
+      "question": "En la figura siguiente el triángulo ACE es equilátero. B, D y F son los puntos medios de los lados y el área coloreada mide 15 m². El inciso que tiene el área del triángulo ACE es:",
+      "options": [
+        "5 m²",
+        "20 m²",
+        "45 m²",
+        "30 m²"
+      ],
+      "answer": 1,
+      "explanation": "El área total del triángulo ACE es 20 m²."
+    },
+    {
+      "question": "La figura ABCD. M, N, O y P son puntos medios de sus lados. El área celeste mide 28 m². El inciso que tiene el área del cuadrado ABCD es:",
+      "options": [
+        "42 m²",
+        "112 m²",
+        "21 m²",
+        "56 m²"
+      ],
+      "answer": 3,
+      "explanation": "El área del cuadrado ABCD es 56 m²."
+    },
+    {
+      "question": "Si la recta M es paralela a la recta N, el inciso que tiene la medida del ángulo x es:",
+      "options": [
+        "100°",
+        "25°",
+        "80°",
+        "55°"
+      ],
+      "answer": 2,
+      "explanation": "El ángulo x mide 80° debido a las propiedades de las líneas paralelas."
+    },
+    {
+      "question": "En la siguiente figura la diagonal del cuadrado mide 20 cm. ¿Cuánto mide el área del círculo?",
+      "options": [
+        "100π cm²",
+        "20π cm²",
+        "40π cm²",
+        "400π cm²"
+      ],
+      "answer": 0,
+      "explanation": "El radio del círculo es igual a la mitad de la diagonal del cuadrado, y el área es 100π cm²."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/comparaciones/preg01.gif",
+    "/images/quizes/math/geometria/comparaciones/preg03.gif",
+    "/images/quizes/math/geometria/comparaciones/preg04.gif",
+    "/images/quizes/math/geometria/comparaciones/preg05.gif",
+    "/images/quizes/math/geometria/comparaciones/preg06.gif",
+    "/images/quizes/math/geometria/comparaciones/preg07.gif",
+    "/images/quizes/math/geometria/comparaciones/preg08.gif",
+    "/images/quizes/math/geometria/comparaciones/preg09.gif",
+    "/images/quizes/math/geometria/comparaciones/preg10.gif"
+  ]
+}

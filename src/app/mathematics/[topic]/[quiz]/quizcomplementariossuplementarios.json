@@ -1,0 +1,351 @@
+{
+  "title": "Medidas de Ángulos",
+  "description": "Selecciona el inciso que contiene la medida correcta para cada ángulo indicado.",
+  "questions": [
+    {
+      "question": "El inciso que tiene la medida del ángulo ABC.",
+      "options": [
+        "282º",
+        "92º",
+        "168º",
+        "78º"
+      ],
+      "answer": 3,
+      "explanation": "Los ángulos 12º + ABCº = 90º, por lo que ABC = 78º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo 4x.",
+      "options": [
+        "X = 72º, 4x = 18º",
+        "X = 18º, 4x = 72º",
+        "X = 36º, 4x = 54º",
+        "X = 108º, 4x = 436º"
+      ],
+      "answer": 1,
+      "explanation": "Los ángulos son complementarios: X = 18º, 4x = 72º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo 5x.",
+      "options": [
+        "X = 5º, 5x = 175º",
+        "X = 10º, 5x = 50º",
+        "X = 20º, 5x = 100º",
+        "X = 15º, 5x = 75º"
+      ],
+      "answer": 3,
+      "explanation": "X = 15º, 5x = 75º, porque x + x = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo 8x.",
+      "options": [
+        "X = 5º, 8x = 40º",
+        "X = 20º, 8x = 160º",
+        "X = 10º, 8x = 80º",
+        "X = 30º, 8x = 240º"
+      ],
+      "answer": 2,
+      "explanation": "X = 10º, 8x = 80º, porque 8x + x = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo x.",
+      "options": [
+        "X = 117º",
+        "X = 297º",
+        "X = 37º",
+        "X = 27º"
+      ],
+      "answer": 3,
+      "explanation": "X = 27º, porque 63º + x = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo w.",
+      "options": [
+        "W = 68º",
+        "W = 158º",
+        "W = 258º",
+        "W = 338º"
+      ],
+      "answer": 0,
+      "explanation": "W = 68º, porque 22º + W = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo MLN.",
+      "options": [
+        "129º",
+        "219º",
+        "39º",
+        "29º"
+      ],
+      "answer": 2,
+      "explanation": "Ángulo MLN = 39º, porque 51º + MLN = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo WXZ.",
+      "options": [
+        "45º",
+        "135º",
+        "25º",
+        "35º"
+      ],
+      "answer": 0,
+      "explanation": "WXZ = 45º, porque 45º + WXZ = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo y.",
+      "options": [
+        "89º",
+        "99º",
+        "29º",
+        "19º"
+      ],
+      "answer": 3,
+      "explanation": "y = 19º, porque 71º + y = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo A.",
+      "options": [
+        "148º",
+        "58º",
+        "48º",
+        "28º"
+      ],
+      "answer": 1,
+      "explanation": "A = 58º, porque 32º + A = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo K.",
+      "options": [
+        "K = 122º",
+        "K = 32º",
+        "K = 22º",
+        "K = 12º"
+      ],
+      "answer": 1,
+      "explanation": "K = 32º, porque 58º + K = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos 2w y 3w.",
+      "options": [
+        "2w = 18º, 3w = 27º",
+        "2w = 9º, 3w = 27º",
+        "2w = 36º, 3w = 54º",
+        "2w = 72º, 3w = 108º"
+      ],
+      "answer": 2,
+      "explanation": "2w = 36º, 3w = 54º, porque 2w + 3w = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos 2x y 4x.",
+      "options": [
+        "2x = 60º, 4x = 30º",
+        "2x = 30º, 4x = 120º",
+        "2x = 60º, 4x = 460º",
+        "2x = 30º, 4x = 60º"
+      ],
+      "answer": 3,
+      "explanation": "2x = 30º, 4x = 60º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo D.",
+      "options": [
+        "27º",
+        "117º",
+        "207º",
+        "297º"
+      ],
+      "answer": 1,
+      "explanation": "D = 117º, porque D + 63º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo suplementario.",
+      "options": [
+        "105º",
+        "15º",
+        "195º",
+        "285º"
+      ],
+      "answer": 0,
+      "explanation": "El suplemento = 105º, porque Suplemento + 75º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos F y 2F.",
+      "options": [
+        "F = 45º, 2F = 90º",
+        "F = 60º, 2F = 210º",
+        "F = 30º, 2F = 60º",
+        "F = 60º, 2F = 120º"
+      ],
+      "answer": 3,
+      "explanation": "F = 60º, 2F = 120º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo A.",
+      "options": [
+        "A = 67º",
+        "A = 247º",
+        "A = 157º",
+        "A = 337º"
+      ],
+      "answer": 2,
+      "explanation": "A = 157º, porque A + 23º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo S.",
+      "options": [
+        "S = 75º",
+        "S = 155º",
+        "S = 245º",
+        "S = 335º"
+      ],
+      "answer": 1,
+      "explanation": "S = 155º, porque S + 25º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo G.",
+      "options": [
+        "G = 50º",
+        "G = 230º",
+        "G = 320º",
+        "G = 140º"
+      ],
+      "answer": 3,
+      "explanation": "G = 140º, porque G + 40º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo H.",
+      "options": [
+        "H = 88º",
+        "H = 178º",
+        "H = 268º",
+        "H = 18º"
+      ],
+      "answer": 0,
+      "explanation": "H = 88º, porque H + 92º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos x, 2x y 3x.",
+      "options": [
+        "x = 50º, 2x = 100º, 3x = 150º",
+        "x = 30º, 2x = 60º, 3x = 90º",
+        "x = 20º, 2x = 40º, 3x = 60º",
+        "x = 50º, 2x = 70º, 3x = 80º"
+      ],
+      "answer": 1,
+      "explanation": "x = 30º, 2x = 60º, 3x = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos y, 2y, 3y.",
+      "options": [
+        "y = 20º, 2y = 40º, 3y = 60º",
+        "y = 40º, 2y = 80º, 3y = 120º",
+        "y = 30º, 2y = 60º, 3y = 90º",
+        "y = 10º, 2y = 20º, 3y = 30º"
+      ],
+      "answer": 2,
+      "explanation": "y = 30º, 2y = 60º, 3y = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo W.",
+      "options": [
+        "W = 57º",
+        "W = 37º",
+        "W = 87º",
+        "W = 67º"
+      ],
+      "answer": 3,
+      "explanation": "W = 67º, porque W + 113º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida del ángulo B.",
+      "options": [
+        "B = 30º",
+        "B = 60º",
+        "B = 40º",
+        "B = 20º"
+      ],
+      "answer": 0,
+      "explanation": "B = 30º, porque B + 150º = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos 2x, 3x y 4x.",
+      "options": [
+        "2x = 40º, 3x = 60º, 4x = 80º",
+        "2x = 20º, 3x = 30º, 4x = 40º",
+        "2x = 60º, 3x = 90º, 4x = 120º",
+        "2x = 10º, 3x = 15º, 4x = 20º"
+      ],
+      "answer": 0,
+      "explanation": "2x = 40º, 3x = 60º, 4x = 80º, porque 2x + 3x + 4x = 180º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos 2w, 3w y 5w.",
+      "options": [
+        "2w = 10º, 3w = 15º, 5w = 25º",
+        "2w = 36º, 3w = 54º, 5w = 90º",
+        "2w = 20º, 3w = 30º, 5w = 50º",
+        "2w = 60º, 3w = 90º, 5w = 150º"
+      ],
+      "answer": 1,
+      "explanation": "2w = 36º, 3w = 54º, 5w = 90º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos 4y y 6y.",
+      "options": [
+        "4y = 80º, 6y = 120º",
+        "4y = 72º, 6y = 108º",
+        "4y = 65º, 6y = 84º",
+        "4y = 76º, 6y = 114º"
+      ],
+      "answer": 1,
+      "explanation": "4y = 72º, 6y = 108º."
+    },
+    {
+      "question": "El inciso que tiene la medida de los ángulos M y 2M.",
+      "options": [
+        "M = 60º, 2M = 120º",
+        "M = 40º, 2M = 80º",
+        "M = 90º, 2M = 180º",
+        "M = 20º, 2M = 40º"
+      ],
+      "answer": 0,
+      "explanation": "M = 60º, 2M = 120º."
+    },
+    {
+      "question": "Es el inciso que tiene el valor de A.",
+      "options": [
+        "A = 40º",
+        "A = 60º",
+        "A = 80º",
+        "A = 20º"
+      ],
+      "answer": 3,
+      "explanation": "A = 20º."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/complsupl/preg02.gif",
+    "/images/quizes/math/geometria/complsupl/preg03.gif",
+    "/images/quizes/math/geometria/complsupl/preg04.gif",
+    "/images/quizes/math/geometria/complsupl/preg05.gif",
+    "/images/quizes/math/geometria/complsupl/preg06.gif",
+    "/images/quizes/math/geometria/complsupl/preg07.gif",
+    "/images/quizes/math/geometria/complsupl/preg08.gif",
+    "/images/quizes/math/geometria/complsupl/preg09.gif",
+    "/images/quizes/math/geometria/complsupl/preg10.gif",
+    "/images/quizes/math/geometria/complsupl/preg11.gif",
+    "/images/quizes/math/geometria/complsupl/preg12.gif",
+    "/images/quizes/math/geometria/complsupl/preg13.gif",
+    "/images/quizes/math/geometria/complsupl/preg14.gif",
+    "/images/quizes/math/geometria/complsupl/preg15.gif",
+    "/images/quizes/math/geometria/complsupl/preg16.gif",
+    "/images/quizes/math/geometria/complsupl/preg17.gif",
+    "/images/quizes/math/geometria/complsupl/preg18.gif",
+    "/images/quizes/math/geometria/complsupl/preg19.gif",
+    "/images/quizes/math/geometria/complsupl/preg20.gif",
+    "/images/quizes/math/geometria/complsupl/preg21.gif",
+    "/images/quizes/math/geometria/complsupl/preg22.gif",
+    "/images/quizes/math/geometria/complsupl/preg23.gif",
+    "/images/quizes/math/geometria/complsupl/preg24.gif",
+    "/images/quizes/math/geometria/complsupl/preg25.gif"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Uso Correcto de Palabras y Gerundios",
+  "description": "Selecciona el inciso que contiene el uso correcto o incorrecto de la palabra subrayada según se solicita.",
+  "questions": [
+    {
+      "question": "¿En cuál oración está correctamente utilizada la palabra subrayada?",
+      "options": [
+        "Las jóvenes comieron de prisa, saliendo a la calle después.",
+        "El bullicio en el día era extraordinario, volviendo en la noche el silencio.",
+        "Jugaron mucho, yéndose tarde a dormir.",
+        "Cayendo el rayo sobre el transformador, todo se oscureció."
+      ],
+      "answer": 3,
+      "explanation": "Correctamente utilizado el gerundio porque indica simultaneidad."
+    },
+    {
+      "question": "¿En cuál oración está incorrectamente utilizada la palabra subrayada?",
+      "options": [
+        "Bailaron hasta la madrugada, acostándose después.",
+        "Se casó con un hombre de condición humilde, contrariando con ello los deseos de sus padres.",
+        "Nos veremos más tarde dijo Brenda, poniéndose de pie.",
+        "Siendo tan buen estudiante acabará pronto su carrera."
+      ],
+      "answer": 0,
+      "explanation": "Incorrectamente utilizado el gerundio porque el acostarse es una acción posterior a la de bailar."
+    },
+    {
+      "question": "¿En cuál oración está correctamente utilizada la palabra subrayada?",
+      "options": [
+        "El soldado llegó tarde, formándose apresuradamente.",
+        "Llorando desconsoladamente, balbuceaba el motivo de su dolor.",
+        "Doris corrió desbocada, perdiéndose entre el gentío.",
+        "Se sentó a la mesa, comiendo sin levantar la vista."
+      ],
+      "answer": 1,
+      "explanation": "Correctamente utilizado el gerundio porque ambas acciones son simultáneas."
+    },
+    {
+      "question": "¿En cuál oración está incorrectamente utilizada la palabra subrayada?",
+      "options": [
+        "Cantando y bailando desahogaba su dolor.",
+        "Se encaminó hacia la puerta abriéndola de golpe.",
+        "Negándote a pagar tu deuda, te llevarán a la cárcel.",
+        "Acomodándose sus lentes se dispuso a leer."
+      ],
+      "answer": 1,
+      "explanation": "Incorrectamente utilizado el gerundio porque indica una acción posterior."
+    },
+    {
+      "question": "Es el inciso que tiene el uso y escritura correcta de la palabra subrayada, en la siguiente oración: \" No creo que haiga gente a esta hora \". La palabra haiga es un barbarismo de uso común entre la gente inculta, al utilizar el tiempo presente del modo subjuntivo del verbo haber.",
+      "options": [
+        "Halla",
+        "Allá",
+        "Aya",
+        "Haya"
+      ],
+      "answer": 3,
+      "explanation": "Haya es el tiempo presente del modo subjuntivo del verbo haber."
+    },
+    {
+      "question": "¿Cuál es el uso y escritura correcta de la palabra subrayada en la oración: '¿Veniste a la playa con tu familia?'",
+      "options": [
+        "Vinistes",
+        "Viniste",
+        "Venistes",
+        "Biniste"
+      ],
+      "answer": 1,
+      "explanation": "Viniste es el tiempo pretérito del modo indicativo del verbo venir."
+    },
+    {
+      "question": "¿Cuál es el uso y escritura correcta de la palabra subrayada en la oración: 'El conyuge de mi hermana es veterinario'?",
+      "options": [
+        "Cónyuge",
+        "Conyuge",
+        "Cónyugue",
+        "Conyugue"
+      ],
+      "answer": 0,
+      "explanation": "Cónyuge tiene sonido fuerte debido a la 'g' precediendo a la 'e' y es una palabra esdrújula."
+    },
+    {
+      "question": "¿Cuál es el uso y escritura correcta de la palabra subrayada en la oración: '¡No huigas cobarde!'",
+      "options": [
+        "Uigas",
+        "Uhigas",
+        "Huyas",
+        "Hulas"
+      ],
+      "answer": 2,
+      "explanation": "Huyas es el tiempo presente del verbo indicativo de huir."
+    },
+    {
+      "question": "¿Cuál es el uso y escritura correcta de la palabra subrayada en la oración: 'El padre bendició las hostias'?",
+      "options": [
+        "Vendijo",
+        "Bendicio",
+        "Vendició",
+        "Bendijo"
+      ],
+      "answer": 3,
+      "explanation": "Bendijo es el tiempo pretérito del modo indicativo del verbo bendecir."
+    }
+  ]
+}

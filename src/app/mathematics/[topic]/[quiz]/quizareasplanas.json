@@ -1,0 +1,105 @@
+{
+  "title": "Cálculo de Áreas",
+  "description": "Selecciona el inciso que contiene el área correcta para cada figura geométrica según los datos proporcionados.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el área del cuadrado con perímetro igual a 12 cm.",
+      "options": [
+        "9 cm²",
+        "36 cm²",
+        "81 cm²",
+        "27 cm²"
+      ],
+      "answer": 0,
+      "explanation": "El lado del cuadrado es 12 cm / 4 = 3 cm. El área es 3² = 9 cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un círculo cuyo perímetro es 10π cm.",
+      "options": [
+        "25π cm²",
+        "15π cm²",
+        "10π cm²",
+        "100π cm²"
+      ],
+      "answer": 0,
+      "explanation": "El radio es 10 / (2π) ≈ 1.59 cm. El área es πr² ≈ 25π cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área del cuadrado en el que está inscrito el círculo cuyo perímetro es 8π cm.",
+      "options": [
+        "8 cm²",
+        "32 cm²",
+        "64 cm²",
+        "16 cm²"
+      ],
+      "answer": 2,
+      "explanation": "El diámetro del círculo es 8 / π ≈ 2.55 cm. El lado del cuadrado es igual al diámetro, y el área es 2.55² ≈ 64 cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área del círculo en el que está inscrito el cuadrado cuyo perímetro es 40 cm.",
+      "options": [
+        "25π cm²",
+        "25π cm²",
+        "10π cm²",
+        "100π cm²"
+      ],
+      "answer": 1,
+      "explanation": "El lado del cuadrado es 40 / 4 = 10 cm. El radio del círculo es la mitad del lado, 10 / 2 = 5 cm. El área es πr² ≈ 25π cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un rectángulo cuyo perímetro es 24 cm y altura 3 cm.",
+      "options": [
+        "72 cm²",
+        "108 cm²",
+        "54 cm²",
+        "27 cm²"
+      ],
+      "answer": 3,
+      "explanation": "La base del rectángulo es (24 - 2 × 3) / 2 = 9 cm. El área es base × altura = 9 × 3 = 27 cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un rectángulo cuyo perímetro es 18 cm y base 7 cm.",
+      "options": [
+        "14 cm²",
+        "49 cm²",
+        "4 cm²",
+        "28 cm²"
+      ],
+      "answer": 0,
+      "explanation": "La altura es (18 - 2 × 7) / 2 = 2 cm. El área es base × altura = 7 × 2 = 14 cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un rectángulo cuyo perímetro es 30 cm y base 4 cm.",
+      "options": [
+        "120 cm²",
+        "88 cm²",
+        "44 cm²",
+        "60 cm²"
+      ],
+      "answer": 2,
+      "explanation": "La altura es (30 - 2 × 4) / 2 = 11 cm. El área es base × altura = 4 × 11 = 44 cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un círculo cuyo perímetro es 8 cm.",
+      "options": [
+        "4π cm²",
+        "162π cm²",
+        "8π cm²",
+        "16π cm²"
+      ],
+      "answer": 3,
+      "explanation": "El radio es 8 / (2π) ≈ 1.27 cm. El área es πr² ≈ 16π cm²."
+    },
+    {
+      "question": "Es el inciso que tiene el área de un círculo cuyo perímetro es 20π cm.",
+      "options": [
+        "100π cm²",
+        "400π cm²",
+        "10π cm²",
+        "20π cm²"
+      ],
+      "answer": 0,
+      "explanation": "El radio es 20 / (2π) ≈ 3.18 cm. El área es πr² ≈ 100π cm²."
+    }
+  ]
+}

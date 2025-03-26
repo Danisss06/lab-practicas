@@ -1,0 +1,105 @@
+{
+  "title": "Representación Matemática de Enunciados",
+  "description": "Selecciona la opción que representa matemáticamente el enunciado proporcionado.",
+  "questions": [
+    {
+      "question": "La altura de un rectángulo es el triple de su base, ¿cómo se representa matemáticamente este enunciado?",
+      "options": [
+        "x + 3x",
+        "x ( 3x )",
+        "4x",
+        "2 ( x ) + 2 ( 3x )"
+      ],
+      "answer": 3,
+      "explanation": "La fórmula correcta es 2(x) + 2(3x) para expresar el perímetro de un rectángulo con altura triple de su base."
+    },
+    {
+      "question": "La base de un triángulo es el doble de su altura, ¿cómo se expresa la medida de su área?",
+      "options": [
+        "½ ( x ) ( 2x )",
+        "",
+        "",
+        ""
+      ],
+      "answer": 0,
+      "explanation": "La fórmula del área de un triángulo con base doble de su altura es ½(base)(altura) = ½(x)(2x)."
+    },
+    {
+      "question": "La edad de Rosy es el triple de la de Luis, ¿cómo se expresa la suma de sus edades?",
+      "options": [
+        "3x2",
+        "x(3x)",
+        "( x )( x )",
+        "x + 3x"
+      ],
+      "answer": 3,
+      "explanation": "La suma de sus edades es x + 3x."
+    },
+    {
+      "question": "Pepe gana el doble que Raúl, ¿cómo se expresa la diferencia entre sus salarios?",
+      "options": [
+        "2x + x",
+        "3x",
+        "2x - x",
+        "2x ( x )"
+      ],
+      "answer": 2,
+      "explanation": "La diferencia entre sus salarios es 2x - x."
+    },
+    {
+      "question": "Gaby tiene el triple del promedio de Lulú y Elena tiene el doble del promedio de Lulú, ¿cómo se expresa el promedio de las tres?",
+      "options": [
+        "",
+        "( x + 3x + 2x ) / 3",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "explanation": "El promedio es la suma de sus valores dividida por 3: (x + 3x + 2x) / 3."
+    },
+    {
+      "question": "Si los ahorros de Mimí son cuatro veces los ahorros de Rubén menos 200 pesos, el inciso que tiene la diferencia entre los ahorros de ambos es:",
+      "options": [
+        "( 4x + 200 ) - x",
+        "5x + 200",
+        "3x2 - 200",
+        "( 4x - 200 ) - x"
+      ],
+      "answer": 3,
+      "explanation": "La diferencia entre sus ahorros es (4x - 200) - x."
+    },
+    {
+      "question": "Si el número de horas trabajadas por Lorena es tres veces el número de horas trabajadas por Sergio menos 3 horas, el inciso que representa la suma de las horas trabajadas por los dos es:",
+      "options": [
+        "x + 3 ( x - 3 )",
+        "x ( 3x - 3 )",
+        "x + ( 3x - 3 )",
+        "x -"
+      ],
+      "answer": 2,
+      "explanation": "La suma de las horas es x + (3x - 3)."
+    },
+    {
+      "question": "Si a la edad de Elena se le suman 5 años, se tiene la edad de Carlos, el inciso que representa la suma de las dos edades es:",
+      "options": [
+        "( x + 5 ) + x",
+        "x + 5x",
+        "x + ( x - 5 )",
+        "x ( x + 5 )"
+      ],
+      "answer": 0,
+      "explanation": "La suma de sus edades es (x + 5) + x."
+    },
+    {
+      "question": "El número de kilómetros viajados por Caty en auto equivalen a la tercera parte del número de kilómetros viajados por Rolando. El inciso que representa la suma del número de kilómetros viajados por ambos es:",
+      "options": [
+        "x",
+        "( x / 3 ) + x",
+        "3x ( x )",
+        "x -"
+      ],
+      "answer": 1,
+      "explanation": "La suma de los kilómetros es (x / 3) + x."
+    }
+  ]
+}

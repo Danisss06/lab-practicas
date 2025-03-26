@@ -1,0 +1,116 @@
+{
+  "title": "Cálculo de Distancias",
+  "description": "Selecciona el inciso que contiene la distancia correcta entre los puntos indicados.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la distancia entre A y C.",
+      "options": [
+        "-5",
+        "5",
+        "-8",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "La distancia entre A y C es 8."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre A y D.",
+      "options": [
+        "11",
+        "14",
+        "8",
+        "-8"
+      ],
+      "answer": 1,
+      "explanation": "La distancia entre A y D es 14."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre B y C.",
+      "options": [
+        "8",
+        "5",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "La distancia entre B y C es 2."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre B y D.",
+      "options": [
+        "11",
+        "8",
+        "3",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "La distancia entre B y D es 8."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre los puntos A y D.",
+      "options": [
+        "16",
+        "14",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "La distancia entre A y D es 16."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre los puntos D y C.",
+      "options": [
+        "15",
+        "23",
+        "7",
+        "-7"
+      ],
+      "answer": 2,
+      "explanation": "La distancia entre D y C es 7."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre los puntos B y C.",
+      "options": [
+        "11",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "La distancia entre B y C es 5."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre los puntos A y C.",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "-9"
+      ],
+      "answer": 1,
+      "explanation": "La distancia entre A y C es 9."
+    },
+    {
+      "question": "Es el inciso que tiene la distancia entre los puntos B y D.",
+      "options": [
+        "18",
+        "19",
+        "14",
+        "12"
+      ],
+      "answer": 3,
+      "explanation": "La distancia entre B y D es 12."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/dospuntos/preg01.gif",
+    "/images/quizes/math/geometria/dospuntos/preg01.gif",
+    "/images/quizes/math/geometria/dospuntos/preg01.gif",
+    "/images/quizes/math/geometria/dospuntos/preg01.gif",
+    "/images/quizes/math/geometria/dospuntos/preg01.gif",
+    "/images/quizes/math/geometria/dospuntos/preg05.gif",
+    "/images/quizes/math/geometria/dospuntos/preg05.gif",
+    "/images/quizes/math/geometria/dospuntos/preg05.gif",
+    "/images/quizes/math/geometria/dospuntos/preg05.gif"
+  ]
+}

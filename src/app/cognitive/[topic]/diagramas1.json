@@ -1,0 +1,12 @@
+{
+  "topic": "Diagramas de Venn 1",
+  "exampleQuestion": "1. ¿ En qué sector se ubica o ubican las actividades de Rolando ?",
+  "exampleOptions": [
+    "a) 4",
+    "b) 3",
+    "c) 2",
+    "d) 1"
+  ],
+  "answer": 3,
+  "imageURL": "/images/diag1_ej.gif"
+}

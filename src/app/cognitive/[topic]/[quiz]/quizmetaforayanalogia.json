@@ -1,0 +1,105 @@
+{
+  "title": "Quiz Metáforas y Analogías",
+  "description": "Selecciona la opción que completa la analogía correctamente.",
+  "questions": [
+    {
+      "question": "La educación es la llave de la oportunidad. \neducación : oportunidad  ::  llave : ¿?",
+      "options": [
+        "casa",
+        "corriente",
+        "edificio",
+        "agua"
+      ],
+      "answer": 0,
+      "explanation": "La llave es lo que permite entrar a una casa, un lugar que brinda seguridad. La educación permite que se entre a la sociedad y al ambiente laboral, con mayor seguridad."
+    },
+    {
+      "question": "La soberbia es la raíz de la maldad. \nsoberbia : maldad  ::  raíz : ¿?",
+      "options": [
+        "planta",
+        "suelo",
+        "agua",
+        "piso"
+      ],
+      "answer": 0,
+      "explanation": "La soberbia promueve el menosprecio hacia los demás, lo que induce a alimentar y desarrollar la maldad. La raíz es la parte de la planta que le permite alimentarse, crecer y desarrollarse."
+    },
+    {
+      "question": "La necesidad es la madre de la invención. \nnecesidad : invención  ::  madre : ¿?",
+      "options": [
+        "José",
+        "abuela",
+        "bebé",
+        "padre"
+      ],
+      "answer": 2,
+      "explanation": "La madre es la que concibe al feto, al que finalmente da a luz. La necesidad induce al surgimiento de ideas que conducen a dar a luz el invento que la satisfaga."
+    },
+    {
+      "question": "María es la estrella de su curso. \nMaría : curso  ::  estrella : ¿?",
+      "options": [
+        "luz",
+        "constelación",
+        "artista",
+        "cine"
+      ],
+      "answer": 1,
+      "explanation": "La estrella es el elemento brillante del conjunto constelación. María es un elemento brillante del conjunto que forma el curso."
+    },
+    {
+      "question": "Babilonia fue la cuna de la civilización. \nBabilonia : civilización  ::  cuna : ¿?",
+      "options": [
+        "mecer",
+        "recién nacido",
+        "ciudad",
+        "cama"
+      ],
+      "answer": 1,
+      "explanation": "La cuna alberga al recién nacido en la primera etapa de su vida. Babilonia es el lugar que albergó a la primera civilización."
+    },
+    {
+      "question": "La variedad es el condimento de la vida. \nVariedad : vida  ::  condimento : ¿?",
+      "options": [
+        "pimienta",
+        "ajo",
+        "comida",
+        "comino"
+      ],
+      "answer": 2,
+      "explanation": "El condimento es lo que estimula el sentido del gusto por la comida. La variedad es lo que da interés y sentido a la vida."
+    },
+    {
+      "question": "El hombre era esclavo de su ambición. \nhombre : ambición  ::  esclavo : ¿?",
+      "options": [
+        "trabajo",
+        "campo",
+        "sirviente",
+        "amo"
+      ],
+      "answer": 3,
+      "explanation": "El esclavo carece de libertad porque pertenece a su amo. El hombre pierde su libertad en aras de satisfacer su ambición."
+    },
+    {
+      "question": "El león es el rey de los animales. \nleón : animales  ::  rey : ¿?",
+      "options": [
+        "súbditos",
+        "príncipe",
+        "princesa",
+        "reina"
+      ],
+      "answer": 0,
+      "explanation": "El rey es la persona que tiene el poder sobre los bienes y vidas de sus súbditos. El león es el animal más temido por sus poderosas garras que amenazan sus vidas."
+    },
+    {
+      "question": "El boxeador era un glotón de castigo. \nboxeador : castigo  ::  glotón : ¿?",
+      "options": [
+        "bebida",
+        "obesidad",
+        "comida",
+        "golpes"
+      ],
+      "answer": 2,
+      "explanation": "Glotón es la persona que tiene excesivo gusto por la comida. El boxeador es la persona que muestra excesivo gusto por castigar a su oponente."
+    }
+  ]
+}

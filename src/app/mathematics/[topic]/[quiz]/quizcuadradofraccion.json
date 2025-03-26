@@ -1,0 +1,105 @@
+{
+  "title": "Relación entre números y sus cuadrados",
+  "description": "Selecciona el inciso que contiene la respuesta correcta para cada pregunta relacionada con los cuadrados de números.",
+  "questions": [
+    {
+      "question": "Si m/n = 4/7 ; entonces el inciso que tiene la respuesta a: (m/n)^2 es:",
+      "options": [
+        "1 1/2",
+        "6/4",
+        "23/24",
+        "24/23"
+      ],
+      "answer": 3,
+      "explanation": "El cuadrado de 4 es 16 y el de 7 es 49."
+    },
+    {
+      "question": "Si r/s = 6/5 ; entonces el inciso que tiene la respuesta a: (r/s)^2 es:",
+      "options": [
+        "2/36",
+        "1/54",
+        "3/54",
+        "6/108"
+      ],
+      "answer": 0,
+      "explanation": "El cuadrado de 6 es 36 y el de 5 es 25."
+    },
+    {
+      "question": "Si k/w = 8/9 ; entonces el inciso que tiene la respuesta a: (k/w)^2 es:",
+      "options": [
+        "1/17",
+        "4/34",
+        "8/136",
+        "16/272"
+      ],
+      "answer": 2,
+      "explanation": "El cuadrado de 8 es 64 y el de 9 es 81."
+    },
+    {
+      "question": "Si a/b = 7/8 ; entonces el inciso que tiene la respuesta a: (a/b)^2 es:",
+      "options": [
+        "1/20",
+        "1/40",
+        "2/80",
+        "4/160"
+      ],
+      "answer": 0,
+      "explanation": "El cuadrado de 7 es 49 y el de 8 es 64."
+    },
+    {
+      "question": "Si c/d = 6/7 ; entonces el inciso que tiene la respuesta a: (c/d)^2 es:",
+      "options": [
+        "28/288",
+        "14/144",
+        "7/72",
+        "392/576"
+      ],
+      "answer": 2,
+      "explanation": "El cuadrado de 6 es 36 y el de 7 es 49."
+    },
+    {
+      "question": "Si h/k = 3/5 ; entonces el inciso que tiene la respuesta a: (h/k)^2 es:",
+      "options": [
+        "8/45",
+        "8/145",
+        "6/20",
+        "3/10"
+      ],
+      "answer": 1,
+      "explanation": "El cuadrado de 3 es 9 y el de 5 es 25."
+    },
+    {
+      "question": "Si w/t = 1/2 ; entonces el inciso que tiene la respuesta a: (w/t)^2 es:",
+      "options": [
+        "10/125",
+        "4/50",
+        "2/25",
+        "12 1/2"
+      ],
+      "answer": 3,
+      "explanation": "El cuadrado de 1 es 1 y el de 2 es 4."
+    },
+    {
+      "question": "Si t/s = 1/3 ; entonces el inciso que tiene la respuesta a: (t/s)^2 es:",
+      "options": [
+        "2/25",
+        "12 1/2",
+        "4/50",
+        "40/500"
+      ],
+      "answer": 2,
+      "explanation": "El cuadrado de 1 es 1 y el de 3 es 9."
+    },
+    {
+      "question": "Si x/y = 2/3 ; entonces el inciso que tiene la respuesta a: (x/y)^2 es:",
+      "options": [
+        "2/7",
+        "2 87/128",
+        "343/128",
+        "28/96"
+      ],
+      "answer": 0,
+      "explanation": "El cuadrado de 2 es 4 y el de 3 es 9."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "topic": "Uso de las palabras enlazantes",
+  "topicDescription": "Las palabras enlazantes o coordinantes tienen la función de conectar o unir dos oraciones, o dos partes, o dos miembros de la misma oración. Pueden ser enlazantes: las conjunciones, las preposiciones y/o los pronombres relativos.",
+  "example": "Instrucciones: identifica el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada correcta o incorrectamente.",
+  "exampleQuestion2": "",
+  "exampleQuestion": "1. Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada correctamente.",
+  "exampleOptions": [
+    "a) Estaba sentado en el puente debajo del que había un faro.",
+    "b) Guillermo siempre te ha ayudado, conque ya es hora de que le correspondas.",
+    "c) Las flores y los árboles, la vegetación toda parecían revivir.",
+    "d) Los invitados entre los que estaba Luis, se sentó a la izquierda."
+  ],
+  "answer": 2,
+  "imageURL": "/images/penlazantes.png"
+}

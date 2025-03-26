@@ -1,0 +1,13 @@
+{
+  "topic": "Cuadrado de una fracción",
+  "exampleQuestion": "Si (x/y)=2/5; entonces el inciso que tiene la respuesta a: (x/y)^2 es:",
+  "exampleOptions": [
+    "a) 25/4",
+    "b) 4/25",
+    "c) 6 1/4",
+    "d) 4 1/6"
+  ],
+  "answer": 1,
+  "imageURL": "",
+  "description": "La respuesta es 4/25 por que el cuadrado de 2 es 4 y el de 5 es 25."
+}

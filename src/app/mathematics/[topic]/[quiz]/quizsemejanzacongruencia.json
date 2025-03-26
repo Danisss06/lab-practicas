@@ -1,0 +1,116 @@
+{
+  "title": "Relaciones y Propiedades de Triángulos",
+  "description": "Selecciona el inciso que contiene la respuesta correcta basada en las relaciones y medidas de los triángulos proporcionados.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "son semejantes",
+        "no son semejantes ni congruentes",
+        "son rectángulos",
+        "son congruentes"
+      ],
+      "answer": 3,
+      "explanation": "Los triángulos son congruentes."
+    },
+    {
+      "question": "Es el inciso que tiene el valor del ángulo y.",
+      "options": [
+        "78°",
+        "12°",
+        "6°",
+        "39°"
+      ],
+      "answer": 0,
+      "explanation": "El ángulo y mide 78°."
+    },
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "son equiláteros",
+        "no son congruentes ni semejantes",
+        "son semejantes",
+        "son congruentes"
+      ],
+      "answer": 3,
+      "explanation": "Los triángulos son congruentes."
+    },
+    {
+      "question": "Es el inciso que tiene el valor del lado x.",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "El lado x mide 4."
+    },
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "son semejantes",
+        "son congruentes",
+        "no son congruentes ni semejantes",
+        "son equiláteros"
+      ],
+      "answer": 1,
+      "explanation": "Los triángulos son congruentes."
+    },
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "son triángulos rectángulos",
+        "no tienen ninguna relación",
+        "son semejantes",
+        "son congruentes"
+      ],
+      "answer": 3,
+      "explanation": "Los triángulos son congruentes."
+    },
+    {
+      "question": "Las figuras son semejantes. Es el inciso que tiene la medida del ángulo y.",
+      "options": [
+        "110°",
+        "12°",
+        "6°",
+        "78°"
+      ],
+      "answer": 1,
+      "explanation": "El ángulo y mide 12°."
+    },
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "son triángulos semejantes",
+        "son triángulos congruentes",
+        "no son congruentes ni semejantes",
+        "son triángulos isósceles"
+      ],
+      "answer": 1,
+      "explanation": "Los triángulos son congruentes."
+    },
+    {
+      "question": "Es el inciso que tiene la relación entre los siguientes triángulos.",
+      "options": [
+        "no tienen relación",
+        "no son semejantes ni congruentes",
+        "son congruentes",
+        "son semejantes"
+      ],
+      "answer": 3,
+      "explanation": "Los triángulos son semejantes."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/semejanza/preg02.gif",
+    "/images/quizes/math/geometria/semejanza/preg03.gif",
+    "/images/quizes/math/geometria/semejanza/preg04.gif",
+    "/images/quizes/math/geometria/semejanza/preg05.gif",
+    "/images/quizes/math/geometria/semejanza/preg06.gif",
+    "/images/quizes/math/geometria/semejanza/preg07.gif",
+    "/images/quizes/math/geometria/semejanza/preg08.gif",
+    "/images/quizes/math/geometria/semejanza/preg09.gif",
+    "/images/quizes/math/geometria/semejanza/preg10.gif"
+  ]
+}

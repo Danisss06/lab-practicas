@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --text-color: #171717;
+
+  /* footer.tsx */
+  --footer-background: #f1f5f9; /* Fondo del footer en modo claro (slate-100) */
+  --footer-text: #171717; /* Texto del footer en modo claro */
+  --line-color: #171717; /* Color de las líneas paralelas */
+
+  /* NavCard.tsx */
+  --navcard-background: #f1f5f9; /* Fondo tarjetas en modo claro*/
+  --navcard-text: #171717;  /* Texto tarjetas */
+
+  /* SideBar.tsx */
+  --sidebar-bg:#f8fafc; 
+  --sidebar-text: #0d151c; /* Texto de la barra lateral */
+  --sidebar-element-bg: #e2e8f0; /* Fondo del elemento */
+  --sidebar-selected-bg: #94a3b8; /* Fondo del elemento seleccionado en modo claro (slate-200) */
+  --goback-btn-bg: #f8fafc;
+  --goback-btn-text: #171717;
+  --fa-minus-icon: url('/icons/faMinus.svg'); /* Ícono "-" antes de los temas */
+
+
+  /* SubjectCard.tsx */
+  --subjectcard-bg: #e2e8f0c0; 
+  --subjectcard-text: #0d151c;
+
+  --quiz-options-btn-bg: #e5e7eb;
+  --quiz-options-btn-text: #171717;
+  
+  --popup-bg: #ffffff;
+  --popup-text: #1f2021;
+  --close-icon: url('/icons/xmark.svg'); /* Ícono en modo claro */
+  
+  --math-table-bg: #f8fafc;
+  --math-table-header: #e2e8f0;
+  --math-table-border: #374151;
+  
+  --darkmode-btn-bg: #e2e8f0; /* Color del botón en modo claro */
+  --darkmode-btn-text: #1e293b; /* Color del texto en modo claro */
+  --darkmode-btn-border: #e2e8f0; /* Color del borde en modo claro */
+
+  --credits-titles: #111418;
+  --credits-text: #111418d6;
+  
+  --quiz-btn-color: #cbd5e1;
+  --quiz-message-btn: #e2e8f0; /* Color del botón de mensaje "Selecciona una respuesta" */
+}
+
+html.dark {
+  --background: #171717fd;
+  --foreground: #ededed;
+  --text-color: #ffffff;
+
+  /* footer.tsx */
+  --footer-background: #1f2937; /* Fondo del footer en modo oscuro */
+  --footer-text: #ffffff; /* Texto del footer en modo oscuro */
+  --line-color: #f5f3f3da; /* Color de las líneas paralelas */
+
+  /* NavCard.tsx */
+  --navcard-background: #1f2937; /* Fondo tarjetas en modo oscuro*/
+  --navcard-text: #ffffff; /* Texto tarjetas */   
+
+  /* SideBar.tsx */
+  --sidebar-bg:#1f2937; /* Fondo del menú lateral */
+  --sidebar-text: #ffffff; /* Texto de la barra lateral */
+  --sidebar-element-bg: #475569; /* Fondo del elemento */
+  --sidebar-selected-bg: #94a3b8; /* Fondo del elemento seleccionado en modo oscuro (slate-700) */
+  --goback-btn-bg: #1f2937;
+  --goback-btn-text: #ffffff;
+  --fa-minus-icon: url('/icons/faMinusWhite.svg'); /* Ícono "-" antes de los temas */
+
+
+  /* SubjectCard.tsx */
+  --subjectcard-bg: #303c4c; 
+  --subjectcard-text: #ffffff;
+
+  --quiz-options-btn-bg: #475569;
+  --quiz-options-btn-text: #ffffff;
+
+  --popup-bg: #303c4c;
+  --popup-text: #ffffff;
+  --close-icon: url('/icons/xmarkwhite.svg'); /* Ícono en modo oscuro */
+
+  --math-table-bg: #1f2937;
+  --math-table-header: #374151;
+  --math-table-border: #ffffff;
+
+  --darkmode-btn-bg: #374151; /* Color del botón en modo oscuro */
+  --darkmode-btn-text: #f1f5f9; /* Color del texto en modo oscuro */
+  --darkmode-btn-border: #374151; /* Color del borde en modo oscuro */
+
+--credits-titles: #e6e2e2;
+--credits-text: #f1f5f9;
+--quiz-btn-color: #475569;;
+--quiz-message-btn: #374151; /* Color del botón de mensaje "Selecciona una respuesta" */
+
+
+}
+
+html, body {
+  @apply font-sans;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

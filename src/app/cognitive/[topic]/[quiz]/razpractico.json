@@ -1,0 +1,83 @@
+{
+  "title": "Conclusiones de Situaciones y Problemas",
+  "description": "Selecciona la opción que contiene la conclusión correcta de cada situación o problema presentado.",
+  "questions": [
+    {
+      "question": "El año pasado, cuando Lucía y sus amigos y amigas salieron del Colegio, unos aspiraban a entrar a la Prepa Tecmilenio, otros a la Prepa Tec y otros más a la Prepa UDEM. Lucía quiso entrar a Tecmilenio pero su papá le dijo que si no pasaba el examen tendría que irse a UDEM institución a la que ya tenía acceso porque ya había pasado el examen. Además su papá prometió comprarle un auto si su promedio final del Colegio era 90 o más. Ayer Lucía quiso visitar a sus amigos que están en Tecmilenio, por lo que pidió a su amigo Javier, con quien ha compartido los mismos colegios desde kinder hasta ahora en sus estudios de preparatoria,  que le diera un ¨raid¨. De esta información puede concluirse que",
+      "options": [
+        "Lucía pasó el examen de Tecmilenio.",
+        "Lucía obtuvo 90 de promedio en el Colegio.",
+        "Lucía tiene un auto que no usa.",
+        "Lucía no tiene auto y no pasó el examen de Tecmilenio."
+      ],
+      "answer": 3,
+      "explanation": "Como Lucía pide un 'raid' para ir a visitar a sus amigos al Tecmilenio, entonces no sacó noventa de promedio en el colegio y no pasó el examen del Tecmilenio."
+    },
+    {
+      "question": "Al principio del verano los proyectos de Miguel eran comprar un auto BMW o viajar a Europa o vacacionar en Cancún o en Ixtapa. Por su parte, los proyectos de Raúl eran viajar a Canadá o comprarse un Mercedes. En cambio Nelly, amiga de ellos cuyos padres viven en Guanajuato los invitó a ambos a pasar las vacaciones en la casa de sus padres y a hacer un recorrido por todo el Bajío donde abundan la arquitectura colonial y la belleza natural. Al regresar al trabajo, Nelly y Miguel contaron a Raúl cómo habían disfrutado de los lugares coloniales y además de sus viajes por las autopistas a la máxima velocidad permitida. De esta información se concluye que",
+      "options": [
+        "Miguel y Raúl estuvieron en Guanajuato durante las vacaciones.",
+        "Miguel sí estuvo en Europa durante sus vacaciones.",
+        "Raúl visitó a Nelly durante las vacaciones.",
+        "Miguel compró el BMW."
+      ],
+      "answer": 3,
+      "explanation": "Como Miguel no vacacionó en Europa ni en ninguna playa de México, significa que compró su BMW."
+    },
+    {
+      "question": "A una masa de 10 kg se le aplicó cierta fuerza y adquirió una aceleración de 2 m/s². Cuando esa misma fuerza se aplicó a una masa de 5 kg, ésta adquirió una aceleración de 4 m/s². Después se escogió una masa de 20 kg y su aceleración fue de 1 m/s². De esta información se puede concluir que",
+      "options": [
+        "la masa no influye sobre la aceleración.",
+        "cuando disminuye la masa, la aceleración aumenta.",
+        "cuando la masa aumenta, también aumenta la aceleración.",
+        "cuando disminuye la fuerza, la aceleración aumenta."
+      ],
+      "answer": 1,
+      "explanation": "En la tabla anterior puede observarse que a mayor masa se tiene una aceleración menor."
+    },
+    {
+      "question": "Cinco volúmenes de una colección están colocados en forma ordenada en un estante de una biblioteca. Una polilla hace un agujero a partir de la página 1 del primer tomo y se abre camino en línea recta hasta la última página del segundo tomo. Si cada pasta tiene un espesor de dos milímetros, y el espesor de cada volumen, sin pastas, es de 67 mm, ¿el inciso que tiene la distancia que recorrió la polilla es?",
+      "options": [
+        "71 mm",
+        "73 mm",
+        "134 mm",
+        "4 mm"
+      ],
+      "answer": 3,
+      "explanation": "Cuando dos volúmenes están debidamente ordenados en un estante, la pasta frontal del volumen uno coincide con la pasta trasera del volumen dos, luego la polilla atraviesa únicamente las dos pastas para ir desde la página uno del volumen uno a la última página del volumen dos. Entonces, trayectoria de la polilla = 2mm + 2mm = 4mm."
+    },
+    {
+      "question": "Como estaba lloviendo, Miguel, de 16 años e Hilarito de 6, se pusieron a jugar un juego de mesa. Miguel sabe que Hilarito es muy listo, pero de todas maneras quiso que la contienda fuera \"justa\", por lo que acordaron que por cada juego ganado, Hilarito recibiría de Miguel $8, en tanto que por cada juego ganado Miguel recibiría de Hilarito $5. Al finalizar veintiséis juegos ambos tenían la misma cantidad de dinero con que iniciaron. El inciso que tiene el número de juegos ganados por cada uno es",
+      "options": [
+        "Miguel ganó 16, Hilarito ganó 10",
+        "Miguel ganó 10, Hilarito ganó 16",
+        "Miguel ganó 13, Hilarito ganó 13",
+        "Miguel ganó 8, Hilarito ganó 18"
+      ],
+      "answer": 0,
+      "explanation": "Llamemos \"x\" al número de juegos ganados por Miguel y \"y\" al número de juegos ganados por Hilarito. Total de juegos = 26. 5x = dinero ganado por Miguel y 8y = dinero ganado por Hilarito. Se tiene: x + y = 26 (juegos totales) y 5x = 8y (dinero ganado por cada uno). Solución: x = 16 y y = 10."
+    },
+    {
+      "question": "Cuatro amigos se disponen a cruzar un río utilizando para ello una lancha tan frágil que únicamente soporta 100 kg de peso. Memo pesa 92 kg, Luis pesa 47 kg, Carlos pesa 49 kg y Rubén pesa 89 kg. El inciso que tiene el número de viajes que deberán hacer para cruzar los cuatro al otro lado del río es",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "1º viaje: Cruzan Luis y Carlos juntos. \n2º viaje: Regresa Luis. \n3º viaje: Cruza Rubén. \n4º viaje: Regresa Carlos. \n5º viaje: Luis y Carlos cruzan nuevamente. \n6º viaje: Regresa Luis. \n7º viaje: Cruza Memo. \n8º viaje: Regresa Carlos. \n9º viaje: Finalmente cruzan Carlos y Luis."
+    },
+    {
+      "question": "Carlos, Enrique, Lorena, Bety, Antonio, Manolo, Daniel y Rubén están jugando con menos de doce monedas. El juego consiste en tomar de una urna, de un solo manotazo, una o más monedas. Se sabe que Manolo sacó más que Bety, pero menos que Carlos. Ningún jugador sacó dos monedas. Carlos sacó tantas como Daniel. Sólo uno de los ocho no sacó ninguna moneda. Hubo empate múltiple de jugadores con una moneda. El inciso que contiene el número de monedas que tiene cada jugador, en el orden en que aparecen en el primer renglón es",
+      "options": [
+        "3, 1, 1, 0, 1, 1, 3, 1",
+        "3, 1, 1, 0, 1, 2, 3, 1",
+        "3, 2, 1, 0, 1, 1, 3, 1",
+        "3, 1, 1, 0, 1, 1, 3, 2"
+      ],
+      "answer": 0,
+      "explanation": "Menos de 12 monedas, supongamos 11. Carlos > Manolo > Bety, entonces el número de monedas de cada uno es 3 > 1 > 0. Carlos y Daniel tienen el mismo número de monedas, por lo tanto: Carlos = Daniel = 3; Manolo = Lorena = Enrique = Antonio = Rubén = 1."
+    }
+  ]
+}

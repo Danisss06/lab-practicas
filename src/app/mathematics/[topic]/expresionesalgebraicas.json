@@ -1,0 +1,12 @@
+{
+  "topic": "Construcción de expresiones algebráicas",
+  "exampleQuestion": "1. La altura de un rectángulo es el triple de su base, ¿cómo se expresa la medida de su área?:",
+  "exampleOptions": [
+    "a) A = x + 3",
+"b) A = x ( 3x )",
+"c) A = 2x + 6x",
+"d) A = 4x"
+  ],
+  "answer": 1,
+  "imageURL": ""
+}

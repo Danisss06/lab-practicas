@@ -1,0 +1,12 @@
+{
+  "topic": "Probabilidad 2",
+  "exampleQuestion": "¿Cuál es la probabilidad de que el primer estudiante que salga de la clase de matemáticas le guste el fútbol?",
+  "exampleOptions": [
+    "a) 7.5",
+    "b) 0.075",
+    "c) 1.3",
+    "d) 0.75"
+  ],
+  "answer": 3,
+  "imageURL": ["/images/probabilidad2_1.gif", "/images/probabilidad2_2.gif", "/images/probabilidad2_3.gif"]
+}

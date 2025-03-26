@@ -1,0 +1,13 @@
+{
+  "topic": "Diagramas de Venn 2",
+  "exampleQuestion": "¿En qué sector se ubican las actividades de Liz?",
+  "exampleOptions": [
+    "a) 7",
+    "b) 6",
+    "c) 5",
+    "d) 4"
+  ],
+  "answer": 3,
+  "imageURL": "/images/diag2_ej.gif",
+  "description": "a) 7 Incorrecto\nEste sector corresponde sólo a las personas que están en el coro, y Liz también está en misiones y en Tecmilenio.\nb) 6 Incorrecto\nEste sector corresponde sólo a las personas que están en el coro y en misiones, y Liz también está en Tecmilenio.\nc) 5 Incorrecto\nEste sector corresponde sólo a las personas que están en el coro y en Tecmilenio, y Liz también está en misiones.\nd) 4 Correcto\nLiz sí pertenece a este sector."
+}

@@ -1,0 +1,128 @@
+{
+  "title": "Conclusiones Lógicas",
+  "description": "Selecciona el inciso que contiene la conclusión correcta de las siguientes premisas.",
+  "questionDescription": "El inciso que tiene la conclusión de las siguientes premisas es:",
+  "questions": [
+    {
+      "question": "Todos los pájaros son aves. Todas las aves son vertebrados. Por lo tanto:",
+      "options": [
+        "Algunos pájaros no son vertebrados.",
+        "Algunos vertebrados no son aves.",
+        "Ningún vertebrado es ave.",
+        "Todos los vertebrados son pájaros."
+      ],
+      "answer": 1,
+      "explanation": "Esta conclusión se infiere correctamente de las dos premisas."
+    },
+    {
+      "question": "Todos los nuevoleoneses son mexicanos. Algunos maestros son nuevoleoneses. Por lo tanto:",
+      "options": [
+        "Todos los mexicanos son maestros.",
+        "Algunos maestros no son nuevoleoneses.",
+        "Ningún maestro es nuevoleonés.",
+        "Todos los maestros son mexicanos."
+      ],
+      "answer": 1,
+      "explanation": "Esta conclusión considera en forma correcta lo enunciado en las dos premisas."
+    },
+    {
+      "question": "Todos los mexicanos son americanos. Algunos científicos son mexicanos. Por lo tanto:",
+      "options": [
+        "Todos los mexicanos son científicos.",
+        "Algunos americanos no son científicos.",
+        "Todos los americanos son científicos.",
+        "Todos los científicos son mexicanos."
+      ],
+      "answer": 1,
+      "explanation": "Esta conclusión considera en forma correcta lo enunciado en las dos premisas."
+    },
+    {
+      "question": "Todos los sajones tienen piel blanca. Algunos cantantes son sajones. Por lo tanto:",
+      "options": [
+        "Todos los sajones son cantantes.",
+        "Ningún cantante es sajón.",
+        "Algunos cantantes no tienen piel blanca.",
+        "Algunos sajones no tienen piel blanca."
+      ],
+      "answer": 2,
+      "explanation": "Esta conclusión se infiere lógicamente con lo establecido en las premisas."
+    },
+    {
+      "question": "Todas las ballenas son mamíferas. Algunos mamíferos son carnívoros. Por lo tanto:",
+      "options": [
+        "Todas las ballenas son carnívoras.",
+        "Todos los carnívoros son ballenas.",
+        "Algunos mamíferos no son carnívoros.",
+        "Algunos carnívoros son ballenas."
+      ],
+      "answer": 2,
+      "explanation": "Esta conclusión se infiere lógicamente de lo establecido en las premisas."
+    },
+    {
+      "question": "Todos los científicos son matemáticos. Algunos matemáticos son violinistas. Por lo tanto:",
+      "options": [
+        "Algunos científicos son violinistas.",
+        "Todos los violinistas son científicos.",
+        "Ningún científico es violinista.",
+        "Todos los científicos son violinistas."
+      ],
+      "answer": 0,
+      "explanation": "Esta conclusión se infiere lógicamente con lo enunciado por las premisas."
+    },
+    {
+      "question": "Todos los españoles son europeos. Algunos europeos son nórdicos. Por lo tanto:",
+      "options": [
+        "Algunos europeos no son españoles.",
+        "Todos los europeos son españoles.",
+        "Algunos nórdicos no son europeos.",
+        "Todos los españoles son nórdicos."
+      ],
+      "answer": 0,
+      "explanation": "Esta conclusión se infiere lógicamente de lo enunciado en las premisas."
+    },
+    {
+      "question": "Todos los franceses son europeos. Algunos pintores son franceses. Por lo tanto:",
+      "options": [
+        "Todos los europeos son franceses.",
+        "Todos los pintores son franceses.",
+        "Algunos pintores no son franceses.",
+        "Todos los franceses son pintores."
+      ],
+      "answer": 2,
+      "explanation": "Esta conclusión se infiere lógicamente de lo establecido en las premisas."
+    },
+    {
+      "question": "Todos los estudiantes deben presentar exámenes. Algunos maestros son estudiantes. Por lo tanto:",
+      "options": [
+        "Algunos maestros tienen que presentar exámenes.",
+        "Todos los maestros tienen que presentar exámenes.",
+        "Ningún maestro tiene que presentar examen.",
+        "Todos los estudiantes son maestros."
+      ],
+      "answer": 0,
+      "explanation": "Esta conclusión se infiere lógicamente de lo enunciado en las premisas."
+    }
+  ],
+  "images": [
+    "/images/quizes/cognitive/razcondicional/p02_p.gif",
+    "/images/quizes/cognitive/razcondicional/p03_p.gif",
+    "/images/quizes/cognitive/razcondicional/p04_p.gif",
+    "/images/quizes/cognitive/razcondicional/p05_p.gif",
+    "/images/quizes/cognitive/razcondicional/p06_p.gif",
+    "/images/quizes/cognitive/razcondicional/p07_p.gif",
+    "/images/quizes/cognitive/razcondicional/p08_p.gif",
+    "/images/quizes/cognitive/razcondicional/p09_p.gif",
+    "/images/quizes/cognitive/razcondicional/p10_p.gif"
+  ],
+  "responseImages": [
+    "/images/quizes/cognitive/razcondicional/p02_s_2.gif",
+    "/images/quizes/cognitive/razcondicional/p03_s_2.gif",
+    "/images/quizes/cognitive/razcondicional/p04_s_2.gif",
+    "/images/quizes/cognitive/razcondicional/p05_s_3.gif",
+    "/images/quizes/cognitive/razcondicional/p06_s_3.gif",
+    "/images/quizes/cognitive/razcondicional/p07_s_1.gif",
+    "/images/quizes/cognitive/razcondicional/p08_s_1.gif",
+    "/images/quizes/cognitive/razcondicional/p09_s_3.gif",
+    "/images/quizes/cognitive/razcondicional/p10_s_1.gif"
+  ]
+}

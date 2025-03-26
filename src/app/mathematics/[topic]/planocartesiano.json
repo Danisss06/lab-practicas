@@ -1,0 +1,14 @@
+{
+  "topic": "Plano Cartesiano",
+  "exampleQuestion": "Selecciona el inciso que tiene las coordenadas del punto W es:",
+  "exampleOptions": [
+    "a) ( 4, -3 )",
+    "b) ( -4, 3 )",
+    "c) ( 3, 4 )",
+    "d) ( -3, 4 )"
+  ],
+  "answer": 3,
+  "imageURL": [
+    "/images/planocartesiano.gif"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "topic": "Secuencias y Matrices",
+  "topicDescription": "Una secuencia consiste en una serie o sucesión de números y/o letras que guardan entre si una relación de orden, por lo que es muy importante observar con cuidado, los elementos proporcionados para descubrir las características comunes con el propósito de encontrar el elemento faltante.",
+  "example": " para cada uno de los siguientes ejercicios, selecciona el inciso que contiene al elemento que continúa la secuencia.",
+  "exampleQuestion2": "Con el propósito de evitar ambigüedades el alfabeto que se utilizará será: ",
+  "exampleQuestion": "1. MEF, NIG, ...,QUJ",
+  "exampleOptions": [
+    "a) OOH",
+    "b) OOI",
+    "c) POK",
+    "d) POH"
+  ],
+  "answer": 3,
+  "imageURL": ""
+}

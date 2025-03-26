@@ -1,0 +1,12 @@
+{
+  "topic": "Áreas de figuras planas",
+  "exampleQuestion": "La respuesta del área del rectángulo de base igual a 13 cm y perímetro igual a 42cm es:",
+  "exampleOptions": [
+    "a) 208cm2",
+    "b) 104cm2",
+    "c)  546cm2",
+    "d) 273cm2"
+  ],
+  "answer": 1,
+  "imageURL": ["/images/cuadrado.gif", "/images/rectang.gif", "/images/circulo.gif"]
+}

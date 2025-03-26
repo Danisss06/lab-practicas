@@ -1,0 +1,12 @@
+{
+  "topic": "Ángulo perigonal o perigono",
+  "exampleQuestion": "La opción que tiene la medida del ángulo 9x es:",
+  "exampleOptions": [
+    "a) 135°",
+    "b) 150°",
+    "c) 30°",
+    "d) 45°"
+  ],
+  "answer": 0,
+  "imageURL": ["/images/perigonalperigono.gif", "/images/perigonalperigono2.gif"]
+}

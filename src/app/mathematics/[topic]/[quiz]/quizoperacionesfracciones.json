@@ -1,0 +1,116 @@
+{
+  "title": "Resultados Simplificados",
+  "description": "Selecciona el inciso que contiene el resultado simplificado correcto para cada pregunta.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1/5",
+        "9/25",
+        "45/225",
+        "15/45"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "6/108",
+        "3/54",
+        "1/54",
+        "2/36"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "16/272",
+        "8/136",
+        "4/34",
+        "1/17"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "4/160",
+        "2/80",
+        "1/40",
+        "1/20"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "392/576",
+        "7/72",
+        "14/144",
+        "28/288"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "3/10",
+        "6/20",
+        "8/145",
+        "8/45"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "12 1/2",
+        "2/25",
+        "4/50",
+        "10/125"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "40/500",
+        "4/50",
+        "12 1/2",
+        "2/25"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "28/96",
+        "343/128",
+        "2 87/128",
+        "2/7"
+      ],
+      "answer": 3,
+      "explanation": ""
+    }
+  ], 
+  "images": [
+    "/images/quizes/math/fracciones/operaciones/preg02.gif",
+    "/images/quizes/math/fracciones/operaciones/preg03.gif",
+    "/images/quizes/math/fracciones/operaciones/preg04.gif",
+    "/images/quizes/math/fracciones/operaciones/preg05.gif",
+    "/images/quizes/math/fracciones/operaciones/preg06.gif",
+    "/images/quizes/math/fracciones/operaciones/preg07.gif",
+    "/images/quizes/math/fracciones/operaciones/preg08.gif",
+    "/images/quizes/math/fracciones/operaciones/preg09.gif",
+    "/images/quizes/math/fracciones/operaciones/preg10.gif"
+  ]
+}

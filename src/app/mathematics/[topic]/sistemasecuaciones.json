@@ -1,0 +1,12 @@
+{
+  "topic": "Sistemas de ecuaciones",
+  "exampleQuestion": "La respuesta al siguiente sistema de ecuaciones es:",
+  "exampleOptions": [
+    "a) (2, 3)",
+    "b) (-2, 3)",
+    "c) (3, 2)",
+    "d) (-3, -2)"
+  ],
+  "answer": 2,
+  "imageURL": ""
+}

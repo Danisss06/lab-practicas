@@ -1,0 +1,14 @@
+{
+  "topic": "Ejercicios de áreas y comparaciones",
+  "exampleQuestion": "¿Cuál es el área del triángulo CBE?",
+  "exampleOptions": [
+    "a) 150 cm2",
+    "b) 15 cm2",
+    "c) 75 cm2",
+    "d) 7.5 cm2"
+  ],
+  "answer": 2,
+  "imageURL": [
+    "/images/areascomp.gif"
+  ]
+}

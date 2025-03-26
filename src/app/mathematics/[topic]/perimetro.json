@@ -1,0 +1,14 @@
+{
+  "topic": "Perímetro",
+  "exampleQuestion": "¿Cuál es la medida del perímetro de la figura de arriba?",
+  "exampleOptions": [
+    "a) 27cm",
+    "b) 54 cm",
+    "c) 180 cm",
+    "d) 90 cm"
+  ],
+  "answer": 1,
+  "imageURL": [
+    "/images/perimetro.gif"
+  ]
+}

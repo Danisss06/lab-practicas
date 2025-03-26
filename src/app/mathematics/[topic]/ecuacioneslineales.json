@@ -1,0 +1,12 @@
+{
+  "topic": "Ecuaciones Lineales",
+  "exampleQuestion": "1. La respuesta a la ecuación: 2x - 1 = x - 5 + 3x es:",
+  "exampleOptions": [
+    "a) - 2",
+    "b)   2",
+    "c)    4",
+    "d) - 4"
+  ],
+  "answer": 1,
+  "imageURL": ""
+}

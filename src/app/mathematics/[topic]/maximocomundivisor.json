@@ -1,0 +1,12 @@
+{
+  "topic": "Máximo Común Divisor",
+  "exampleQuestion": "El máximo común divisor de: 8, 12, 16?",
+  "exampleOptions": [
+    "a) 24",
+    "b) 8",
+    "c) 4",
+    "d) 12"
+  ],
+  "answer": 2,
+  "imageURL": "/images/maxcomundiv.gif"
+}

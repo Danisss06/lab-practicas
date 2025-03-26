@@ -1,0 +1,50 @@
+{
+  "title": "Ortografía Correcta e Incorrecta de Palabras",
+  "description": "Selecciona el inciso que contiene la palabra subrayada escrita correctamente o incorrectamente según se solicita.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la palabra subrayada escrita correctamente.",
+      "options": [
+        "Marcela pasó muy bien el examen de admición.",
+        "Falló el motor de impulsión y todo se vino abajo.",
+        "Ganará la carrera el que sea más velos.",
+        "Roberto fue la gran atraxión en la fiesta."
+      ],
+      "answer": 1,
+      "explanation": "La palabra 'impulsión' está correctamente escrita. No se mantiene la sílaba 'sa' del verbo 'impulsar', por lo tanto, la terminación es 'sión'."
+    },
+    {
+      "question": "Es el inciso que tiene la palabra subrayada escrita incorrectamente.",
+      "options": [
+        "Mostró un comportamiento muy audas.",
+        "Había muchas cruces que marcaban las lápidas.",
+        "Se notaba su ansiedad de cariño.",
+        "Los juegos de azar son un gran riesgo."
+      ],
+      "answer": 0,
+      "explanation": "La palabra 'audas' está incorrectamente escrita. La forma correcta es 'audaz', ya que los adjetivos terminados en 'az' y 'oz' llevan 'z' al final."
+    },
+    {
+      "question": "Es el inciso que tiene la palabra subrayada escrita correctamente.",
+      "options": [
+        "Jesús estaba aflijido por la muerte de su padre.",
+        "Las hojas secas crugían al paso de los soldados.",
+        "Le dieron a escoger y no dudó en hacerlo.",
+        "Se encojió de hombros en señal de apatía."
+      ],
+      "answer": 2,
+      "explanation": "La palabra 'escoger' está correctamente escrita. Los verbos terminados en 'ger', 'gir', 'gerar' se escriben con 'g', excepto tejer, crujir y destejer."
+    },
+    {
+      "question": "Es el inciso que tiene la palabra subrayada escrita incorrectamente.",
+      "options": [
+        "Lucía pasó a su lado y fingió no verlo.",
+        "Yacía sumerjido hasta el fondo del río.",
+        "Rubén exagera cuando platica sus aventuras.",
+        "Al ver que el auto no arrancaba, optó por revisar las bujías."
+      ],
+      "answer": 1,
+      "explanation": "La palabra 'sumerjido' está incorrectamente escrita. La forma correcta es 'sumergido' porque proviene del verbo 'sumergir'. Los verbos terminados en 'ger', 'gir', 'gerar' se escriben con 'g', excepto tejer, crujir y destejer."
+    }
+  ]
+}

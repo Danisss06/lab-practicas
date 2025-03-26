@@ -1,0 +1,105 @@
+{
+  "title": "Ordenación de Elementos en Secuencias",
+  "description": "Selecciona la opción que contiene el orden correcto de elementos basado en las condiciones dadas.",
+  "questions": [
+    {
+      "question": "En la carrera de los 200 metros participaron: Paola, Doris, Miguel, Javier, Lorena y Samuel. ¿El inciso que tiene el orden de mayor a menor rapidez es?",
+      "options": [
+        "Paola, Doris, Miguel, Samuel, Javier",
+        "Javier, Samuel, Miguel, Doris, Paola",
+        "Doris, Paola, Samuel, Miguel, Javier",
+        "Paola, Doris, Samuel, Javier, Miguel"
+      ],
+      "answer": 0,
+      "explanation": "Basado en el análisis de tiempos: P < D < M < S < J, el menor tiempo indica mayor rapidez."
+    },
+    {
+      "question": "¿El inciso que tiene el orden de la expresión: M no va antes de K y K no va después de Q pero sí antes de R, la que va antes de M la que está después de Q?",
+      "options": [
+        "M, K, R, Q",
+        "Q, M, K, R",
+        "K, R, Q, M",
+        "R, M, K, Q"
+      ],
+      "answer": 2,
+      "explanation": "La relación correcta es K R Q M según las condiciones dadas."
+    },
+    {
+      "question": "Mirna nació antes que Alfredo, pero después que Lucy. Ernesto es mayor que Rodrigo, pero a diferencia de Mirna, él es mayor que Lucy quien nació después que Ernesto pero antes que Rodrigo a quien a su vez, Alfredo le gana en años. ¿El inciso que tiene el orden de menor a mayor edad es?",
+      "options": [
+        "Rodrigo, Alfredo, Mirna, Lucy, Ernesto",
+        "Ernesto, Lucy, Mirna, Alfredo, Rodrigo",
+        "Mirna, Lucy, Alfredo, Ernesto, Rodrigo",
+        "Alfredo, Rodrigo, Lucy, Mirna, Ernesto"
+      ],
+      "answer": 0,
+      "explanation": "El orden de edades es E > L > M > A > R."
+    },
+    {
+      "question": "¿El inciso que tiene el orden correcto de los números dados en la siguiente descripción: 4 no va después de 6 pero sí antes de 9. A su vez 9 no va antes de 2 pero sí después de 7. Además, 2 no va antes de 7 pero sí después de 4 y finalmente, 6 no va antes de 7, pero sí después de 9?",
+      "options": [
+        "9, 4, 6, 7, 2",
+        "4, 6, 2, 7, 9",
+        "6, 9, 7, 2, 4",
+        "7, 2, 4, 9, 6"
+      ],
+      "answer": 3,
+      "explanation": "El orden correcto es 7, 2, 4, 9, 6."
+    },
+    {
+      "question": "En el concurso de comer pasteles Gerardo comió más que Julián, pero no tantos como Carlos, quien a su vez comió más que Pascual y que Nancy quien fue la primera que abandonó el concurso. ¿El inciso que tiene el orden de menor a mayor comedor de pasteles es?",
+      "options": [
+        "Nancy, Julián, Pascual, Gerardo, Carlos",
+        "Gerardo, Pascual, Carlos, Julián, Nancy",
+        "Pascual, Carlos, Gerardo, Nancy, Julián",
+        "Nancy, Julián, Pascual, Carlos, Gerardo"
+      ],
+      "answer": 0,
+      "explanation": "El orden de menos a más pastel comido es N < J < P < G < C."
+    },
+    {
+      "question": "¿El inciso que tiene el orden correcto de las letras que cumplen con las siguientes condiciones: A no va antes que C pero sí antes que B, D no va antes que A pero sí antes que B?",
+      "options": [
+        "A, B, D, C",
+        "C, A, D, B",
+        "A, D, B, C",
+        "D, B, A, C"
+      ],
+      "answer": 1,
+      "explanation": "La secuencia correcta es C A D B."
+    },
+    {
+      "question": "Tres no va antes que 6 pero sí después de dos, el que va después de 6, pero no después de 9 el que no va después de tres.",
+      "options": [
+        "6, 3, 9, 2",
+        "2, 3, 6, 9",
+        "6, 2, 9, 3",
+        "9, 2, 6, 3"
+      ],
+      "answer": 2,
+      "explanation": "El orden correcto es 6 2 9 3."
+    },
+    {
+      "question": "Es el inciso que tiene el orden correcto de las letras que cumplen con las siguientes condiciones: M no va antes de K, pero sí después de L, la que va antes de K.",
+      "options": [
+        "L, K, M",
+        "K, M, L",
+        "K, L, M",
+        "M, K, L"
+      ],
+      "answer": 0,
+      "explanation": "El orden correcto es L K M."
+    },
+    {
+      "question": "Es el inciso que tiene el orden correcto de las letras que satisfacen las siguientes condiciones: H no va después de Z pero sí antes que K la que no va antes de W pero sí antes que Z.",
+      "options": [
+        "H, Z, K, M",
+        "H, Z, W, K",
+        "K, Z, W, K",
+        "H, W, K, Z"
+      ],
+      "answer": 3,
+      "explanation": "El orden correcto es H W K Z."
+    }
+  ]
+}

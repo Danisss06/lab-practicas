@@ -1,0 +1,12 @@
+{
+  "topic": "Evaluar una ecuación con dos variables dado el valor de una de ellas",
+  "exampleQuestion": "La respuesta que contiene el valor de \"y\" de la ecuación 2x + 3y = 12; donde, x = 3 es:",
+  "exampleOptions": [
+    "a) 6",
+    "b) -6",
+    "c) -2",
+    "d) 2"
+  ],
+  "answer": 3,
+  "imageURL": ""
+}

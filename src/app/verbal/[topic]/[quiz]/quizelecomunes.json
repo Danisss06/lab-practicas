@@ -1,0 +1,50 @@
+{
+  "title": "Identificación de Sujeto y Verbo en Oraciones",
+  "description": "Selecciona el inciso que contiene correctamente el sujeto o el verbo de las oraciones proporcionadas.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el verbo de la oración: 'Como ave haciendo rizos en el cielo, danza Amelia sobre el escenario'.",
+      "options": [
+        "Haciendo",
+        "Ave",
+        "Danza",
+        "Escenario"
+      ],
+      "answer": 2,
+      "explanation": "La acción que ejecuta Amelia, que es el sujeto, es danzar; por lo tanto, 'danza' es el verbo."
+    },
+    {
+      "question": "Es el inciso que tiene el sujeto de la oración: 'Como un delgado hilo de plata, se desliza serpenteando, el chorro de agua'.",
+      "options": [
+        "hilo de plata",
+        "delgado hilo",
+        "serpenteando",
+        "chorro de agua"
+      ],
+      "answer": 3,
+      "explanation": "El verbo es 'deslizar' y quien lo ejecuta es 'el chorro de agua'; por lo tanto, el sujeto es 'el chorro de agua'."
+    },
+    {
+      "question": "Es el inciso que tiene el verbo de la oración: 'Como celoso guardián vigila por todos lados la montaña, al verde valle'.",
+      "options": [
+        "Celoso",
+        "Vigila",
+        "Guardián",
+        "la montaña"
+      ],
+      "answer": 1,
+      "explanation": "La acción ejecutada es vigilar; por lo tanto, el verbo es 'vigila'."
+    },
+    {
+      "question": "Es el inciso que tiene el sujeto de la oración: 'No quieras engañarme María, porque yo iré a decírselo a tu padre'.",
+      "options": [
+        "María",
+        "Padre",
+        "Yo",
+        "No quieras"
+      ],
+      "answer": 2,
+      "explanation": "La acción que se ejecutará es 'iré' y lo ejecutará la primera persona del singular 'Yo', por lo tanto, 'yo' es el sujeto."
+    }
+  ]
+}

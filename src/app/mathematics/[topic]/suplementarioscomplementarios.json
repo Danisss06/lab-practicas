@@ -1,0 +1,17 @@
+{
+  "topic": "Ángulos complementarios y suplementarios",
+  "exampleQuestion": "El inciso que tiene la medida del ángulo x.",
+  "exampleOptions": [
+    "a) X = 30º, 2x = 60º",
+    "b) X = 60º, 2x = 30º",
+    "c) X = 15º, 2x = 30º",
+    "d) X = 35º, 2x = 70º"
+  ],
+  "answer": 1,
+  "imageURL": [
+    "/images/comsup.gif",
+    "/images/comsup2.gif",
+    "/images/comsup3.gif"
+  ],
+  "description": "El inciso que tiene la medida del ángulo x es el b) x=30º, 2x=60º porque son complementarios."
+}

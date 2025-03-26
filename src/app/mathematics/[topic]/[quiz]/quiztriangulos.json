@@ -1,0 +1,56 @@
+{
+  "title": "Cálculo de Ángulos",
+  "description": "Selecciona el inciso que contiene la medida correcta del ángulo indicado.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 2x.",
+      "options": [
+        "18°",
+        "54°",
+        "72°",
+        "36°"
+      ],
+      "answer": 3,
+      "explanation": "El ángulo 2x mide 36°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo x.",
+      "options": [
+        "90°",
+        "5°",
+        "175°",
+        "355°"
+      ],
+      "answer": 1,
+      "explanation": "El ángulo x mide 5°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 5x.",
+      "options": [
+        "50°",
+        "40°",
+        "140°",
+        "10°"
+      ],
+      "answer": 0,
+      "explanation": "El ángulo 5x mide 50°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 7x.",
+      "options": [
+        "30°",
+        "27°",
+        "70°",
+        "63°"
+      ],
+      "answer": 3,
+      "explanation": "El ángulo 7x mide 63°."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/triangulos/preg02.gif",
+    "/images/quizes/math/geometria/triangulos/preg03.gif",
+    "/images/quizes/math/geometria/triangulos/preg04.gif",
+    "/images/quizes/math/geometria/triangulos/preg05.gif"
+  ]
+}

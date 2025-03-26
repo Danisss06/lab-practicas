@@ -1,0 +1,50 @@
+{
+  "title": "Uso Correcto e Incorrecto de Palabras en Oraciones",
+  "description": "Selecciona el inciso que contiene la oración en la cual la palabra (o palabras) subrayada está empleada correctamente o incorrectamente según se solicita.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada incorrectamente.",
+      "options": [
+        "Pamela y Lorena corrían para alcanzar a Fernando.",
+        "Reunióse la gente y al primer aviso de fuego, huyeron despavoridos.",
+        "La casa donde se celebró la fiesta.",
+        "Todos los trabajos se harán bajo estas bases."
+      ],
+      "answer": 3,
+      "explanation": "Incorrectamente empleada porque hay cacofonía y galicismo en 'bajo estas bases'; lo correcto es 'sobre estas bases'."
+    },
+    {
+      "question": "Es el inciso que tiene la oración en la que la palabra (o palabras) subrayada está empleada correctamente.",
+      "options": [
+        "Me dedico a leer y a pintar, en mis ratos de ocio.",
+        "Raúl se ocupa de sus negocios.",
+        "Desde que se graduó, Julián hace política.",
+        "Mario era tan pendenciero que su propio padre lo reprendía."
+      ],
+      "answer": 0,
+      "explanation": "Correctamente empleada ya que cumple con todas las reglas de la sintaxis."
+    },
+    {
+      "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada incorrectamente.",
+      "options": [
+        "Rodrigo corteja a Ana desde hace dos meses.",
+        "Cuando Rosy paseaba encontró a Yolis.",
+        "Vicky se hace ilusiones sobre su futuro.",
+        "La búsqueda se dio por terminada."
+      ],
+      "answer": 2,
+      "explanation": "Incorrectamente empleada; la expresión 'se hace ilusiones' exhibe pobreza de vocabulario. Lo correcto es 'se forja ilusiones'."
+    },
+    {
+      "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada correctamente.",
+      "options": [
+        "El auto donde venías, tiene una llanta desinflada.",
+        "Los libros que compramos están sobre la mesa.",
+        "La blusa y el pantalón es de la misma tela.",
+        "El dinero cuanto depositaste, fue el que te envió mi tío."
+      ],
+      "answer": 1,
+      "explanation": "Correctamente empleada ya que cumple con todas las reglas de la sintaxis."
+    }
+  ]
+}

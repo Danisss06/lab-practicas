@@ -1,0 +1,12 @@
+{
+  "topic": "Distancia entre dos puntos",
+  "exampleQuestion": "¿Cuál es la distancia entre A y B?",
+  "exampleOptions": [
+    "a) 6",
+    "b) 3",
+    "c) -6",
+    "d) -3"
+  ],
+  "answer": 0,
+  "imageURL": ["/images/dospuntos.gif"]
+}

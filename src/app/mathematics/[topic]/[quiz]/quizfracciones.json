@@ -1,0 +1,296 @@
+{
+  "title": "Resultados Simplificados",
+  "description": "Selecciona el inciso que contiene el resultado simplificado correcto para cada pregunta.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 1/2",
+        "6/4",
+        "23/24",
+        "24/23"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "6 6/7",
+        "6/56",
+        "56/6",
+        "3/28"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "90/24",
+        "3 1/3",
+        "5/384",
+        "76 4/5"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "12 3/8",
+        "12 1/4",
+        "12",
+        "12 1/2"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 2/3",
+        "2/3",
+        "3/2",
+        "1 1/2"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "210/4",
+        "50 2/4",
+        "21/40",
+        "1 19/21"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 1/15",
+        "15/16",
+        "5 2/3",
+        "3/17"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 6/7",
+        "1 7/6",
+        "7/52",
+        "7 3/7"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "58 1/2",
+        "2/117",
+        "1/6",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "2 6/11",
+        "11/28",
+        "1/28",
+        "28"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 2/3",
+        "- 3/5",
+        "3/5",
+        "5/3"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "9 5/13",
+        "9 13/18",
+        "-9 13/18",
+        "-9 5/13"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "10 1/3",
+        "-10 1/3",
+        "-9 3/4",
+        "9 3/4"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "7/18",
+        "2 4/7",
+        "-7/18",
+        "-2 4/7"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "7 9/20",
+        "4 47/60",
+        "4 13/47",
+        "8 3/20"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "8 1/60",
+        "5 7/60",
+        "6 7/20",
+        "4 41/60"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "5 3/4",
+        "5 1/3",
+        "5 1/4",
+        "5 1/2"
+      ],
+      "answer": 3,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "43 1/2 m",
+        "42 1/2 m",
+        "44 1/2 m",
+        "45 1/2 m"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "12/23",
+        "12 1/12",
+        "1 11/12",
+        "7 5/12"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 1/2",
+        "1 3/5",
+        "1 3/4",
+        "1 2/5"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1/6",
+        "15 5/8",
+        "31 1/4",
+        "32 1/2"
+      ],
+      "answer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "3 1/2 L",
+        "4 1/2 L",
+        "4 5/6 L",
+        "4 1/3 L"
+      ],
+      "answer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "1 1/10 L",
+        "4 1/10 L",
+        "1/10 L",
+        "2 1/10 L"
+      ],
+      "answer": 2,
+      "explanation": ""
+    },
+    {
+      "question": "Es el inciso que tiene el resultado simplificado de:",
+      "options": [
+        "3/20 L",
+        "3/5 L",
+        "1/20 L",
+        "4/5 L"
+      ],
+      "answer": 0,
+      "explanation": ""
+    }
+  ],
+  "images": [
+    "/images/quizes/math/fracciones/fracciones/preg02.gif",
+    "/images/quizes/math/fracciones/fracciones/preg03.gif",
+    "/images/quizes/math/fracciones/fracciones/preg04.gif",
+    "/images/quizes/math/fracciones/fracciones/preg05.gif",
+    "/images/quizes/math/fracciones/fracciones/preg06.gif",
+    "/images/quizes/math/fracciones/fracciones/preg07.gif",
+    "/images/quizes/math/fracciones/fracciones/preg08.gif",
+    "/images/quizes/math/fracciones/fracciones/preg09.gif",
+    "/images/quizes/math/fracciones/fracciones/preg10.gif",
+    "/images/quizes/math/fracciones/fracciones/preg11.gif",
+    "/images/quizes/math/fracciones/fracciones/preg12.gif",
+    "/images/quizes/math/fracciones/fracciones/preg13.gif",
+    "/images/quizes/math/fracciones/fracciones/preg14.gif",
+    "/images/quizes/math/fracciones/fracciones/preg15.gif",
+    "/images/quizes/math/fracciones/fracciones/preg16.gif",
+    "/images/quizes/math/fracciones/fracciones/preg17.gif",
+    "/images/quizes/math/fracciones/fracciones/preg18.gif",
+    "/images/quizes/math/fracciones/fracciones/preg19.gif",
+    "/images/quizes/math/fracciones/fracciones/preg20.gif",
+    "/images/quizes/math/fracciones/fracciones/preg21.gif",
+    "/images/quizes/math/fracciones/fracciones/preg22.gif",
+    "/images/quizes/math/fracciones/fracciones/preg23.gif",
+    "/images/quizes/math/fracciones/fracciones/preg24.gif",
+    "/images/quizes/math/fracciones/fracciones/preg25.gif"
+  ]
+}

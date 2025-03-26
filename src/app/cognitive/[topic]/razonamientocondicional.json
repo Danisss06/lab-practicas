@@ -1,0 +1,12 @@
+{
+  "topic": "Razonamiento Condicional",
+  "exampleQuestion": "1. El inciso que tiene la conclusión de las siguientes premisas es: Todos los niños inventan juegos. Todos los que inventan juegos son creativos. Por lo tanto,",
+  "exampleOptions": [
+    "a) Todos los niños son jugadores",
+    "b) Algunos niños son creativos",
+    "c) Ningun niño es creativo",
+    "d) Todos los niños son creativos"
+  ],
+  "answer": 3,
+  "imageURL": ""
+}

@@ -1,0 +1,15 @@
+{
+  "topic": "Perímetro, áreas, y ángulos",
+  "exampleQuestion": "Si O es el centro del círculo de radio = 7 cm y el segmento QR mide 6 cm, ¿cuánto mide el perímetro del triángulo OQR?",
+  "exampleOptions": [
+    "a) 21 cm",
+    "b) 20 cm",
+    "c) 18 cm",
+    "d) 19 cm"
+  ],
+  "answer": 1,
+  "imageURL": [
+    "/images/paa.gif"
+  ], 
+  "description": "Los segmentos OQ y OR son radios del círculo y miden 7 cm y QR = 6 cm, entonces:\n\nPerímetro = OQ + OR +QR = 7 + 7 + 6 = 20 cm"
+}

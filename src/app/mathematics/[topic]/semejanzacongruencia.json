@@ -1,0 +1,16 @@
+{
+  "topic": "Semejanza y Congruencia",
+  "exampleQuestion": "¿Cuál es la relación entre los siguientes triángulos?",
+  "exampleOptions": [
+    "a) son congruentes",
+    "b) son semejantes",
+    "c) ninguno de los anteriores",
+    "d) son equiláteros"
+  ],
+  "answer": 1,
+  "imageURL": [
+    "/images/semcong.gif", 
+    "/images/simbolo.gif",
+    "/images/sem_symbol.gif"
+  ]
+}

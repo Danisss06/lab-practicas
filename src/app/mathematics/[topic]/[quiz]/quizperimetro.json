@@ -1,0 +1,116 @@
+{
+  "title": "Cálculo de Perímetros",
+  "description": "Selecciona el inciso que contiene el perímetro correcto para cada figura según los datos proporcionados.",
+  "questions": [
+    {
+      "question": "La figura está formada solo por cuadros cuyo lado mide 3 cm. Es el inciso que tiene el perímetro de la figura de arriba.",
+      "options": [
+        "36 cm",
+        "60 cm",
+        "48 cm",
+        "72 cm"
+      ],
+      "answer": 0,
+      "explanation": "El perímetro de la figura es 36 cm."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del perímetro del triángulo ABC.",
+      "options": [
+        "15 cm",
+        "60 cm",
+        "30 cm",
+        "45 cm"
+      ],
+      "answer": 2,
+      "explanation": "El triángulo ABC es equilátero con lados de 10 cm, por lo que el perímetro es 30 cm."
+    },
+    {
+      "question": "Es el inciso que tiene el perímetro de la figura AGBHCKDLEFA.",
+      "options": [
+        "18 cm",
+        "45 cm",
+        "9 cm",
+        "36 cm"
+      ],
+      "answer": 3,
+      "explanation": "El perímetro de la figura es 36 cm considerando todos los lados de los triángulos y el pentágono interior."
+    },
+    {
+      "question": "Es el inciso que tiene el perímetro de la figura formada de cuadros de lado igual a 1 cm.",
+      "options": [
+        "14 cm",
+        "13 cm",
+        "12 cm",
+        "6 cm"
+      ],
+      "answer": 0,
+      "explanation": "El perímetro de la figura es 14 cm."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del perímetro del círculo. La figura de ABCD es un cuadrado de lado igual a 6 cm.",
+      "options": [
+        "18.85 cm",
+        "36 cm",
+        "9 cm",
+        "24 cm"
+      ],
+      "answer": 0,
+      "explanation": "El perímetro del círculo es aproximadamente 18.85 cm."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del perímetro del círculo es: En la siguiente figura, dentro del círculo hay un rectángulo cuya diagonal mide 12 cm.",
+      "options": [
+        "6 cm",
+        "36 cm",
+        "144 cm",
+        "12 cm"
+      ],
+      "answer": 3,
+      "explanation": "El perímetro del círculo es 12 cm."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del perímetro del cuadrado. La figura ABCD es un cuadrado en cuyo interior está inscrito el círculo de radio igual a 5 cm.",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "10 cm",
+        "100 cm"
+      ],
+      "answer": 1,
+      "explanation": "El perímetro del cuadrado es 40 cm."
+    },
+    {
+      "question": "El inciso que tiene el perímetro de toda la figura es: La figura interior es un cuadrado cuya área es de 49 cm². Los triángulos son equiláteros.",
+      "options": [
+        "56 cm",
+        "21 cm",
+        "63 cm",
+        "12 cm"
+      ],
+      "answer": 0,
+      "explanation": "El perímetro total de la figura es 56 cm."
+    },
+    {
+      "question": "Es el inciso que tiene la medida de la línea roja. La figura siguiente está formada por cuadros cuya medida es 8 cm de cada lado.",
+      "options": [
+        "320 cm",
+        "64 cm",
+        "640 cm",
+        "128 cm"
+      ],
+      "answer": 3,
+      "explanation": "La medida de la línea roja es 128 cm."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/perimetro/preg02.gif",
+    "/images/quizes/math/geometria/perimetro/preg03.gif",
+    "/images/quizes/math/geometria/perimetro/preg04.gif",
+    "/images/quizes/math/geometria/perimetro/preg05.gif",
+    "/images/quizes/math/geometria/perimetro/preg06.gif",
+    "/images/quizes/math/geometria/perimetro/preg07.gif",
+    "/images/quizes/math/geometria/perimetro/preg08.gif",
+    "/images/quizes/math/geometria/perimetro/preg09.gif",
+    "/images/quizes/math/geometria/perimetro/preg10.gif"
+  ]
+}

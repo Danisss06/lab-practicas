@@ -1,0 +1,56 @@
+{
+  "title": "Coordenadas en el Plano Cartesiano",
+  "description": "Selecciona el inciso que contiene la respuesta correcta basada en las coordenadas proporcionadas.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la abscisa del punto K.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "La abscisa del punto K es 2."
+    },
+    {
+      "question": "Es el inciso que tiene las coordenadas del punto B.",
+      "options": [
+        "(-5, 0)",
+        "(0, -5)",
+        "(0, 0)",
+        "(-5, -5)"
+      ],
+      "answer": 0,
+      "explanation": "El punto B tiene las coordenadas (-5, 0)."
+    },
+    {
+      "question": "Es el inciso que tiene la ordenada del punto A.",
+      "options": [
+        "-3",
+        "2",
+        "-1",
+        "-2"
+      ],
+      "answer": 2,
+      "explanation": "La ordenada del punto A es -1."
+    },
+    {
+      "question": "Es el inciso que tiene el punto cuyas coordenadas son (0, -1).",
+      "options": [
+        "R",
+        "S",
+        "T",
+        "Q"
+      ],
+      "answer": 3,
+      "explanation": "El punto Q tiene las coordenadas (0, -1)."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/plano/preg01.gif",
+    "/images/quizes/math/geometria/plano/preg01.gif",
+    "/images/quizes/math/geometria/plano/preg01.gif",
+    "/images/quizes/math/geometria/plano/preg01.gif"
+  ]
+}

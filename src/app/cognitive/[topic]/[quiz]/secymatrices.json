@@ -1,0 +1,160 @@
+{
+  "title": "Series y Secuencias Lógicas",
+  "description": "Selecciona la opción que completa la secuencia o serie correctamente.",
+  "questions": [
+    {
+      "question": "23M , ..., 45K 56J",
+      "options": [
+        "34N",
+        "46N",
+        "34L",
+        "43L"
+      ],
+      "answer": 2,
+      "explanation": "Hay una diferencia de 11 unidades entre los números. Para el segundo término: 23 + 11 = 34. En letras: M, _, K, J; faltante: L."
+    },
+    {
+      "question": "2015, 0152, 1520, ...",
+      "options": [
+        "0251",
+        "5120",
+        "5201",
+        "2150"
+      ],
+      "answer": 2,
+      "explanation": "El primer dígito de cada término aparece al final en el siguiente término."
+    },
+    {
+      "question": "..., 5/7, 7/9, 9/11",
+      "options": [
+        "2/3",
+        "1/3",
+        "3/5",
+        "5/3"
+      ],
+      "answer": 2,
+      "explanation": "Cada fracción tiene un numerador y denominador impar consecutivo. Faltante: 3/5."
+    },
+    {
+      "question": "12+a/9, ..., 8+c/7, 6+d/6",
+      "options": [
+        "11+b/8",
+        "10+b/8",
+        "9+b/8",
+        "11+b/10"
+      ],
+      "answer": 1,
+      "explanation": "Números pares consecutivos en orden descendente con letras consecutivas en el numerador, y denominadores en orden descendente. Faltante: 10+b/8."
+    },
+    {
+      "question": "TC11, CT16, ..., CT26",
+      "options": [
+        "CT21",
+        "CT20",
+        "TC20",
+        "TC21"
+      ],
+      "answer": 3,
+      "explanation": "Los números están en orden ascendente con una diferencia de 5 unidades, y las letras se invierten. Faltante: TC21."
+    },
+    {
+      "question": "..., FG7, HI4, JK1",
+      "options": [
+        "DE10",
+        "CD9",
+        "AB10",
+        "CD8"
+      ],
+      "answer": 0,
+      "explanation": "Letras consecutivas y números que disminuyen en tres. Faltante: DE10."
+    },
+    {
+      "question": "81W, 27X, 9Y, ...",
+      "options": [
+        "3Z",
+        "6Z",
+        "18Z",
+        "27Z"
+      ],
+      "answer": 0,
+      "explanation": "Cada término es una potencia de tres en orden descendente, con letras consecutivas. Faltante: 3Z."
+    },
+    {
+      "question": "1, 1/2, ..., 1/8",
+      "options": [
+        "1/3",
+        "1/5",
+        "3/4",
+        "1/4"
+      ],
+      "answer": 3,
+      "explanation": "Cada término es la mitad del anterior. Faltante: 1/4."
+    },
+    {
+      "question": "1/5, ..., 1/125, 1/625",
+      "options": [
+        "1/10",
+        "1/15",
+        "1/25",
+        "1/35"
+      ],
+      "answer": 2,
+      "explanation": "Fracciones con numerador 1 y denominador como potencia de 5 en orden ascendente. Faltante: 1/25."
+    },
+    {
+      "question": "W  X  Y  Z\nX  _  Z  Y\nY  Z  X  W\nZ  Y  W  X",
+      "options": [
+        "Z",
+        "Y",
+        "X",
+        "W"
+      ],
+      "answer": 3,
+      "explanation": "Elemento faltante W."
+    },
+    {
+      "question": "9   11  __  17\n11   9   17  13\n17  13    9  11\n13  17  11   9",
+      "options": [
+        "17",
+        "13",
+        "11",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Elemento faltante 13."
+    },
+    {
+      "question": "6   9   12  15\n15  6    9  12\n12 __  6    9\n9  12  15  6",
+      "options": [
+        "15",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Elemento faltante 15."
+    },
+    {
+      "question": "m  n  r  s\ns  m  n  r\nr  s   _  n\nn  r  s   m",
+      "options": [
+        "s",
+        "r",
+        "n",
+        "m"
+      ],
+      "answer": 3,
+      "explanation": "Elemento faltante m."
+    },
+    {
+      "question": "ko  li  me  na\nmo  ki  ne  la\n__  ni  ke  ma\nno  mi  le  ka",
+      "options": [
+        "na",
+        "lo",
+        "ko",
+        "la"
+      ],
+      "answer": 1,
+      "explanation": "Cada columna conserva la misma vocal; la consonante faltante es lo."
+    }
+  ]
+}

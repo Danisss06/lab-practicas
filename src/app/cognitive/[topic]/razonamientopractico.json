@@ -1,0 +1,13 @@
+{
+  "topic": "Razonamiento Práctico",
+  "exampleQuestion": "¿Quién le gusta a Cecilia?",
+  "exampleOptions": [
+    "a) Gabriel",
+    "b) Raúl",
+    "c) Jorge",
+    "d) Fernando"
+  ],
+  "answer": 2,
+  "imageURL": "",
+  "description": "Ella no cenó en Vips, por lo tanto no acompañó Raúl.\nNo cenó en Chili's, por lo tanto no acompañó a Gabriel.\nNo fue a el teatro, así es que no acompañó a Javier. Entonces el chico que le gusta es Jorge."
+}

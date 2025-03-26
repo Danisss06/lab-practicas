@@ -1,0 +1,105 @@
+{
+  "title": "Relaciones de Semejanza",
+  "description": "Selecciona la opción que establece correctamente la relación de semejanza en cada frase.",
+  "questions": [
+    {
+      "question": "Las perlas de su boca",
+      "options": [
+        "el calor de sus labios",
+        "los dientes",
+        "la sonrisa",
+        "la ira"
+      ],
+      "answer": 1,
+      "explanation": "Relación de semejanza entre la blancura de las perlas y la blancura de los dientes de una persona."
+    },
+    {
+      "question": "El cielo de su mirada",
+      "options": [
+        "color de los ojos",
+        "color del cielo",
+        "la sonrisa",
+        "la tristeza"
+      ],
+      "answer": 0,
+      "explanation": "Relación de semejanza entre el color del cielo (azul) y el color de los ojos de la persona."
+    },
+    {
+      "question": "Las grises tormentas volvían a su mente",
+      "options": [
+        "dulces recuerdos",
+        "alegres pensamientos",
+        "melancólicos momentos",
+        "amargos recuerdos"
+      ],
+      "answer": 3,
+      "explanation": "Relación de semejanza: grises tormentas producen miedo y malestar, al igual que los amargos recuerdos."
+    },
+    {
+      "question": "El hilo de plata corría entre las rocas",
+      "options": [
+        "mineral de plata",
+        "viento",
+        "río",
+        "plata fundida"
+      ],
+      "answer": 2,
+      "explanation": "Relación de semejanza: el brillo del hilo de plata con el brillo de la corriente del río al caer el sol sobre ella."
+    },
+    {
+      "question": "Estrellas corriendo entre los árboles del bosque",
+      "options": [
+        "luciérnagas",
+        "grillos",
+        "mariposas",
+        "viento"
+      ],
+      "answer": 0,
+      "explanation": "Relación de semejanza: los destellos de las luciérnagas con el brillo de las estrellas."
+    },
+    {
+      "question": "Los diamantes de su cara",
+      "options": [
+        "dientes",
+        "boca",
+        "nariz",
+        "ojos"
+      ],
+      "answer": 3,
+      "explanation": "Relación de semejanza: brillo de los diamantes con el brillo de los ojos."
+    },
+    {
+      "question": "En ella floreció la primavera",
+      "options": [
+        "nació",
+        "llegó la juventud",
+        "murió",
+        "terminó el invierno"
+      ],
+      "answer": 1,
+      "explanation": "Relación de semejanza: la primavera simboliza belleza, al igual que la juventud."
+    },
+    {
+      "question": "Llegó el otoño a su vida",
+      "options": [
+        "llegó su juventud",
+        "pasó su juventud",
+        "llegó su muerte",
+        "nació"
+      ],
+      "answer": 1,
+      "explanation": "Relación de semejanza: el otoño representa el final de la primavera, simbolizando el final de la juventud."
+    },
+    {
+      "question": "Estoy en el ocaso de mi vida",
+      "options": [
+        "próximo a morir",
+        "próximo a nacer",
+        "en su juventud",
+        "en su adolescencia"
+      ],
+      "answer": 0,
+      "explanation": "Relación de semejanza: el ocaso (final del día) representa la última etapa de la vida."
+    }
+  ]
+}

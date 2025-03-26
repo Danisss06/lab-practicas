@@ -1,0 +1,107 @@
+{
+  "title": "Diagramas de Venn 2",
+  "description": "Selecciona el sector en el que se ubican las actividades de cada persona.",
+  "questionDescription": "Un grupo de amigos comparten las actividades detalladas abajo. Con esa información, contesta lo que se te pide.",
+  "questions": [
+    {
+      "question": "¿En qué sector se ubican las actividades de Oscar?",
+      "options": [
+        "7",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Oscar sí está en Tecmilenio y en misiones."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Karla?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Karla sólo está en el coro."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Javier?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "explanation": "Javier sólo estudia en Tecmilenio."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Rebeca?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Rebeca desarrolla las tres actividades."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Verónica?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Verónica sí desarrolla las tres actividades."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Jorge?",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Jorge sí está en misiones y en el coro."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Pablo?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "Pablo desarrolla las tres actividades."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Eva?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Eva sí está en Tecmilenio y en el coro."
+    },
+    {
+      "question": "¿En qué sector se ubican las actividades de Alex?",
+      "options": [
+        "3",
+        "7",
+        "4",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Alex sí está en misiones y en el coro."
+    }
+  ],
+  "images": ["/images/quizes/cognitive/diag2/p01_p.gif"]
+}

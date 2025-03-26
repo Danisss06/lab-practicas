@@ -1,0 +1,116 @@
+{
+  "title": "Ángulos Perigonal y Perígono",
+  "description": "Selecciona el inciso que contiene la medida correcta para cada ángulo indicado.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 5x.",
+      "options": [
+        "15°",
+        "45°",
+        "75°",
+        "135°"
+      ],
+      "answer": 2,
+      "explanation": "La medida del ángulo es 75°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 4x.",
+      "options": [
+        "15°",
+        "135°",
+        "75°",
+        "60°"
+      ],
+      "answer": 3,
+      "explanation": "La medida del ángulo es 60°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo formado entre las agujas del reloj cuando este marca las 6:10 am.",
+      "options": [
+        "30°",
+        "120°",
+        "135°",
+        "180°"
+      ],
+      "answer": 1,
+      "explanation": "La medida del ángulo es 120°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo formado entre las agujas del reloj cuando este marca las 3:00pm.",
+      "options": [
+        "30°",
+        "90°",
+        "45°",
+        "135°"
+      ],
+      "answer": 1,
+      "explanation": "La medida del ángulo es 90°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo x°.",
+      "options": [
+        "90°",
+        "100°",
+        "110°",
+        "80°"
+      ],
+      "answer": 3,
+      "explanation": "La medida del ángulo es 80°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo y°.",
+      "options": [
+        "80°",
+        "100°",
+        "180°",
+        "120°"
+      ],
+      "answer": 0,
+      "explanation": "La medida del ángulo es 80°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo x.",
+      "options": [
+        "45°",
+        "35°",
+        "80°",
+        "120°"
+      ],
+      "answer": 2,
+      "explanation": "La medida del ángulo es 80°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo C.",
+      "options": [
+        "80°",
+        "45°",
+        "135°",
+        "120°"
+      ],
+      "answer": 2,
+      "explanation": "La medida del ángulo es 135°."
+    },
+    {
+      "question": "Es el inciso que tiene la medida del ángulo 'y'.",
+      "options": [
+        "80°",
+        "120°",
+        "135°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "La medida del ángulo es 80°."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/perigonal/preg01.gif",
+    "/images/quizes/math/geometria/perigonal/preg01.gif",
+    "/images/quizes/math/geometria/perigonal/preg04.gif",
+    "/images/quizes/math/geometria/perigonal/preg05.gif",
+    "/images/quizes/math/geometria/perigonal/preg06.gif",
+    "/images/quizes/math/geometria/perigonal/preg06.gif",
+    "/images/quizes/math/geometria/perigonal/preg08.gif",
+    "/images/quizes/math/geometria/perigonal/preg08.gif",
+    "/images/quizes/math/geometria/perigonal/preg08.gif"
+  ]
+}

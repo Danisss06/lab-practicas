@@ -1,0 +1,15 @@
+{
+  "topic": "Triángulo",
+  "exampleQuestion": "¿Cuál es la medida del ángulo x?",
+  "exampleOptions": [
+    "a) 155º",
+    "b) 115º",
+    "c) 65º",
+    "d) 35º2"
+  ],
+  "answer": 2,
+  "imageURL": [
+    "/images/trian_rojo.gif",
+    "/images/trian.gif"
+  ]
+}

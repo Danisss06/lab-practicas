@@ -1,0 +1,96 @@
+{
+  "title": "Quiz de Analogía",
+  "description": "Selecciona la opción que completa la analogía correctamente.",
+  "questions": [
+    {
+      "question": "Bueno es a malo como sonrisa es a:",
+      "options": [
+        "Llanto",
+        "Alegría",
+        "Tristeza",
+        "Amable"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Feliz es a contento como impedir es a:",
+      "options": [
+        "Ayudar",
+        "Permitir",
+        "Conspirar",
+        "Frustrar"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Plomero es a plomería como actor es a:",
+      "options": [
+        "Reparto",
+        "Empleado",
+        "Teatro",
+        "Actuación"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Fácil es a difícil como blanco es a:",
+      "options": [
+        "Rojo",
+        "Negro",
+        "Gris",
+        "Verde"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Bostezo es a aburrimiento como sonrisa es a:",
+      "options": [
+        "Amabilidad",
+        "Diversión",
+        "Bondad",
+        "Hipocresía"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Geología es a ciencia como pino es a:",
+      "options": [
+        "Árbol",
+        "Piña",
+        "Navidad",
+        "Río"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Indiferente es a interés como arrogante es a:",
+      "options": [
+        "Soberbia",
+        "Orgullo",
+        "Arrogancia",
+        "Modestia"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Lacónico es a taciturno como impreparado es a:",
+      "options": [
+        "Preparado",
+        "Improvisado",
+        "Responsable",
+        "Improvisar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Presidente es a nación como gobernador es a:",
+      "options": [
+        "Alcalde",
+        "Estado",
+        "Ciudad",
+        "Gente"
+      ],
+      "answer": 1
+    }
+  ]
+}

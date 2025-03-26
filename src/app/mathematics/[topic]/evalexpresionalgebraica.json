@@ -1,0 +1,13 @@
+{
+  "topic": "Evaluar una expresión algebraica",
+  "exampleQuestion": "1. Es el inciso en el cual la palabra subrayada está empleada incorrectamente.",
+  "exampleOptions": [
+    "a) 8",
+    "b) 7",
+    "c) -7",
+    "d) -8"
+  ],
+  "answer": 2,
+  "imageURL": ["/images/examples/2_4_32.gif"],
+  "description": "Para la solución de la ecuación se debe sustituir los valores \"x\" y de \"y\":"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Cálculo de Volúmenes",
+  "description": "Selecciona el inciso que contiene el volumen correcto en cm³ para cada figura.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el volumen en cm³ de:",
+      "options": [
+        "300π cm³",
+        "60π cm³",
+        "3002π cm³",
+        "602π cm³"
+      ],
+      "answer": 0,
+      "explanation": "El volumen es 300π cm³."
+    },
+    {
+      "question": "Es el inciso que tiene el volumen en cm³ de:",
+      "options": [
+        "108π cm³",
+        "12π cm³",
+        "972π cm³",
+        "9723π cm³"
+      ],
+      "answer": 2,
+      "explanation": "El volumen es 972π cm³."
+    },
+    {
+      "question": "Es el inciso que tiene el volumen en cm³ de:",
+      "options": [
+        "9602π cm³",
+        "960π cm³",
+        "120π cm³",
+        "14400π cm³"
+      ],
+      "answer": 1,
+      "explanation": "El volumen es 960π cm³."
+    },
+    {
+      "question": "Es el inciso que tiene el volumen en cm³ de:",
+      "options": [
+        "729 cm³",
+        "81 cm³",
+        "27 cm³",
+        "36 cm³"
+      ],
+      "answer": 0,
+      "explanation": "El volumen es 729 cm³."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/volumenes/preg02.gif",
+    "/images/quizes/math/geometria/volumenes/preg03.gif",
+    "/images/quizes/math/geometria/volumenes/preg04.gif",
+    "/images/quizes/math/geometria/volumenes/preg05.gif"
+  ]
+}

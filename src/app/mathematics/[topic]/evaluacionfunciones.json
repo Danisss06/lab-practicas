@@ -1,0 +1,13 @@
+{
+  "topic": "Evaluación de funciones",
+  "exampleQuestion": "1. Si se tiene f (x) = 3x + 5, el inciso que tiene el valor de f ( -3 ) es:",
+  "exampleOptions": [
+    "a) 4",
+    "b) 14",
+    "c) -14",
+    "d) -4"
+  ],
+  "answer": 3,
+  "imageURL": "/images/evafunc2.png",
+  "description": "La solución de este problema se realiza sustituyendo el valor de f(-3) en la ecuación f (x) = 3x + 5 de la siguiente manera:\n\nf (-3) = 3 (-3) + 5\nf (-3) = - 9 + 5\nf (-3) = - 4"
+}

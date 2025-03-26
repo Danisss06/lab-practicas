@@ -1,0 +1,50 @@
+{
+  "title": "Identificación de Tipos de Oraciones",
+  "description": "Selecciona el inciso que contiene la oración correcta según la clasificación solicitada.",
+  "questions": [
+    {
+      "question": "¿Cuál oración es exclamativa?",
+      "options": [
+        "Hoy transmitirán el partido de tenis.",
+        "Ponte a hacer tu tarea.",
+        "Cómo, aún no estás lista.",
+        "Dónde será la reunión."
+      ],
+      "answer": 2,
+      "explanation": "Es una oración exclamativa ya que expresa sorpresa por parte del hablante."
+    },
+    {
+      "question": "¿Cuál oración es imperativa?",
+      "options": [
+        "Dame el libro que está sobre la mesa.",
+        "Murió Carmen, la tía de Rubén.",
+        "A qué hora piensas llegar.",
+        "Vaya, llegaste temprano."
+      ],
+      "answer": 0,
+      "explanation": "Es imperativa porque exige el cumplimiento de una acción por parte de otra persona."
+    },
+    {
+      "question": "¿Cuál oración es interrogativa?",
+      "options": [
+        "No busques problemas, siéntate.",
+        "Quién es el problemático.",
+        "No, por favor, otra vez cortaron la luz.",
+        "Karla llegó temprano y se acostó."
+      ],
+      "answer": 1,
+      "explanation": "Es interrogativa porque expresa ignorancia por parte del hablante y exige una respuesta verbal."
+    },
+    {
+      "question": "¿A qué clase pertenece la siguiente oración: 'Por casualidad, tú sabes si irá Rodolfo, al baile'?",
+      "options": [
+        "Declarativa",
+        "Imperativa",
+        "Exclamativa",
+        "Interrogativa"
+      ],
+      "answer": 3,
+      "explanation": "Esta oración pide una respuesta verbal, por lo tanto es interrogativa."
+    }
+  ]
+}

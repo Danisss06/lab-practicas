@@ -1,0 +1,51 @@
+{
+  "title": "Comprensión de Lecturas", 
+  "description": "Selecciona la respuesta correcta basada en la comprensión de los textos proporcionados.",
+  "questionDescription": "Corría el año de 1847 y con él los días aciagos y tristes. El ejército norteamericano había hollado nuestro suelo. Llegó agosto y los invasores acercaban sus huestes a la capital. Nuestros patriotas soldados vendían cara su vida en los campos de Padierna y en la defensa del Convento de Churubusco, que se tomó a sangre y fuego. La historia dice que cuando el jefe invasor llegó al convento, salió a encontrarlo el heroico General Anaya, que lo había defendido. Entonces, aquél pregunta al General Anaya: ¿ Dónde está el parque ? Y Anaya contesta: \" Si hubiera parque, no estuviera usted aquí \" \n\nLa frase tiene el, épico sonido de la fanfarria de gloria ... Caía un héroe altivo y valiente, como aquel otro de la leyenda, Cuauhtémoc, quien al llegar frente al soberbio conquistador Cortés, le dijo: \" Ya que no pude salvar mi Patria, saca ese puñal que tienes en el cinto y clávalo en mi corazón \".",
+  "questions": [
+    {
+      "question": "El lector se entera de la Heroicidad de los personajes a través de:",
+      "options": [
+        "El concluyente significado de las frases célebres.",
+        "Los minuciosos detalles de la lucha.",
+        "Las heridas sufridas por los derrotados.",
+        "El terreno ganado por los invasores."
+      ],
+      "answer": 0,
+      "explanation": "El significado concluyente de las frases célebres permite apreciar la heroicidad de los personajes."
+    },
+    {
+      "question": "El autor utiliza la palabra 'huestes' para referirse a:",
+      "options": [
+        "A los habitantes del Convento.",
+        "Los cañones de los invasores.",
+        "Los que se hospedaban en el Convento.",
+        "El ejército en campaña."
+      ],
+      "answer": 3,
+      "explanation": "El término 'huestes' se usa para indicar el ejército en campaña."
+    },
+    {
+      "question": "De la lectura se infiere que los defensores del Convento:",
+      "options": [
+        "Entregaron el Convento sin luchar.",
+        "Lucharon ferozmente con el invasor.",
+        "No siguieron las órdenes de su General.",
+        "Sintieron miedo porque no tenían parque."
+      ],
+      "answer": 1,
+      "explanation": "Los defensores lucharon ferozmente contra el invasor."
+    },
+    {
+      "question": "La comparación que hace el autor entre el General Anaya y Cuauhtémoc es porque ambos:",
+      "options": [
+        "Se rindieron sin luchar.",
+        "Ya no quisieron seguir resistiendo.",
+        "Muestran una actitud de patriotismo al lamentar su derrota.",
+        "No quisieron luchar más."
+      ],
+      "answer": 2,
+      "explanation": "Ambos muestran patriotismo al lamentar su derrota."
+    }
+  ]
+}

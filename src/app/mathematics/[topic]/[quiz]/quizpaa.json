@@ -1,0 +1,176 @@
+{
+  "title": "Geometría: Áreas y Perímetros",
+  "description": "Selecciona el inciso que contiene el valor correcto basado en las figuras y datos proporcionados.",
+  "questions": [
+    {
+      "question": "Si el triángulo OAB es equilátero, O es el centro del círculo y el segmento AB mide 12. ¿Cuánto mide el perímetro del triángulo OAB?",
+      "options": [
+        "36",
+        "144",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Como el triángulo es equilátero: AB = OA = OB = 12. Perímetro = 12 + 12 + 12 = 36."
+    },
+    {
+      "question": "Si el triángulo OAB es equilátero, O es el centro del círculo y el segmento AB mide 12. ¿Cuánto mide el ángulo A?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "En un triángulo equilátero, cada ángulo mide 60°."
+    },
+    {
+      "question": "¿Qué parte del círculo representa el ángulo mostrado en la figura?",
+      "options": [
+        "9",
+        "1/6",
+        "2/9",
+        "1/9"
+      ],
+      "answer": 3,
+      "explanation": "El ángulo representa 1/9 del círculo."
+    },
+    {
+      "question": "Si el radio del círculo mide 2 cm, es el inciso que tiene la medida del área y el perímetro del círculo.",
+      "options": [
+        "Área = 4 cm²; Perímetro = 4 cm",
+        "Área = 4 cm; Perímetro = 4 cm²",
+        "Área = 4√2 cm²; Perímetro = 4 cm",
+        "Área = 8 cm²; Perímetro = 6 cm"
+      ],
+      "answer": 0,
+      "explanation": "Área = πr² ≈ 4 cm²; Perímetro = 2πr ≈ 4 cm."
+    },
+    {
+      "question": "Es el inciso que tiene el área del rectángulo ABDG:",
+      "options": [
+        "5",
+        "24",
+        "21",
+        "55"
+      ],
+      "answer": 3,
+      "explanation": "Área = base × altura = 11 × 5 = 55."
+    },
+    {
+      "question": "Es el inciso que tiene el área de la región celeste:",
+      "options": [
+        "55",
+        "31",
+        "24",
+        "86"
+      ],
+      "answer": 1,
+      "explanation": "La región celeste está formada por un cuadrado (5 × 5 = 25) y un rectángulo (6 × 1 = 6). Área total = 25 + 6 = 31."
+    },
+    {
+      "question": "Es el inciso que tiene el área del rectángulo CDEF:",
+      "options": [
+        "24",
+        "12",
+        "14",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "Área = base × altura = 6 × 4 = 24."
+    },
+    {
+      "question": "Es el inciso que tiene el perímetro del rectángulo CDEF:",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "El perímetro es la suma de todos los lados: 6 + 4 + 6 + 4 = 32."
+    },
+    {
+      "question": "Es el inciso que tiene el perímetro de la región celeste:",
+      "options": [
+        "31",
+        "30",
+        "28",
+        "32"
+      ],
+      "answer": 3,
+      "explanation": "El perímetro se calcula sumando los lados: 5 + 11 + 1 + 6 + 4 + 5 = 32."
+    },
+    {
+      "question": "Es el inciso que tiene el área del rectángulo ABDG:",
+      "options": [
+        "11",
+        "28",
+        "22",
+        "30"
+      ],
+      "answer": 1,
+      "explanation": "Área = base × altura = 7 × 4 = 28."
+    },
+    {
+      "question": "Es el inciso que tiene el área del triángulo celeste:",
+      "options": [
+        "14",
+        "28",
+        "7",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "El triángulo celeste tiene base 7 y altura 4. Área = (base × altura) / 2 = (7 × 4) / 2 = 14."
+    },
+    {
+      "question": "Es el inciso que tiene el área del triángulo ADG:",
+      "options": [
+        "21",
+        "28",
+        "7",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "El triángulo ADG tiene base 7 y altura 4. Área = (base × altura) / 2 = (7 × 4) / 2 = 14."
+    },
+    {
+      "question": "Es el inciso que tiene el perímetro del rectángulo ABDG:",
+      "options": [
+        "24",
+        "20",
+        "22",
+        "26"
+      ],
+      "answer": 2,
+      "explanation": "El perímetro es la suma de todos los lados: 4 + 2 + 5 + 4 + 2 + 5 = 22."
+    },
+    {
+      "question": "Es el inciso que tiene el área del triángulo ABD:",
+      "options": [
+        "8",
+        "4",
+        "10",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "El triángulo ABD tiene base 2 y altura 4. Área = (base × altura) / 2 = (2 × 4) / 2 = 4."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/geometria/paa/preg02.gif",
+    "/images/quizes/math/geometria/paa/preg03.gif",
+    "/images/quizes/math/geometria/paa/preg04.gif",
+    "/images/quizes/math/geometria/paa/preg05.gif",
+    "/images/quizes/math/geometria/paa/preg06.gif",
+    "/images/quizes/math/geometria/paa/preg06.gif",
+    "/images/quizes/math/geometria/paa/preg06.gif",
+    "/images/quizes/math/geometria/paa/preg06.gif",
+    "/images/quizes/math/geometria/paa/preg06.gif",
+    "/images/quizes/math/geometria/paa/preg11.gif",
+    "/images/quizes/math/geometria/paa/preg11.gif",
+    "/images/quizes/math/geometria/paa/preg11.gif",
+    "/images/quizes/math/geometria/paa/preg11.gif",
+    "/images/quizes/math/geometria/paa/preg11.gif"
+  ]
+}

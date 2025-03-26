@@ -1,0 +1,74 @@
+{
+  "title": "Diagramas de Venn 1",
+  "description": "Selecciona el sector en el que se ubican las actividades de cada persona.",
+  "questionDescription": "En un edificio hay varios centros que imparten tres diferentes cursos extracurriculares, como son: Danza, Gimnasia e Idiomas.Un grupo de amigos se puso de acuerdo este semestre para tomar uno o varios de esos cursos y la distribución quedo como sigue:",
+  "questions": [
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Doris?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "El sector 4 comprende a las personas que están en las tres actividades y Doris es una de ellas."
+    },
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Mary?",
+      "options": [
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Mary sí está en danza e idiomas que corresponde al sector 5."
+    },
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Carlota?",
+      "options": [
+        "5",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Carlota sólo está en danza."
+    },
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Carlos?",
+      "options": [
+        "1",
+        "3",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Carlos sólo está inscrito en gimnasia."
+    },
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Cindy?",
+      "options": [
+        "7",
+        "3",
+        "6",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "El sector 6 comprende a las personas que están en idiomas y gimnasia, como Cindy."
+    },
+    {
+      "question": "¿En qué sector se ubica o ubican las actividades de Luis?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "El sector 6 comprende a las personas que están en idiomas y gimnasia como Luis."
+    }
+  ],
+  "images": ["/images/quizes/cognitive/diag1/p01_p.gif"]
+}

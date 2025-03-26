@@ -1,0 +1,188 @@
+{
+  "title": "Análisis de Calificaciones y Temperaturas",
+  "description": "Selecciona el inciso que tiene la respuesta correcta para cada pregunta proporcionada.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene los bimestres en que Miguel obtuvo mejor calificación que Mónica.",
+      "options": [
+        "1º",
+        "2º",
+        "3º",
+        "4º"
+      ],
+      "answer": 1,
+      "explanation": "Miguel obtuvo mejor calificación que Mónica en el 2º bimestre."
+    },
+    {
+      "question": "Es el inciso que tiene la mayor diferencia entre las calificaciones de Mónica y Miguel en los cinco bimestres.",
+      "options": [
+        "3º",
+        "2º",
+        "5º",
+        "1º"
+      ],
+      "answer": 0,
+      "explanation": "La mayor diferencia fue en el 3º bimestre."
+    },
+    {
+      "question": "Es el inciso que tiene el promedio de cada uno.",
+      "options": [
+        "Mónica = 5, Miguel = 8.6",
+        "Mónica = 7, Miguel = 7",
+        "Mónica = 8.6, Miguel = 8.6",
+        "Mónica = 8.6, Miguel = 7"
+      ],
+      "answer": 3,
+      "explanation": "Los promedios son Mónica = 8.6 y Miguel = 7."
+    },
+    {
+      "question": "Es el inciso que tiene el bimestre en que ocurrió la mínima diferencia entre las calificaciones de Mónica y Miguel.",
+      "options": [
+        "1º",
+        "4º",
+        "3º",
+        "5º"
+      ],
+      "answer": 3,
+      "explanation": "La mínima diferencia fue en el 5º bimestre."
+    },
+    {
+      "question": "Es el inciso que tiene el número de alumnos que contestaron correctamente 6 preguntas.",
+      "options": [
+        "8",
+        "10",
+        "5",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "9 alumnos contestaron correctamente 6 preguntas."
+    },
+    {
+      "question": "Es el inciso que cuenta con la frecuencia más alta.",
+      "options": [
+        "11",
+        "12",
+        "9",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "La frecuencia más alta fue 11."
+    },
+    {
+      "question": "Es el inciso que cuenta con la frecuencia más baja.",
+      "options": [
+        "3",
+        "0",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "La frecuencia más baja fue 0."
+    },
+    {
+      "question": "¿Cuál fue el número de preguntas que fueron contestadas por un mayor número de alumnos?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "El mayor número de alumnos contestó correctamente 9 preguntas."
+    },
+    {
+      "question": "¿Cuántos alumnos contestaron correctamente solo 2 preguntas?",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "3 alumnos contestaron correctamente solo 2 preguntas."
+    },
+    {
+      "question": "Es el inciso que tiene la diferencia entre el número de alumnos que contestaron 9 preguntas correctamente y el número de alumnos que contestaron 2 preguntas correctamente.",
+      "options": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "La diferencia fue de 8 alumnos."
+    },
+    {
+      "question": "El inciso que tiene la temperatura que promedió en abril.",
+      "options": [
+        "20º",
+        "25º",
+        "22º",
+        "27º"
+      ],
+      "answer": 1,
+      "explanation": "La temperatura promedio en abril fue de 25º."
+    },
+    {
+      "question": "El inciso que tiene la diferencia entre las temperaturas de junio - enero.",
+      "options": [
+        "37.5º",
+        "42.5º",
+        "35º",
+        "37º"
+      ],
+      "answer": 0,
+      "explanation": "La diferencia entre las temperaturas de junio y enero fue de 37.5º."
+    },
+    {
+      "question": "El inciso que tiene la temperatura que promedió en mayo.",
+      "options": [
+        "27.5º",
+        "25º",
+        "30º",
+        "24º"
+      ],
+      "answer": 0,
+      "explanation": "La temperatura promedio en mayo fue de 27.5º."
+    },
+    {
+      "question": "El inciso que tiene el comportamiento de la temperatura durante los meses de enero - junio.",
+      "options": [
+        "fue constante",
+        "no varió",
+        "fue disminuyendo",
+        "fue aumentando"
+      ],
+      "answer": 3,
+      "explanation": "La temperatura fue aumentando durante los meses de enero a junio."
+    },
+    {
+      "question": "El inciso que tiene el período en que fue menor el incremento de la temperatura.",
+      "options": [
+        "Ene - Feb y Ab - Jun",
+        "Feb - Mar y May - Jun",
+        "Mar - Ab y Ab - May",
+        "Ene - Feb y Feb - Mar"
+      ],
+      "answer": 2,
+      "explanation": "El menor incremento ocurrió entre Mar - Ab y Ab - May."
+    }
+  ],
+  "images": [
+    "/images/quizes/math/probabilidad/image001.gif",
+    "/images/quizes/math/probabilidad/image001.gif",
+    "/images/quizes/math/probabilidad/image001.gif",
+    "/images/quizes/math/probabilidad/image001.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image002.gif",
+    "/images/quizes/math/probabilidad/image003.gif",
+    "/images/quizes/math/probabilidad/image003.gif",
+    "/images/quizes/math/probabilidad/image003.gif",
+    "/images/quizes/math/probabilidad/image003.gif",
+    "/images/quizes/math/probabilidad/image003.gif"
+  ]
+}

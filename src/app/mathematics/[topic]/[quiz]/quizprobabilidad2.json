@@ -1,0 +1,105 @@
+{
+  "title": "Probabilidad en Matemáticas y Juegos",
+  "description": "Responde las preguntas relacionadas con probabilidad basándote en los escenarios descritos.",
+  "questions": [
+    {
+      "question": "Es el inciso que tiene el número de alumnos del curso de matemáticas que les gustaría el fútbol.",
+      "options": [
+        "60",
+        "40",
+        "30",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "60 alumnos del curso de matemáticas prefieren el fútbol."
+    },
+    {
+      "question": "El equipo de voleibol cuenta con los siguientes aspirantes a director técnico: { Katy, Víctor, Luis, Brenda, Raúl }. Es el inciso que expresa la probabilidad de que se escoja a una mujer.",
+      "options": [
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5"
+      ],
+      "answer": 2,
+      "explanation": "Hay 2 mujeres entre 5 aspirantes, por lo que la probabilidad es 0.4."
+    },
+    {
+      "question": "El equipo de voleibol cuenta con los siguientes aspirantes a director técnico: { Katy, Víctor, Luis, Brenda, Raúl }. Es el inciso que expresa la probabilidad de que sea Raúl.",
+      "options": [
+        "2/5",
+        "1/5",
+        "3/5",
+        "4/5"
+      ],
+      "answer": 1,
+      "explanation": "La probabilidad de que sea Raúl es 1/5 o 0.2."
+    },
+    {
+      "question": "En una urna hay 10 tarjetas enumeradas con los dígitos: { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }. Es el inciso que representa la probabilidad de sacar una tarjeta que tenga escrito un dígito par.",
+      "options": [
+        "3/10",
+        "4/10",
+        "1/10",
+        "5/10"
+      ],
+      "answer": 3,
+      "explanation": "Los dígitos pares son 0, 2, 4, 6, y 8, por lo que la probabilidad es 5/10 o 0.5."
+    },
+    {
+      "question": "En una urna hay 10 tarjetas enumeradas con los dígitos: { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }. Es el inciso que representa la probabilidad de sacar un dígito impar mayor de 3 o un dígito par menor que 3.",
+      "options": [
+        "6/10",
+        "5/10",
+        "4/10",
+        "2/10"
+      ],
+      "answer": 1,
+      "explanation": "Los dígitos impares mayores de 3 son 5, 7, y 9. Los dígitos pares menores que 3 son 0 y 2. Total: 5/10 o 0.5."
+    },
+    {
+      "question": "En una urna hay 10 tarjetas enumeradas con los dígitos: { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }. Probabilidad de NO sacar un dígito par menor que 4.",
+      "options": [
+        "8/10",
+        "2/10",
+        "4/10",
+        "6/10"
+      ],
+      "answer": 0,
+      "explanation": "Los dígitos pares menores que 4 son 0 y 2. La probabilidad de NO sacar uno de ellos es 8/10 o 0.8."
+    },
+    {
+      "question": "Evento: Lanzamiento de 2 dados. Es el inciso que expresa la probabilidad de lograr una suma de 5.",
+      "options": [
+        "6/36",
+        "5/36",
+        "4/36",
+        "1/36"
+      ],
+      "answer": 2,
+      "explanation": "Las combinaciones para una suma de 5 son: (1,4), (2,3), (3,2), (4,1). Total: 4/36 o 1/9."
+    },
+    {
+      "question": "Evento: Lanzamiento de 2 dados. Probabilidad de obtener una suma mayor o igual a 6.",
+      "options": [
+        "30/36",
+        "26/30",
+        "24/36",
+        "20/36"
+      ],
+      "answer": 1,
+      "explanation": "Las combinaciones que dan una suma mayor o igual a 6 son 26. Probabilidad: 26/36 o 13/18."
+    },
+    {
+      "question": "Evento: Lanzamiento de 2 dados. Probabilidad de obtener una suma mayor que 7.",
+      "options": [
+        "21/36",
+        "20/36",
+        "18/36",
+        "15/36"
+      ],
+      "answer": 3,
+      "explanation": "Las combinaciones que dan una suma mayor que 7 son 15. Probabilidad: 15/36 o 5/12."
+    }
+  ]
+}
