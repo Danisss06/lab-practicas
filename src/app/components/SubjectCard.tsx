@@ -8,6 +8,7 @@ import { useDarkMode } from "../hooks/useDarkMode";
 interface SubjectCardProps {
   title: string;
   description: string;
+  isDarkMode: boolean; 
   colorToRender?: string;
 }
 
@@ -22,11 +23,12 @@ interface SubjectCardProps {
 const SubjectCard: React.FC<SubjectCardProps> = ({
   title,
   description,
+  isDarkMode, 
   colorToRender,
 }) => {
   const pathname = usePathname();
   const lastText = pathname.substring(pathname.lastIndexOf("/") + 1);
-  const [isDarkMode] = useDarkMode();
+
 
 
   return (
