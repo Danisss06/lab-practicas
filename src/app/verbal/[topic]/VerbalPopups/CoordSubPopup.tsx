@@ -14,8 +14,8 @@ const CoordSubPopup: React.FC<CoordSubPopupProps> = ({ isOpen, isDarkMode, onClo
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className={`${isDarkMode ? "bg-gray-800 text-white" : "bg-white text-gray-600"} p-6 rounded-2xl shadow-md max-w-md w-full mx-3`}>
-        <div className="max-h-[500px] overflow-y-auto pr-2">
+      <div className={`bg-[var(--popup-bg)] text-[var(--popup-text)] p-6 rounded-2xl shadow-md max-w-md w-full mx-3`}>
+      <div className="max-h-[500px] overflow-y-auto pr-2">
         <button onClick={onClose} className="float-right hover:opacity-80">
           <div
             className="w-6 h-6 bg-no-repeat bg-center bg-contain"

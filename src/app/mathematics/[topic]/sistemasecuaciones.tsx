@@ -98,7 +98,7 @@ const SistemasEcuacionesPage: React.FC = () => {
       <p className="mt-4">Las diferentes clases de lugares geométricos son:</p>
       <ul className="list-disc ml-8 mt-4">
         <li>La línea,</li>
-        <li>Las cónicas (parábola, circunferencia, elipse, hipérbola )</li>
+        <li>Las cónicas (parábola, circunferencia, elipse, hipérbola)</li>
       </ul>
       <p className="mt-4">
         Tipos de soluciones y sistemas dependiendo de cada caso:

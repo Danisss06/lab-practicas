@@ -165,7 +165,7 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
-      <p className={`mt-4 ${isDarkMode ? 'text-slate-100' : 'text-gray-800'}`}>
+      <p className={`mt-4 text-[var(--text-color)]`}>
         Nota: Podrás retomar el quiz cuantas veces lo desees.
       </p>
 

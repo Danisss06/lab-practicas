@@ -58,8 +58,8 @@ const EcuacionesLinealesPage: React.FC = () => {
       </p>
       <div className={`grid grid-cols-2 gap-4 p-4 bg-[var(--math-table-bg)] mt-4`}>
         {/* Row 1: Headers */}
-        <div className={`bg-[var(--math-table-header)] font-bold p-2`}>Propiedad</div>
-        <div className={`bg-[var(--math-table-header)] font-bold p-2`}>Ejemplo</div>
+        <div className={`bg-[var(--math-table-header)] font-bold text-center p-2`}>Propiedad</div>
+        <div className={`bg-[var(--math-table-header)] font-bold text-center p-2`}>Ejemplo</div>
 
         {/* Row 2: Addition/Subtraction Property */}
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
@@ -160,8 +160,8 @@ const EcuacionesLinealesPage: React.FC = () => {
       </p>
       <div className={`grid grid-cols-2 gap-4 p-4 bg-[var(--math-table-bg)] mt-4`}>
         {/* Row 1: Headers */}
-        <div className={`bg-[var(--math-table-header)] font-bold p-2`}>Propiedad</div>
-        <div className={`bg-[var(--math-table-header)] font-bold p-2`}>Ejemplo</div>
+        <div className={`bg-[var(--math-table-header)] font-bold text-center p-2`}>Propiedad</div>
+        <div className={`bg-[var(--math-table-header)] font-bold text-center p-2`}>Ejemplo</div>
 
         {/* Row 2: Additive Inverse Property */}
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
