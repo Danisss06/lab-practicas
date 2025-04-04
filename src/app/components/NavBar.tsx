@@ -44,7 +44,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
           </h2>
         </div> */}
         <div className="flex items-center gap-4">
-          <Link href="/">
+          <Link href="https://tec.mx/es" target="_blank" rel="noopener noreferrer">
             <Image
               src={TECLogo}
               alt="Tecnológico de Monterrey"
@@ -54,10 +54,9 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
             />
           </Link>
         </div>
-
         <div className="flex items-center gap-24"> 
           <div className="flex items-center">
-            <Link href="/">
+            <Link href="https://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank" rel="noopener noreferrer">
               <Image
                 src={CVALogo}
                 alt="Centro Virtual de Aprendizaje"
