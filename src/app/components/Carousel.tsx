@@ -60,7 +60,7 @@ const Carousel = ({ title, description }: CarouselProps) => {
       >
         <div className="flex flex-col gap-2 text-left sm:w-3/4 md:w-3/4 lg:w-3/5 mb-4 ml-8">
           <h1 className="text-gray-200 text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug sm:leading-tight lg:leading-tight tracking-tight">
-            {title}
+        {title}
           </h1>
           <h2 className="text-white text-base sm:text-lg lg:text-xl font-light leading-relaxed">
             {description}
