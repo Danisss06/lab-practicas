@@ -98,12 +98,12 @@ const DistanciaDosPuntosPage: React.FC = () => {
   border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
   active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           >
-            Tomar Quiz
+            Tomar Ejercicio
           </button>
         </Link>
       </div>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el quiz cuantas veces lo desees.
+        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

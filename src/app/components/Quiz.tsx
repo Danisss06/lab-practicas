@@ -195,7 +195,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         </div>
       ) : (
         <div className="w-full h-full px-2" style={{ whiteSpace: "pre-wrap" }}>
-          <h1 className="font-bold text-xl">Quiz de {denormalizeTitle(quizTitle)}</h1>
+          <h1 className="font-bold text-xl">Ejercicio de {denormalizeTitle(quizTitle)}</h1>
           <p className="mt-2">{description}</p>
           <div className="mt-2 flex flex-col gap-2 justify-center items-center">
             <p className="font-semibold text-lg">

@@ -75,10 +75,10 @@ const QuizPage: React.FC = () => {
   const jsonToPass = quizesMap[lastPath];
 
   const quizTitle: string = lastPath.substring(4);
-  const defaultDescription: string = 'Lee y responde las preguntas del siguiente quiz.';
+  const defaultDescription: string = 'Lee y responde las preguntas del siguiente ejercicio.';
 
   if (!jsonToPass) {
-    return <p>Quiz no encontrado. Puede encontrarse en desarrollo.</p>;
+    return <p>Ejercicio no encontrado. Puede encontrarse en desarrollo.</p>;
   } 
 
   return (
