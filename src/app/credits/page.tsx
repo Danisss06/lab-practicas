@@ -82,14 +82,7 @@ const Page = () => {
               </h3>
               <div className="px-4 min-h-14">
                 <p className="text-[var(--credits-text)] text-base font-normal leading-normal">
-                  Santiago Martínez Vallejo{" "}
-                  <a
-                    href="https://www.linkedin.com/in/santiago-martinez-vallejo/"
-                    target="_blank"
-                    className="text-blue-600 dark:text-blue-400"
-                  >
-                    (santimtzv01@gmail.com)
-                  </a>
+                  Santiago Martínez Vallejo
                 </p>
                 <p className="text-[var(--credits-text)] text-base font-normal leading-normal">
                   Dalia Danae Ramírez Rodríguez
@@ -97,7 +90,7 @@ const Page = () => {
               </div>
 
               <h3 className="text-[var(--credits-titles)] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
-                Banco de imágenes y recursos
+                Banco de imágenes
               </h3>
               <div className="flex items-center gap-4 px-4 min-h-14">
                 <p className="text-[var(--credits-text)] text-base font-normal leading-normal flex-1">
@@ -106,7 +99,7 @@ const Page = () => {
                     href="https://www.shutterstock.com/es/"
                     className="text-blue-600 dark:text-blue-400"
                   >
-                    Shutterstock: https://www.shutterstock.com/es/
+                    https://www.shutterstock.com/es/
                   </a>
                 </p>
               </div>
