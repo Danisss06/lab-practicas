@@ -6,6 +6,8 @@ import cognitive from "./cognitive.json";
 import subjects from "./cognitiveSubjects.json";
 import { useDarkMode } from "../hooks/useDarkMode";
 
+
+
 /**
  * It will be the landing navigation to subjects option for users to choose
  * a topic to study, after choosing a topic, the user will be redirected to

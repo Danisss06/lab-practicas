@@ -7,6 +7,7 @@ import SideBar from "../components/SideBar";
 import subjects from "./cognitiveSubjects.json";
 import { useDarkMode } from "../hooks/useDarkMode";
 
+
 /**
  * Custom layout for the cognitive page
  * 
@@ -28,8 +29,8 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <SideBar elements={cognitiveSubjects} isDarkMode={isDarkMode} />
           {children}
         </div>
-        <Footer />
       </div>
+      <Footer/>
     </div>
   );
 };

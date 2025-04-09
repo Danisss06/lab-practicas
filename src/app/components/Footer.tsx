@@ -25,7 +25,7 @@ const FooterComponent: React.FC = () => {
         px-4 py-3 gap-4 self-center text-base
       `}
     >
-      <div className="flex flex-col sm:self-center lg:self-start">
+        <div className="flex flex-col text-xs sm:text-sm md:text-base lg:text-sm xl:text-sm font-bold text-[var(--footer-text-1)] sm:self-center lg:self-start">
         <p>
           Se prohíbe la reproducción total o parcial sin previo y expreso
           consentimiento por escrito.
@@ -34,7 +34,7 @@ const FooterComponent: React.FC = () => {
           D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, {new Date().getFullYear()}.
         </p>
       </div>
-      <div className="flex flex-row gap-4 sm:self-center lg:self-center">
+      <div className="flex flex-row gap-6 text-xs sm:text-sm md:text-base lg:text-sm xl:text-sm font-bold text-[var(--footer-text)] sm:self-center lg:self-center">
         <a
           target="_blank"
           href="https://tec.mx/es/politicas-de-privacidad-del-tecnologico-de-monterrey"
