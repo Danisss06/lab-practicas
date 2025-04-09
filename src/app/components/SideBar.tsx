@@ -52,7 +52,7 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
       {/* Toggle Button */}
       <button
         onClick={toggleSidebar}
-        className="w-28 sm:w-auto fixed top-4 left-4 z-50 p-2 bg-gray-800 text-white rounded-2xl md:hidden"
+        className="w-28 sm:w-auto fixed top-4 left-4 z-50 p-2 bg-[var(--menu-button-bg)] text-[var(--text-color)] rounded-2xl md:hidden"
       >
         {isSidebarVisible ? "Menú" : "Menú"}
       </button>

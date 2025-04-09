@@ -26,6 +26,7 @@
   --goback-btn-text: #171717;
   --fa-minus-icon: url('/icons/faMinus.svg'); /* Ícono "-" antes de los temas */
 
+  --menu-button-bg: #e2e8f0;
 
   /* SubjectCard.tsx */
   --subjectcard-bg: #e2e8f0c0; 
@@ -76,6 +77,8 @@ html.dark {
   --goback-btn-bg: #1f2937;
   --goback-btn-text: #ffffff;
   --fa-minus-icon: url('/icons/faMinusWhite.svg'); /* Ícono "-" antes de los temas */
+
+  --menu-button-bg: #475569;
 
 
   /* SubjectCard.tsx */
