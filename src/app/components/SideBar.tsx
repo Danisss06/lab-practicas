@@ -54,7 +54,7 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
         onClick={toggleSidebar}
         className="w-28 sm:w-auto fixed top-4 left-4 z-50 p-2 bg-gray-800 text-white rounded-2xl md:hidden"
       >
-        {isSidebarVisible ? "Cerrar navegación" : "Abrir navegación"}
+        {isSidebarVisible ? "Menú" : "Menú"}
       </button>
 
       {/* Sidebar Overlay */}
