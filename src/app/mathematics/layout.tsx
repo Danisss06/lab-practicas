@@ -43,8 +43,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             selectedTopicIndex,
           })}
         </div>
-        <Footer />
       </div>
+      
     </div>
   );
 };

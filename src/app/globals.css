@@ -9,7 +9,7 @@
 
   /* footer.tsx */
   --footer-background: #f1f5f9; /* Fondo del footer en modo claro (slate-100) */
-  --footer-text: #516cf6; /* Texto del footer en modo claro */
+  --footer-text: #0033a0; /* Texto del footer en modo claro */
   --footer-text-1: #171717;
   --line-color: #171717; /* Color de las líneas paralelas */
 
@@ -61,7 +61,7 @@ html.dark {
 
   /* footer.tsx */
   --footer-background: #1f2937; /* Fondo del footer en modo oscuro */
-  --footer-text: #516cf6  ; /* Texto del footer en modo oscuro */
+  --footer-text: #ffffff  ; /* Texto del footer en modo oscuro */
   --footer-text-1: #ffffff;
   --line-color: #f5f3f3da; /* Color de las líneas paralelas */
 
