@@ -27,8 +27,6 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
       <header
         className={`flex flex-col md:flex-row ${imageAlign} md:items-center justify-between content-between whitespace-nowrap  border-solid border-b-[#abb0b5] px-5 py-3 self-center`}
       >
-        <div className="w-full flex justify-between items-center md:w-auto md:justify-start md:gap-24">
-
         {/* <div className="flex items-center gap-4 text-[#0d151c]">
           <div className="size-4">
             <svg
@@ -46,6 +44,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
             {title}
           </h2>
         </div> */}
+        <div className="w-full flex justify-between items-center md:w-auto">
           <Link href="/">
             <Image
               src={TECLogo}
@@ -69,7 +68,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
               />
             </Link>
           </div>
-          <div className="mt-4 md:mt-0 flex justify-center md:justify-end w-full md:w-auto">            
+          <div className="mt-4 md:mt-0 flex justify-center w-full md:w-auto">      
             <DarkModeToggle />
           </div>
         </div>
