@@ -88,22 +88,18 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
   const handleCheckAnswer = () => {
     if (selectedOption === null) {
       setMessageSelectAnswer(true);
-      setTimeout(() => setMessageSelectAnswer(false), 2000); // Hide message after 2 seconds
+      setTimeout(() => setMessageSelectAnswer(false), 2000);
       return;
     }
-
+  
     const isCorrect = selectedOption === questions[currentQuestion].answer;
     const userAnswerText = questions[currentQuestion].options[selectedOption];
-    const correctAnswerText =
-      questions[currentQuestion].options[questions[currentQuestion].answer];
-
+    const correctAnswerText = questions[currentQuestion].options[questions[currentQuestion].answer];
+  
     if (isCorrect) {
       setCorrectAnswers(correctAnswers + 1);
-      setMessageCorrectAnswer(true);
-    } else {
-      setMessageIncorrectAnswer(true);
     }
-
+  
     setSummary((prevSummary) => [
       ...prevSummary,
       {
@@ -115,27 +111,21 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         correct: isCorrect,
       },
     ]);
-
-    // Delay for showing correct or incorrect message before moving to the next question
-    setTimeout(() => {
-      setMessageCorrectAnswer(false);
-      setMessageIncorrectAnswer(false);
-
-      if (currentQuestion < questions.length - 1) {
-        setCurrentQuestion(currentQuestion + 1);
-      } else {
-        setShowFinalResults(true);
-      }
-    }, 100); // Delay of 2 seconds for message display
+  
+    // Ya no hacemos delay aquí
+    if (currentQuestion < questions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    } else {
+      setShowFinalResults(true);
+    }
   };
+  
 
   const handleRestartQuiz = () => {
     setCurrentQuestion(0);
     setSelectedOption(null);
     setCorrectAnswers(0);
     setMessageSelectAnswer(false);
-    setMessageCorrectAnswer(false);
-    setMessageIncorrectAnswer(false);
     setShowFinalResults(false);
     setSummary([]);
   };
@@ -217,19 +207,35 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               {questions[currentQuestion].question}
             </h2>
             <div className="flex flex-col gap-2">
-              {questions[currentQuestion].options.map((option, index) => (
+
+            {questions[currentQuestion].options.map((option, index) => {
+              const isSelected = selectedOption === index;
+              const isCorrect = questions[currentQuestion].answer === index;
+
+              let dynamicBackground = "bg-[--quiz-btn-color]"; // color por defecto
+
+              if (selectedOption !== null) {
+                if (isSelected && isCorrect) {
+                  dynamicBackground = "bg-green-400"; // seleccionada y correcta
+                } else if (isSelected && !isCorrect) {
+                  dynamicBackground = "bg-red-400"; // seleccionada e incorrecta
+                }
+              } else if (isSelected) {
+                dynamicBackground = backgroundColor; // si apenas se seleccionó
+              }
+
+              return (
                 <button
                   key={index}
-                  className={`w-72 min-h-14 cursor-pointer transition-all font-bold ${
-                    selectedOption === index ? backgroundColor : "bg-[--quiz-btn-color]"
-                  } text-[var(--text-color)] px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 active:brightness-90`}
-                  onClick={() =>
-                    setSelectedOption(selectedOption === index ? null : index)
-                  }
+                  onClick={() => setSelectedOption(index)}
+                  disabled={selectedOption !== null} // deshabilitar después de seleccionar
+                  className={`w-72 min-h-14 cursor-pointer transition-all font-bold ${dynamicBackground} text-[var(--text-color)] px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 active:brightness-90`}
                 >
                   {option}
                 </button>
-              ))}
+              );
+            })}
+
               <div className="self-end">
                 <button
                   className={`min-h-14 cursor-pointer transition-all ${backgroundColor} text-black px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] shadow-lg`}
