@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import MathSideBar from "../components/MathSideBar";
 import subjects from "./mathematics.json";
 import { useDarkMode } from "../hooks/useDarkMode";
+import Footer from "../components/Footer";
+
 
 /**
  * This layout varies from the cognitive and verbal layouts in that it
@@ -44,7 +45,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           })}
         </div>
       </div>
-      
+      <Footer/>
     </div>
   );
 };

@@ -126,7 +126,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
       } else {
         setShowFinalResults(true);
       }
-    }, 2000); // Delay of 2 seconds for message display
+    }, 100); // Delay of 2 seconds for message display
   };
 
   const handleRestartQuiz = () => {

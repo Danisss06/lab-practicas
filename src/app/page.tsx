@@ -2,7 +2,6 @@
 
 import NavCard from "./components/NavCard";
 import homedata from "../../public/homedata.json";
-import FooterComponent from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Carousel from "./components/Carousel";
 import { useDarkMode } from "./hooks/useDarkMode";
@@ -85,7 +84,6 @@ export default function Home() {
         </div>
       </div>
           
-      <FooterComponent />
     </div>
   );
 }
