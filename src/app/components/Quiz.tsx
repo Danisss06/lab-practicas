@@ -152,8 +152,8 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               {questions.length}
             </h1>
             <h2 className="font-semibold text-lg mt-1">Resumen:</h2>
-            <ul className="w-full max-w-md mt-1 text-left text-black">
-              {summary.map((item, index) => (
+            <ul className="w-full max-w-2xl mt-1 text-left text-black">
+            {summary.map((item, index) => (
                 <li
                   key={index}
                   className={`mb-2 p-2 border rounded-md ${item.color}`}
