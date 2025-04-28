@@ -112,7 +112,6 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
       },
     ]);
   
-    // Ya no hacemos delay aquí
     if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {

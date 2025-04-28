@@ -45,8 +45,6 @@ export default function RootLayout({
           </main>
 
         </div>
-
-        {/* Footer debajo del contenido */}
         <FooterComponent />
 
       </body>

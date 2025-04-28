@@ -46,9 +46,9 @@ const Diagramas1Page: React.FC = () => {
       <img
         src={image}
         alt="example"
-        className="w-full h-full object-cover mt-4 rounded-2xl"
+        className="max-w-[400px] w-full h-auto object-contain mt-4 rounded-2xl mx-auto"
       />
-    );
+    );    
   };
 
   const [isPopupOpen, setPopupOpen] = useState(false);
