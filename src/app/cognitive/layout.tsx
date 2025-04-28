@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from "../components/Footer";
 import React from "react";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
@@ -29,8 +28,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <main className="flex-1">{children}</main> {/* Asegurando que el contenido ocupe el espacio disponible */}
         </div>
       </div>
-      {/* El Footer está debajo del contenido y no flotante */}
-      <Footer/>
     </div>
   );
 };

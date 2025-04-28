@@ -15,15 +15,9 @@ const FooterComponent: React.FC = () => {
   const [isDarkMode] = useDarkMode();  
   
   return (
-    <footer
-      className={`
-        ${pathname === "/" || pathname === "/credits" ? "static" : "fixed bottom-0 z-50"}
-        rounded-none lg:rounded-t-2xl
-        bg-[var(--footer-background)] text-[var(--footer-text)]
-        w-[100%] lg:max-w-[1120px]
-        flex flex-col lg:flex-row justify-between content-center
-        px-4 py-3 gap-4 self-center text-base
-      `}
+    <footer 
+      className="static rounded-none lg:rounded-t-2xl bg-[var(--footer-background)] text-[var(--footer-text)] w-[100%] 
+      lg:max-w-[1120px] flex flex-col lg:flex-row justify-between content-center px-4 py-3 gap-4 self-center text-base"
     >
         <div className="flex flex-col text-xs sm:text-sm md:text-base lg:text-sm xl:text-sm font-bold text-[var(--footer-text-1)] sm:self-center lg:self-start">
         <p>

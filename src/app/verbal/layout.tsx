@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from '../components/Footer'
 import React from 'react'
 import NavBar from '../components/NavBar'
 import SideBar from '../components/SideBar'
@@ -23,7 +22,6 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <SideBar elements={verbalSubjects} isDarkMode={isDarkMode} />
           {children}
         </div>
-        <Footer />
       </div>
     </div>
   )

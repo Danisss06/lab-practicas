@@ -1,7 +1,6 @@
 "use client";
 
 import NavBar from "../components/NavBar";
-import FooterComponent from "../components/Footer";
 import GoBackBtn from "../components/GoBackBtn";
 import Image from "next/image";
 import { useDarkMode } from "../hooks/useDarkMode";
@@ -108,8 +107,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-
-      <FooterComponent />
     </div>
   );
 };

@@ -5,7 +5,6 @@ import NavBar from "../components/NavBar";
 import MathSideBar from "../components/MathSideBar";
 import subjects from "./mathematics.json";
 import { useDarkMode } from "../hooks/useDarkMode";
-import Footer from "../components/Footer";
 
 
 /**
@@ -45,7 +44,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           })}
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };
