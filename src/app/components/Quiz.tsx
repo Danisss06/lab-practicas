@@ -188,7 +188,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
           <h1 className="font-bold text-xl">Ejercicio de {denormalizeTitle(quizTitle)}</h1>
           <p className="mt-2">{description}</p>
           <div className="mt-2 flex flex-col gap-2 justify-center items-center">
-            <p className="font-semibold text-lg">
+            <p className="text-lg">
               Pregunta {currentQuestion + 1} de {questions.length}
             </p>
             {images && (
@@ -201,9 +201,9 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               />
             )}
             {questionDescription && (
-              <p className="font-semibold text-lg">{questionDescription}</p>
+              <p className="text-lg text-justify">{questionDescription}</p>
             )}
-            <h2 className="font-semibold text-lg">
+            <h2 className="text-lg">
               {questions[currentQuestion].question}
             </h2>
             <div className="flex flex-col gap-2">
