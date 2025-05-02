@@ -52,9 +52,9 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
       </div>
 
       {/* MODO md+ (TABLET Y DESKTOP) */}
-      <div className="hidden md:flex flex-row w-full items-center justify-between gap-4">
-        {/* Logo TEC solo a la izquierda */}
-        <div className="flex items-center">
+      <div className="hidden md:flex flex-row w-full items-center justify-between">
+        {/* Logos TEC y CVA juntos a la izquierda */}
+        <div className="flex items-center gap-12">
           <Link href="https://tec.mx/es" target="_blank" rel="noopener noreferrer">
             <Image
               src={TECLogo}
@@ -64,10 +64,6 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
               className="w-40 sm:w-60"
             />
           </Link>
-        </div>
-
-        {/* Logo CVA + Botón juntos a la derecha */}
-        <div className="flex items-center gap-24">
           <Link href="https://www.centroscomunitariosdeaprendizaje.org.mx/" target="_blank" rel="noopener noreferrer">
             <Image
               src={CVALogo}
@@ -77,9 +73,14 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
               className="w-40 sm:w-60"
             />
           </Link>
+        </div>
+
+        {/* Botón modo oscuro alineado a la derecha */}
+        <div className="items-center">
           <DarkModeToggle />
         </div>
       </div>
+
     </header>
 
 

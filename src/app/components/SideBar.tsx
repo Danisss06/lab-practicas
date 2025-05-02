@@ -1,8 +1,6 @@
 "use client";
 
-import faMinus from "../../../public/icons/faMinus.svg";
-import faMinusWhite from "../../../public/icons/faMinusWhite.svg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import GoBackBtn from "./GoBackBtn";
 import Link from "next/link";
 import { normalizeTitle } from "../utils/utils";
@@ -13,17 +11,27 @@ interface SideBarProps {
   elements: string[];
   isDarkMode: boolean;
   onSelect?: (index: number) => void;
+  isSidebarVisible: boolean;
+  onCloseSidebar?: () => void;
+  className?: string;
 }
 
 /**
  * @param elements gets the elements to render in the sidebar
  * @param isDarkMode gets a boolean to render the sidebar in dark mode
  * @param onSelect gets the index of the selected topic
- * @returns a sidebar component that renders the topics.
+ * @param isSidebarVisible controls visibility (mobile)
+ * @param onCloseSidebar closes the sidebar on mobile
  */
-const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => {
+const SideBar: React.FC<SideBarProps> = ({
+  elements,
+  isDarkMode,
+  onSelect,
+  isSidebarVisible,
+  onCloseSidebar,
+  className,
+}) => {
   const [selected, setSelected] = useState<number | null>(null);
-  const [isSidebarVisible, setIsSidebarVisible] = useState<boolean>(false);
 
   const pathname = usePathname();
   const pathToNavigate = pathname.includes("cognitive")
@@ -39,30 +47,15 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
     }
   };
 
-  const toggleSidebar = () => {
-    setIsSidebarVisible(!isSidebarVisible);
-  };
-
-  const closeSidebar = () => {
-    setIsSidebarVisible(false);
-  }
-
   return (
     <>
-      {/* Toggle Button */}
-      <button
-        onClick={toggleSidebar}
-        className="w-28 sm:w-auto fixed top-4 left-4 z-50 p-2 bg-[var(--menu-button-bg)] text-[var(--text-color)] rounded-2xl md:hidden"
-      >
-        {isSidebarVisible ? "Menú" : "Menú"}
-      </button>
-
       {/* Sidebar Overlay */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
-          isSidebarVisible ? "translate-x-0" : "-translate-x-full"
-        } md:relative md:translate-x-0 md:block layout-content-container flex flex-col min-w-80`}
-      >
+  className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
+    isSidebarVisible ? "translate-x-0" : "-translate-x-full"
+  } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80 ${className ?? ""}`}
+>
+
         <div className="mt-20 md:mt-0 flex h-full flex-col justify-between p-2">
           <div className="flex flex-col gap-4">
             <GoBackBtn isDarkMode={isDarkMode} />
@@ -81,9 +74,9 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
                     data-weight="fill"
                   >
                     <div
-                    className="w-6 h-6 bg-no-repeat bg-center bg-contain"
-                    style={{ backgroundImage: "var(--fa-minus-icon)" }}
-                  ></div>
+                      className="w-6 h-6 bg-no-repeat bg-center bg-contain"
+                      style={{ backgroundImage: "var(--fa-minus-icon)" }}
+                    ></div>
                   </div>
                   <Link
                     href={`${
@@ -96,9 +89,9 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
                         : `/${pathToNavigate}/`
                     }${normalizeTitle(element)}`}
                     className="w-full"
-                    onClick={closeSidebar}
+                    onClick={onCloseSidebar}
                   >
-                    <p className={`w-full text-[var(--sidebar-text)] text-base font-medium leading-normal`}>
+                    <p className="w-full text-[var(--sidebar-text)] text-base font-medium leading-normal">
                       {element}
                     </p>
                   </Link>
