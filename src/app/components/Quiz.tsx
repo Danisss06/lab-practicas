@@ -106,7 +106,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         question: questions[currentQuestion].question,
         userAnswer: userAnswerText,
         correctAnswer: correctAnswerText,
-        color: isCorrect ? "bg-green-200" : "bg-red-200",
+        color: isCorrect ? "bg-[#b0f2c2]" : "bg-[#fcb7af]",
         explanation: questions[currentQuestion].explanation || "",
         correct: isCorrect,
       },
@@ -161,15 +161,16 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                     </p>
                   )}
                   <div className="flex justify-center">
-                    {responseImages && (
-                      <Image
-                        src={responseImages[index]}
-                        alt="response-image"
-                        width={350}
-                        height={350}
-                        className="rounded-2xl"
-                      />
-                    )}
+                  {responseImages && responseImages[index] && responseImages[index].trim() !== "" && (
+                    <Image
+                      src={responseImages[index]}
+                      alt="response-image"
+                      width={350}
+                      height={350}
+                      className="rounded-2xl"
+                    />
+                  )}
+
                   </div>
                 </li>
               ))}
@@ -215,12 +216,12 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
 
               if (selectedOption !== null) {
                 if (isSelected && isCorrect) {
-                  dynamicBackground = "bg-green-400"; // seleccionada y correcta
+                  dynamicBackground = "bg-[#b0f2c2]"; // verde-400
                 } else if (isSelected && !isCorrect) {
-                  dynamicBackground = "bg-red-400"; // seleccionada e incorrecta
+                  dynamicBackground = "bg-[#fcb7af]"; // rojo-400
                 }
               } else if (isSelected) {
-                dynamicBackground = backgroundColor; // si apenas se seleccionó
+                dynamicBackground = backgroundColor;
               }
 
               return (
