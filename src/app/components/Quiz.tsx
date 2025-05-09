@@ -157,15 +157,18 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                     </p>
                   )}
                   <div className="flex justify-center">
-                  {responseImages && responseImages[index] && responseImages[index].trim() !== "" && (
-                    <Image
-                      src={responseImages[index]}
-                      alt="response-image"
-                      width={350}
-                      height={350}
-                      className="rounded-2xl"
-                    />
-                  )}
+                    {images &&
+                      images.length > 0 &&
+                      (images.length === 1 || (images[index] && images[index].trim() !== "")) && (
+                        <Image
+                          src={images.length === 1 ? images[0] : images[index]}
+                          alt="quiz-image"
+                          width={400}
+                          height={400}
+                          className="rounded-2xl"
+                        />
+                    )}
+
 
                   </div>
                 </li>
@@ -187,15 +190,16 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
             <p className="text-lg">
               Pregunta {currentQuestion + 1} de {questions.length}
             </p>
-            {images && (
-              <Image
-                src={images[currentQuestion]}
-                alt="quiz-image"
-                width={400}
-                height={400}
-                className="rounded-2xl"
-              />
-            )}
+            {images && images.length > 0 && (
+  <Image
+    src={images.length === 1 ? images[0] : images[currentQuestion] ?? images[0]}
+    alt="quiz-image"
+    width={400}
+    height={400}
+    className="rounded-2xl"
+  />
+)}
+
             {questionDescription && (
               <p className="text-lg text-justify">{questionDescription}</p>
             )}
