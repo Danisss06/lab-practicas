@@ -38,24 +38,21 @@ const QuizPage: React.FC = () => {
 
   const jsonToPass = quizesMap[lastPath];
 
-  const quizTitle: string = lastPath.substring(4);
-  const defaultDescription: string = 'Lee y responde las preguntas del siguiente ejercicio.';
-
   if (!jsonToPass) {
     return <p>Ejercicio no encontrado. Puede encontrarse en desarrollo.</p>;
-  } 
+  }
 
   return (
     <div className="mb-24 w-full">
       <QuizComponent 
-        title={quizTitle} 
-        description={defaultDescription} 
+        title={jsonToPass.title} // ✅ aquí tomas el título correcto con acento
+        description={jsonToPass.description || 'Lee y responde las preguntas del siguiente ejercicio.'}
         questions={jsonToPass.questions} 
         images={jsonToPass.images}
         responseImages={jsonToPass.responseImages}
       />
     </div>
-  );  
-};
+  );
+}
 
 export default QuizPage;

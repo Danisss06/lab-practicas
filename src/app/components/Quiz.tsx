@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { denormalizeTitle } from "../utils/utils";
 import { useDarkMode } from "../hooks/useDarkMode";
 
 type QuestionProps = {
@@ -125,8 +124,6 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
     setSummary([]);
   };
 
-  const quizTitle: string = title.charAt(0).toUpperCase() + title.slice(1);
-
   return (
     <>
       {showFinalResults ? (
@@ -184,7 +181,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         </div>
       ) : (
         <div className="w-full h-full px-2" style={{ whiteSpace: "pre-wrap" }}>
-          <h1 className="font-bold text-xl">Ejercicio de {denormalizeTitle(quizTitle)}</h1>
+          <h1 className="font-bold text-xl">{title}</h1>
           <p className="mt-2">{description}</p>
           <div className="mt-2 flex flex-col gap-2 justify-center items-center">
             <p className="text-lg">

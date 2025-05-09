@@ -23,7 +23,7 @@ const quizesMap: { [key: string]: QuizComponentProps } = {
   'quizortografia': QuizOrtografia,
   'quizsignificado-de-una-oracion': QuizSignificadoDeUnaOracion,
   'quizuso-de-las-palabras-enlazantes': QuizUsoDeLasPalabrasEnlazantes,
-  'quizuso-de-las-preposiciones': QuizUsoDeLasPreposiciones
+  'quizuso-de-las-preposiciones': QuizUsoDeLasPreposiciones,
 };
 
 /**
@@ -37,19 +37,25 @@ const QuizPage: React.FC = () => {
   const lastPath = pathname.substring(pathname.lastIndexOf("/") + 1);
 
   const jsonToPass = quizesMap[lastPath];
-
-  const quizTitle: string = lastPath.substring(4);
-  const defaultDescription: string = 'Lee y responde las preguntas del siguiente ejercicio.';
+  const defaultDescription = 'Lee y responde las preguntas del siguiente ejercicio.';
 
   if (!jsonToPass) {
     return <p>Ejercicio no encontrado. Puede encontrarse en desarrollo.</p>;
-  } 
+  }
 
   return (
     <div className="mb-24 w-full">
-      <QuizComponent title={quizTitle} description={defaultDescription} questions={jsonToPass.questions} questionDescription={jsonToPass.questionDescription || ""} />
+      <QuizComponent 
+        title={jsonToPass.title}
+        description={defaultDescription}
+        questions={jsonToPass.questions}
+        questionDescription={jsonToPass.questionDescription || ""}
+        images={jsonToPass.images}
+        responseImages={jsonToPass.responseImages}
+      />
     </div>
-  );  
+  );
 };
 
 export default QuizPage;
+
