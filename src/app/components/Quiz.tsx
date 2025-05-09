@@ -64,10 +64,6 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
   const [messageSelectAnswer, setMessageSelectAnswer] =
     useState<boolean>(false);
-  const [messageCorrectAnswer, setMessageCorrectAnswer] =
-    useState<boolean>(false);
-  const [messageIncorrectAnswer, setMessageIncorrectAnswer] =
-    useState<boolean>(false);
   const [showFinalResults, setShowFinalResults] = useState<boolean>(false);
   const [summary, setSummary] = useState<
     {
@@ -264,32 +260,6 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                   />
                   <p className="text-center font-bold text-xl text-[var(--text-color)]">
                     Selecciona una respuesta
-                  </p>
-                </div>
-              )}
-              {messageCorrectAnswer && (
-                <div className="mt-2 bg-green-200 p-2 rounded-2xl flex flex-col gap-2 items-center justify-center">
-                  <Image
-                    src="/icons/circle-check.svg"
-                    alt="circle-check"
-                    width={30}
-                    height={30}
-                  />
-                  <p className="text-center font-bold text-xl text-black">
-                    Correcto
-                  </p>
-                </div>
-              )}
-              {messageIncorrectAnswer && (
-                <div className="mt-2 bg-red-200 p-2 rounded-2xl flex flex-col gap-2 items-center justify-center">
-                  <Image
-                    src="/icons/circle-xmark.svg"
-                    alt="circle-xmark"
-                    width={30}
-                    height={30}
-                  />
-                  <p className="text-center font-bold text-xl text-black">
-                    Incorrecto
                   </p>
                 </div>
               )}
