@@ -61,7 +61,7 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
   
               <button
                 onClick={() => setIsSidebarVisible(!isSidebarVisible)}
-                className="p-2 rounded-lg transition-colors w-36 border fixed z-50 md:hidden"
+                className="p-2 rounded-2xl transition-colors w-36 border fixed z-50 md:hidden"
                 style={{
                   left: "2rem",
                   top: "88px",

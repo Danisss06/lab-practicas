@@ -8,7 +8,7 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-2 rounded-lg transition-colors w-36 border"
+      className="p-2 rounded-2xl transition-colors w-36 border"
       style={{
         backgroundColor: "var(--darkmode-btn-bg)",
         color: "var(--darkmode-btn-text)",

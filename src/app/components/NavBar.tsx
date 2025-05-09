@@ -32,7 +32,13 @@ const NavBar: React.FC<NavBarProps> = () => {
           </Link>
         </div>
         {/* Botón de modo oscuro: centrado solo en '/' */}
-        <div className={`flex w-full ${pathname === "/" || pathname === "/credits" ? "justify-center" : "justify-end"}`}>
+        <div
+          className={`flex w-full ${
+            pathname === "/" || pathname === "/credits"
+              ? "justify-center"
+              : "justify-end pr-4"
+          }`}
+        >
           <DarkModeToggle />
         </div>
       </div>
