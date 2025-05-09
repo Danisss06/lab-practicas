@@ -40,7 +40,7 @@ const CognitivePage = () => {
       />
 
       {/* Contenido principal */}
-      <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-14">
+      <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-14 text-justify">
         <MainSubjects
           title={cognitive.title}
           description={cognitive.description}

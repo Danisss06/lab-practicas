@@ -66,7 +66,7 @@ const AnalogiaPage: React.FC = () => {
       <p className="mt-4">
         <span className="font-bold">Instrucciones:</span> en el siguiente
         ejemplo se presenta una relación entre los términos{" "}
-        <span className="font-bold">Gato</span> y{" "}
+        <span className="font-bold">gato</span> y{" "}
         <span className="font-bold">felino</span>. Después se presenta un
         término que se encuentra <span className="underline">subrayado</span>. Selecciona la opción que se
         relaciona con el término subrayado de la misma forma en que se

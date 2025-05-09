@@ -15,7 +15,7 @@ import QuizSignificadoDeMetaforasJSON from "./significadometaforas.json";
 import QuizTransformacionesLogicasJSON from "./translogicas.json";
 
 const quizesMap: { [key: string]: QuizComponentProps } = {
-  quizanalogia: QuizAnalogiaJSON,
+  'quizanalogia': QuizAnalogiaJSON,
   'quizdiagramas-1': QuizDiagramas1JSON,
   'quizdiagramas-2': QuizDiagramas2JSON,
   'quizmetaforas-y-analogias': QuizMetaforasYAnalogiasJSON,

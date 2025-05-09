@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 import subjects from "./cognitiveSubjects.json";
@@ -16,16 +16,32 @@ import { useDarkMode } from "../hooks/useDarkMode";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const cognitiveSubjects = subjects.map((subject) => subject.title);
-
   const [isDarkMode] = useDarkMode();
+  const [isMobile, setIsMobile] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  // Detecta si estamos en pantalla chica (modo responsivo)
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 1024); // 1024px es el breakpoint de Tailwind para "lg"
+    };
+
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
         <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2">
-          <SideBar elements={cognitiveSubjects} isDarkMode={isDarkMode} />
-          <main className="flex-1">{children}</main> {/* Asegurando que el contenido ocupe el espacio disponible */}
+          <SideBar
+            elements={cognitiveSubjects}
+            isDarkMode={isDarkMode}
+            isSidebarVisible={!isMobile || isSidebarVisible} // visible en escritorio o si está activado en móvil
+          />
+          <main className="flex-1">{children}</main>
         </div>
       </div>
     </div>
@@ -33,4 +49,5 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default Layout;
+
 
