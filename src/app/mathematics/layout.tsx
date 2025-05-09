@@ -16,6 +16,7 @@ import { useDarkMode } from "../hooks/useDarkMode";
  * @param children will be the page's content 
  * @returns a layout with a sidebar, navbar, footer, and the main page content
  */
+
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
 

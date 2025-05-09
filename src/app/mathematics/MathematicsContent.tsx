@@ -26,26 +26,18 @@ const MathematicsContent: React.FC<MathematicsContentProps> = ({
 
   const [isDarkMode] = useDarkMode();
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  
-    const toggleSidebar = () => {
-      setIsSidebarVisible(!isSidebarVisible);
-    };
-  
-    const closeSidebar = () => {
-      setIsSidebarVisible(false);
-    };
+
+  const toggleSidebar = () => {
+    setIsSidebarVisible(!isSidebarVisible);
+  };
+
+  const closeSidebar = () => {
+    setIsSidebarVisible(false);
+  };
   
 
   return (
     <div className="relative w-full">
-      {/* Botón de menú solo en pantallas pequeñas */}
-      <button
-        onClick={toggleSidebar}
-        className="w-28 sm:w-auto fixed top-[80px] left-4 z-50 p-2 bg-[var(--menu-button-bg)] text-[var(--text-color)] rounded-2xl md:hidden"
-      >
-        {isSidebarVisible ? "Cerrar" : "Menú"}
-      </button>
-
       {/* Sidebar */}
       <SideBar
         className="block md:hidden"

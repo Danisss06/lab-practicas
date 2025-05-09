@@ -22,14 +22,6 @@ const CognitivePage = () => {
 
   return (
     <div className="relative w-full">
-      {/* Botón de menú solo en pantallas pequeñas */}
-      <button
-        onClick={toggleSidebar}
-        className="w-28 sm:w-auto fixed top-[80px] left-4 z-50 p-2 bg-[var(--menu-button-bg)] text-[var(--text-color)] rounded-2xl md:hidden"
-      >
-        {isSidebarVisible ? "Cerrar" : "Menú"}
-      </button>
-
       {/* Sidebar */}
       <SideBar
         className="block md:hidden"
@@ -39,7 +31,6 @@ const CognitivePage = () => {
         onCloseSidebar={closeSidebar}
       />
 
-      {/* Contenido principal */}
       <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-14 text-justify">
         <MainSubjects
           title={cognitive.title}
@@ -63,4 +54,3 @@ const CognitivePage = () => {
 };
 
 export default CognitivePage;
-

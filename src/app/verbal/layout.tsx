@@ -2,19 +2,26 @@
 
 import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
-import SideBar from "../components/SideBar";
+import SideBar from "../components/SideBar"; 
 import subjects from "./verbalSubjects.json";
 import { useDarkMode } from "../hooks/useDarkMode";
 
 /**
  * @returns a layout with a navbar, sidebar, children and a footer.
  */
-const layout = ({ children }: { children: React.ReactNode }) => {
+
+const Layout = ({ children }: { children: React.ReactNode }) => {
   const verbalSubjects = subjects.map((subject) => subject.title);
   const [isDarkMode] = useDarkMode();
 
   const [isMobile, setIsMobile] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
+
+  const handleSelectTopic = (index: number) => {
+    setSelectedTopicIndex(index);
+  };
 
   useEffect(() => {
     const checkScreenSize = () => {
@@ -31,16 +38,37 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
         <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-16">
+          {/* Botón de menú siempre visible en móvil */}
+            {isMobile && (
+              <button
+                onClick={() => setIsSidebarVisible(!isSidebarVisible)}
+                className="p-2 rounded-lg transition-colors w-36 border fixed z-50 md:hidden"
+                style={{
+                  left: "2rem",
+                  top: "88px",
+                  backgroundColor: "var(--darkmode-btn-bg)",
+                  color: "var(--darkmode-btn-text)",
+                  borderColor: "var(--darkmode-btn-border)",
+                }}
+              >
+                {isSidebarVisible ? "Cerrar" : "Menú"}
+              </button>
+            )}
+
           <SideBar
             elements={verbalSubjects}
             isDarkMode={isDarkMode}
             isSidebarVisible={!isMobile || isSidebarVisible}
+            selectedTopicIndex={selectedTopicIndex}
+            onSelect={handleSelectTopic}
           />
-          {children}
+          {React.cloneElement(children as React.ReactElement, {
+            selectedTopicIndex,
+          })}
         </div>
       </div>
     </div>
   );
 };
 
-export default layout;
+export default Layout;

@@ -58,12 +58,21 @@ const SideBar: React.FC<SideBarProps> = ({ elements, isDarkMode, onSelect }) => 
   return (
     <>
       {/* Toggle Button */}
-      <button
-        onClick={toggleSidebar}
-        className="w-28 sm:w-auto fixed top-4 left-4 z-50 p-2 bg-[var(--menu-button-bg)] text-[var(--text-color)] rounded-2xl md:hidden"
-      >
-        {isSidebarVisible ? "Menú" : "Menú"}
-      </button>
+  
+              <button
+                onClick={() => setIsSidebarVisible(!isSidebarVisible)}
+                className="p-2 rounded-lg transition-colors w-36 border fixed z-50 md:hidden"
+                style={{
+                  left: "2rem",
+                  top: "88px",
+                  backgroundColor: "var(--darkmode-btn-bg)",
+                  color: "var(--darkmode-btn-text)",
+                  borderColor: "var(--darkmode-btn-border)",
+                }}
+              >
+                {isSidebarVisible ? "Cerrar" : "Menú"}
+              </button>
+      
 
       <div
         className={`mb-14 fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${

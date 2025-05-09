@@ -1,47 +1,66 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 import subjects from "./cognitiveSubjects.json";
 import { useDarkMode } from "../hooks/useDarkMode";
 
-/**
- * Custom layout for the cognitive page
- * 
- * @param param0 children component to render the subjects and the content of them
- * @returns a layout with a navbar, sidebar and footer, which will be visible 
- * for quizes, topics content, and topics navigation
- */
-
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const cognitiveSubjects = subjects.map((subject) => subject.title);
   const [isDarkMode] = useDarkMode();
   const [isMobile, setIsMobile] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-
-  // Detecta si estamos en pantalla chica (modo responsivo)
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 1024); // 1024px es el breakpoint de Tailwind para "lg"
+    const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  
+    const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
+  
+    const handleSelectTopic = (index: number) => {
+      setSelectedTopicIndex(index);
     };
-
-    checkScreenSize();
-    window.addEventListener("resize", checkScreenSize);
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, []);
+  
+    useEffect(() => {
+      const checkScreenSize = () => {
+        setIsMobile(window.innerWidth < 1024);
+      };
+  
+      checkScreenSize();
+      window.addEventListener("resize", checkScreenSize);
+      return () => window.removeEventListener("resize", checkScreenSize);
+    }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col justify-center">
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
-        <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2">
+        <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-16">
+          {/* Botón de menú siempre visible en móvil */}
+            {isMobile && (
+              <button
+                onClick={() => setIsSidebarVisible(!isSidebarVisible)}
+                className="p-2 rounded-lg transition-colors w-36 border fixed z-50 md:hidden"
+                style={{
+                  left: "2rem",
+                  top: "88px",
+                  backgroundColor: "var(--darkmode-btn-bg)",
+                  color: "var(--darkmode-btn-text)",
+                  borderColor: "var(--darkmode-btn-border)",
+                }}
+              >
+                {isSidebarVisible ? "Cerrar" : "Menú"}
+              </button>
+            )}
+
           <SideBar
             elements={cognitiveSubjects}
             isDarkMode={isDarkMode}
-            isSidebarVisible={!isMobile || isSidebarVisible} // visible en escritorio o si está activado en móvil
+            isSidebarVisible={!isMobile || isSidebarVisible}
+            selectedTopicIndex={selectedTopicIndex}
+            onSelect={handleSelectTopic}
           />
-          <main className="flex-1">{children}</main>
+          {React.cloneElement(children as React.ReactElement, {
+            selectedTopicIndex,
+          })}
+
         </div>
       </div>
     </div>
@@ -49,5 +68,4 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default Layout;
-
 

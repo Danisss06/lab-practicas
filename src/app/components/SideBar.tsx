@@ -14,6 +14,8 @@ interface SideBarProps {
   isSidebarVisible: boolean;
   onCloseSidebar?: () => void;
   className?: string;
+  selectedTopicIndex?: number;
+
 }
 
 /**
