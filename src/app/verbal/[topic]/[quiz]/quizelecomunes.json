@@ -16,10 +16,10 @@
     {
       "question": "Es el inciso que tiene el sujeto de la oración: 'Como un delgado hilo de plata, se desliza serpenteando, el chorro de agua'.",
       "options": [
-        "hilo de plata",
-        "delgado hilo",
-        "serpenteando",
-        "chorro de agua"
+        "Hilo de plata",
+        "Delgado hilo",
+        "Serpenteando",
+        "Chorro de agua"
       ],
       "answer": 3,
       "explanation": "El verbo es 'deslizar' y quien lo ejecuta es 'el chorro de agua'; por lo tanto, el sujeto es 'el chorro de agua'."

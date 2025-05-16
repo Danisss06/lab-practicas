@@ -152,7 +152,7 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
             handleSeeAnswer
           }
         >
-          Ver Respuesta
+          Ver respuesta
         </button>
         <Link href={`${pathname}/quiz${lastPath}`}>
           <button
@@ -161,7 +161,7 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
   border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
   active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           >
-            Tomar Ejercicio
+            Tomar ejercicio
           </button>
         </Link>
       </div>

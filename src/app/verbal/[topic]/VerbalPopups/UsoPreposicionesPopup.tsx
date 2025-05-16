@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import xmark from "../../../../../public/icons/xmark.svg";
-import xmarkwhite from "../../../../../public/icons/xmarkwhite.svg";
 
 type UsoPreposicionesPopupProps = {
   isOpen: boolean;
@@ -26,7 +23,7 @@ const UsoPreposicionesPopup: React.FC<UsoPreposicionesPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta de Ejemplo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta de ejemplo</h2>
           <p className="mb-4">
             La respuesta es el inciso <span className="font-bold">d)</span> porque:
           </p>

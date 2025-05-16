@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import xmark from "../../../../../public/icons/xmark.svg";
-import xmarkwhite from "../../../../../public/icons/xmarkwhite.svg";
 
 type TransformacionesLogicasPopupProps = {
   isOpen: boolean;

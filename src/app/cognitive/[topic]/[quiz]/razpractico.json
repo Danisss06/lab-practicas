@@ -1,12 +1,12 @@
 {
-  "title": "Ejercicio de Razonamiento Práctico",
+  "title": "Ejercicio de razonamiento práctico",
   "description": "Selecciona la opción que contiene la conclusión correcta de cada situación o problema presentado.",
   "questions": [
     {
-      "question": "El año pasado, cuando Lucía y sus amigos y amigas salieron del Colegio, unos aspiraban a entrar a la Prepa Tecmilenio, otros a la Prepa Tec y otros más a la Prepa UDEM. Lucía quiso entrar a Tecmilenio pero su papá le dijo que si no pasaba el examen tendría que irse a UDEM institución a la que ya tenía acceso porque ya había pasado el examen. Además su papá prometió comprarle un auto si su promedio final del Colegio era 90 o más. Ayer Lucía quiso visitar a sus amigos que están en Tecmilenio, por lo que pidió a su amigo Javier, con quien ha compartido los mismos colegios desde kinder hasta ahora en sus estudios de preparatoria,  que le diera un ¨raid¨. De esta información puede concluirse que",
+      "question": "El año pasado, cuando Lucía y sus amigos y amigas salieron del colegio, unos aspiraban a entrar a la Prepa Tecmilenio, otros a la Prepa Tec y otros más a la Prepa UDEM. Lucía quiso entrar a Tecmilenio pero su papá le dijo que si no pasaba el examen tendría que irse a UDEM institución a la que ya tenía acceso porque ya había pasado el examen. Además su papá prometió comprarle un auto si su promedio final del colegio era 90 o más. Ayer Lucía quiso visitar a sus amigos que están en Tecmilenio, por lo que pidió a su amigo Javier, con quien ha compartido los mismos colegios desde kinder hasta ahora en sus estudios de preparatoria,  que le diera un ¨raid¨. De esta información puede concluirse que",
       "options": [
         "Lucía pasó el examen de Tecmilenio.",
-        "Lucía obtuvo 90 de promedio en el Colegio.",
+        "Lucía obtuvo 90 de promedio en el colegio.",
         "Lucía tiene un auto que no usa.",
         "Lucía no tiene auto y no pasó el examen de Tecmilenio."
       ],
@@ -27,10 +27,10 @@
     {
       "question": "A una masa de 10 kg se le aplicó cierta fuerza y adquirió una aceleración de 2 m/s². Cuando esa misma fuerza se aplicó a una masa de 5 kg, ésta adquirió una aceleración de 4 m/s². Después se escogió una masa de 20 kg y su aceleración fue de 1 m/s². De esta información se puede concluir que",
       "options": [
-        "la masa no influye sobre la aceleración.",
-        "cuando disminuye la masa, la aceleración aumenta.",
-        "cuando la masa aumenta, también aumenta la aceleración.",
-        "cuando disminuye la fuerza, la aceleración aumenta."
+        "La masa no influye sobre la aceleración.",
+        "Cuando disminuye la masa, la aceleración aumenta.",
+        "Cuando la masa aumenta, también aumenta la aceleración.",
+        "Cuando disminuye la fuerza, la aceleración aumenta."
       ],
       "answer": 1,
       "explanation": "En la tabla anterior puede observarse que a mayor masa se tiene una aceleración menor."

@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import xmark from "../../../../../public/icons/xmark.svg";
-import xmarkwhite from "../../../../../public/icons/xmarkwhite.svg";
 
 type SecuenciasMatricesPopupProps = {
   isOpen: boolean;
@@ -40,7 +37,7 @@ const SecuenciasMatricesPopup: React.FC<SecuenciasMatricesPopupProps> = ({
             términos.
           </p>
           <p className=" mb-4">
-            <strong>Orden de la 1ª Consonante:</strong> M, N, {"{}"}, Q <br />
+            <strong>Orden de la 1ª consonante:</strong> M, N, {"{}"}, Q <br />
             Consonante que continúa la secuencia: <strong>P</strong>
           </p>
           <p className=" mb-4">

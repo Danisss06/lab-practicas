@@ -1,5 +1,5 @@
 {
-  "title": "Ejercicio de Secuencias y Matrices",
+  "title": "Ejercicio de secuencias y matrices",
   "description": "Selecciona la opción que completa la secuencia o serie correctamente.",
   "questions": [
     {
@@ -22,7 +22,7 @@
         "2150"
       ],
       "answer": 2,
-      "explanation": "El primer dígito de cada término aparece al final en el siguiente término."
+      "explanation": "El primer digito de cada término aparece al final en el siguiente término."
     },
     {
       "question": "..., 5/7, 7/9, 9/11",

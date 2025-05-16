@@ -1,13 +1,13 @@
 {
-  "topic": "Significado de Metáforas",
+  "topic": "Significado de metáforas",
   "topicDescription": "El sentido figurado de la metáfora permite embellecer el lenguaje.",
   "example": "en estos ejercicios se pretende que encuentres el significado común de las metáforas proporcionadas.",
   "exampleQuestion": "1. Las lágrimas de la noche sobre el colorido pétalo",
   "exampleOptions": [
-    "a) lluvia",
-    "b) gotas de rocío",
-    "c) llanto de la noche",
-    "d) gotas de lluvia"
+    "a) Lluvia",
+    "b) Gotas de rocío",
+    "c) Llanto de la noche",
+    "d) Gotas de lluvia"
   ],
   "answer": 1,
   "imageURL": "",

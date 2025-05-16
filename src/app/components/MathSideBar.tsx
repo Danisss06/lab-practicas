@@ -1,8 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import faMinus from "../../../public/icons/faMinus.svg";
-import faMinusWhite from "../../../public/icons/faMinusWhite.svg";
 import { useState } from "react";
 import GoBackBtn from "./GoBackBtn";
 import Link from "next/link";
