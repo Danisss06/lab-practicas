@@ -73,19 +73,17 @@ const EvaluacionFuncionesPage: React.FC = () => {
           &quot;a cada valor de x le corresponde un único valor de y&quot;
         </span>
         , se dice que ese conjunto de pares ordenados representan a una{" "}
-        <span className="font-bold">función</span>y cuando se tiene ese caso,{" "}
-        <span className="font-bold">&quot;y&quot;</span>
-        se representa como <span className="font-bold">f(x)</span>, esto es:{" "}
+        <span className="font-bold">función </span>y cuando se tiene ese caso,{" "}
+        <span className="font-bold">&quot;y&quot;</span> se representa como <span className="font-bold">f(x)</span>, esto es:{" "}
         <span className="font-bold">y = f(x)</span>. Por ejemplo, la relación
-        que se expresa:{" "}
+        que se expresa:{"  "}
         <span className="font-bold">
-          {"{"}( 1, 2 ), ( 2, 4 ), ( 3, 6 ), ( 4, 8 ),...{"}"}
+          {"{"}  ( 1, 2 ), ( 2, 4 ), ( 3, 6 ), ( 4, 8 ),...{"}"}
         </span>
         , satisface la condición: &quot;el valor de{" "}
         <span className="font-bold">y</span> es el doble del valor de{" "}
         <span className="font-bold">x</span>&quot;. Representa una función
-        porque a cada valor de <span className="font-bold">&quot;x&quot;</span>
-        le corresponde un solo valor de{" "}
+        porque a cada valor de <span className="font-bold">&quot;x&quot;</span> le corresponde un solo valor de{" "}
         <span className="font-bold">&quot;y&quot;</span>.
       </p>
       <p className="mt-4">

@@ -25,7 +25,7 @@ const FuncDosVariablesPopup: React.FC<FuncDosVariablesPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Resolución para el Valor de "y"</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Resolución para el valor de "y"</h2>
           <p className="mb-4">
             La respuesta que contiene el valor de "y" de la ecuación <strong>2x + 3y = 12</strong>; donde, <strong>x = 3</strong> se determina de la siguiente manera:
           </p>

@@ -24,7 +24,7 @@ const SolucionPopup: React.FC<SolucionPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Resolución de la Ecuación</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Resolución de la ecuación</h2>
           <p className="mb-4">
             Con el propósito de quitar una de las incógnitas, <strong>se multiplica la ecuación por (-2)</strong> y se suprime la incógnita "x".
           </p>

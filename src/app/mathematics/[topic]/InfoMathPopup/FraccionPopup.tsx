@@ -24,7 +24,7 @@ const FraccionPopup: React.FC<FraccionPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Procedimiento de División de Fracciones</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Procedimiento de división de fracciones</h2>
           <p className="mb-4">
             La respuesta al ejemplo se determina con el siguiente procedimiento:
           </p>

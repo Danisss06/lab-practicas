@@ -76,14 +76,14 @@ const FuncionDosVariablePage: React.FC = () => {
             <li>
               Si se resta 5 a ambos lados:
               <p>
-                3 - 9 + 17 - 5 = 6 + 5 - 5<br />6 = 6 Sigue siendo una igualdad
+                3 - 9 + 17 - 5 = 6 + 5 - 5<br />6 = 6 sigue siendo una igualdad
               </p>
             </li>
             <li>
               Si ahora se suma 8 en ambos lados:
               <p>
                 3 - 9 + 17 - 5 + 8 = 6 + 5 - 5 + 8<br />
-                14 = 14 Sigue siendo una igualdad
+                14 = 14 sigue siendo una igualdad
               </p>
             </li>
           </ul>
@@ -102,7 +102,7 @@ const FuncionDosVariablePage: React.FC = () => {
               Si se multiplica por 1/7 ambos lados:
               <p>
                 (1/7)(3 - 9 + 17 - 5 + 8) = (1/7)(6 + 5 + 8)
-                <br />2 = 2 Sigue siendo una igualdad
+                <br />2 = 2 sigue siendo una igualdad
               </p>
             </li>
             <li>
@@ -110,7 +110,7 @@ const FuncionDosVariablePage: React.FC = () => {
               <p>
                 (-5/7)(3 - 9 + 17 - 5 + 8) = (-5/7)(6 + 5 + 8)
                 <br />
-                -10 = -10 Sigue siendo una igualdad
+                -10 = -10 sigue siendo una igualdad
               </p>
             </li>
           </ul>

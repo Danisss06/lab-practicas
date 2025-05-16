@@ -21,7 +21,7 @@ const PerimetroPopup: React.FC<PerimetroPopupProps> = ({ isOpen, isDarkMode, onC
             ></div>
           </button>
           <h2 className="mt-9 text-xl font-bold mb-4">
-            Cálculo del Perímetro de la Figura
+            Cálculo del perímetro de la figura
           </h2>
           <p className="mb-4">
             La medida del perímetro de la figura es el{" "}

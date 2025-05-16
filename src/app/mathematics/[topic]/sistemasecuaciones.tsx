@@ -97,7 +97,7 @@ const SistemasEcuacionesPage: React.FC = () => {
       </div>
       <p className="mt-4">Las diferentes clases de lugares geométricos son:</p>
       <ul className="list-disc ml-8 mt-4">
-        <li>La línea,</li>
+        <li>La línea</li>
         <li>Las cónicas (parábola, circunferencia, elipse, hipérbola)</li>
       </ul>
       <p className="mt-4">
@@ -121,7 +121,7 @@ const SistemasEcuacionesPage: React.FC = () => {
 
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
-        <span className="font-bold">Instrucciones:</span> Resuelva el sistema de
+        <span className="font-bold">Instrucciones:</span> resuelva el sistema de
         ecuaciones.
       </p>
       <p className="text-base mt-4 pl-8">{exampleQuestion}</p>

@@ -170,10 +170,10 @@
     {
       "question": "El inciso que tiene la solución de la ecuación: -1 - 7/2x = 6 es:",
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "2",
+        "-2",
+        "-1",
+        "1"
       ],
       "answer": 1,
       "explanation": "Solución correcta."

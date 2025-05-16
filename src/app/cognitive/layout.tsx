@@ -10,9 +10,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const cognitiveSubjects = subjects.map((subject) => subject.title);
   const [isDarkMode] = useDarkMode();
   const [isMobile, setIsMobile] = useState(false);
-    const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   
-    const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
+  const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
+  
   
     const handleSelectTopic = (index: number) => {
       setSelectedTopicIndex(index);
@@ -57,7 +58,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             isSidebarVisible={!isMobile || isSidebarVisible}
             selectedTopicIndex={selectedTopicIndex}
             onSelect={handleSelectTopic}
+            onCloseSidebar={() => setIsSidebarVisible(false)} // <-- ESTA ES LA LÍNEA NUEVA
           />
+
           {React.cloneElement(children as React.ReactElement, {
             selectedTopicIndex,
           })}

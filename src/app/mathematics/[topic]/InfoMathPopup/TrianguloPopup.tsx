@@ -24,7 +24,7 @@ const TrianguloAnguloPopup: React.FC<TrianguloAnguloPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del Ángulo en el Triángulo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del ángulo en el triángulo</h2>
           <p className="mb-4">
             La respuesta es el <span className="font-bold">inciso c) 65°</span>.
           </p>

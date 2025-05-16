@@ -62,8 +62,9 @@ const SideBar: React.FC<SideBarProps> = ({
 >
   {isSidebarVisible && (
     <button
-      onClick={onCloseSidebar}
+      onClick={onCloseSidebar} // <- AQUÍ CIERRAS EL MENÚ
       className="absolute top-4 right-4 z-50 hover:opacity-80 md:hidden"
+      aria-label="Cerrar menú"
     >
       <div
         className="w-6 h-6 bg-no-repeat bg-center bg-contain"
@@ -71,6 +72,7 @@ const SideBar: React.FC<SideBarProps> = ({
       ></div>
     </button>
   )}
+
 
         <div className="mt-20 md:mt-0 flex h-full flex-col justify-between p-2">
           <div className="flex flex-col gap-4">

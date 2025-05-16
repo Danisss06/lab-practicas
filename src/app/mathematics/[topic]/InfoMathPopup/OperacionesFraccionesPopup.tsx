@@ -25,7 +25,7 @@ const OperacionesFraccionesPopup: React.FC<OperacionesFraccionesPopupProps> = ({
             ></div>
           </button>
           <h2 className="mt-9 text-xl font-bold mb-4">
-            Simplificación de Fracción
+            Simplificación de fracción
           </h2>
           <p className="mb-4">
             El resultado simplificado de &nbsp;

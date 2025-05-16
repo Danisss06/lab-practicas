@@ -24,7 +24,7 @@ const PerigonalPerigonoPopup: React.FC<PerigonalPerigonoPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del Ángulo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del ángulo</h2>
           <p className="mb-4">
             La medida del ángulo 9x se define de la siguiente manera:
           </p>

@@ -25,7 +25,7 @@ const Probabilidad2Popup: React.FC<Probabilidad2PopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo de Probabilidad</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo de probabilidad</h2>
           <p className="mb-4">
             La probabilidad de extraer una tarjeta azul se calcula como:
           </p>

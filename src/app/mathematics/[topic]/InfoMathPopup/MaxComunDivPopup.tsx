@@ -24,7 +24,7 @@ const MCDPopup: React.FC<MCDPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Máximo Común Divisor (MCD)</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Máximo común divisor (MCD)</h2>
           <p className="mb-4">
             Para encontrar el máximo común divisor de: 8, 12, 16 utilizaremos el método de factores primos.
           </p>

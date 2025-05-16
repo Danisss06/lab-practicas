@@ -133,7 +133,7 @@ const OperacionesFraccionesPage: React.FC = () => {
             Fracción mixta
           </button>
           <button
-            className="underline mb-2"
+            className="underline mb-2 text-left"
             onClick={() => setPopupMinimoComunDenominadorOpen(true)}
           >
             Mínimo común denominador de varios denominadores

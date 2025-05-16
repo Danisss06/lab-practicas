@@ -96,7 +96,7 @@ const FraccionesPage: React.FC = () => {
         </div>
 
         {/* Concepts List as Buttons */}
-        <div className="p-4 flex flex-col items-start">
+        <div className="p-4 flex flex-col items-start text-left">
           <button
             className="underline mb-2"
             onClick={() => setPopupAlgoritmoOpen(true)}
@@ -128,7 +128,7 @@ const FraccionesPage: React.FC = () => {
             Fracción mixta
           </button>
           <button
-            className="underline mb-2"
+            className="underline mb-2 text-left"
             onClick={() => setPopupMinimoComunDenominadorOpen(true)}
           >
             Mínimo común denominador de varios denominadores
@@ -166,7 +166,7 @@ const FraccionesPage: React.FC = () => {
 
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
-        <span className="font-bold">Instrucciones:</span> Resuelva el sistema de
+        <span className="font-bold">Instrucciones:</span> resuelva el sistema de
         ecuaciones.
       </p>
       <p className="text-base mt-4 pl-8">{exampleQuestion}</p>

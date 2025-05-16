@@ -24,7 +24,7 @@ const ExrpessionAlgebraicaPopup: React.FC<ExrpessionAlgebraicaPopupProps> = ({
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta del Ejemplo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta del ejemplo</h2>
           <p className="mb-4">
             La respuesta correcta es el inciso <span className="font-bold">b) A = x ( 3x )</span>, porque:
           </p>

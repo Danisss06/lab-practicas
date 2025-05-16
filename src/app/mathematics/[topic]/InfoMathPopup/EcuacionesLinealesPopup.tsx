@@ -21,7 +21,7 @@ const EcuacionesLinealesPopup: React.FC<EcuacionesLinealesPopupProps> = ({ isOpe
             ></div>
           </button>
           <h2 className="mt-9 text-xl font-bold mb-4">
-            Resolución de la Ecuación
+            Resolución de la ecuación
           </h2>
           <p className="mb-4">
             Con el propósito de reunir todos los términos que contienen a la

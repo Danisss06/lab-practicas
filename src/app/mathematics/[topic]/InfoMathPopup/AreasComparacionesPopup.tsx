@@ -24,7 +24,7 @@ const AreasComparacionesPopup: React.FC<AreasComparacionesPopupProps> = ({
             style={{ backgroundImage: "var(--close-icon)" }}
           ></div>
         </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del Área del Triángulo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del área del triángulo</h2>
           <p className="mb-4">
             La respuesta al problema es <span className="font-bold">inciso c) 75 cm²</span>.
           </p>

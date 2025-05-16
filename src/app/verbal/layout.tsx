@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
-import SideBar from "../components/SideBar"; 
+import SideBar from "../components/SideBar";
 import subjects from "./verbalSubjects.json";
 import { useDarkMode } from "../hooks/useDarkMode";
 
@@ -16,7 +16,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   const [isMobile, setIsMobile] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-
   const [selectedTopicIndex, setSelectedTopicIndex] = useState(0);
 
   const handleSelectTopic = (index: number) => {
@@ -38,22 +37,22 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
         <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-16">
-          {/* Botón de menú siempre visible en móvil */}
-            {isMobile && (
-              <button
-                onClick={() => setIsSidebarVisible(!isSidebarVisible)}
-                className="p-2 rounded-2xl transition-colors w-36 border fixed z-50 md:hidden"
-                style={{
-                  left: "2rem",
-                  top: "88px",
-                  backgroundColor: "var(--darkmode-btn-bg)",
-                  color: "var(--darkmode-btn-text)",
-                  borderColor: "var(--darkmode-btn-border)",
-                }}
-              >
-                {isSidebarVisible ? "Cerrar" : "Menú"}
-              </button>
-            )}
+          {/* Botón de menú solo visible en móvil cuando el sidebar NO está activo */}
+          {isMobile && !isSidebarVisible && (
+            <button
+              onClick={() => setIsSidebarVisible(true)}
+              className="p-2 rounded-2xl transition-colors w-36 border fixed z-50 md:hidden"
+              style={{
+                left: "2rem",
+                top: "88px",
+                backgroundColor: "var(--darkmode-btn-bg)",
+                color: "var(--darkmode-btn-text)",
+                borderColor: "var(--darkmode-btn-border)",
+              }}
+            >
+              Menú
+            </button>
+          )}
 
           <SideBar
             elements={verbalSubjects}
@@ -61,7 +60,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             isSidebarVisible={!isMobile || isSidebarVisible}
             selectedTopicIndex={selectedTopicIndex}
             onSelect={handleSelectTopic}
+            onCloseSidebar={() => setIsSidebarVisible(false)} // <-- cierre del sidebar
           />
+
           {React.cloneElement(children as React.ReactElement, {
             selectedTopicIndex,
           })}
@@ -72,3 +73,4 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default Layout;
+

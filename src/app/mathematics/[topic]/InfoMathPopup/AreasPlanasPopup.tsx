@@ -24,7 +24,7 @@ const AreasPlanasPopup: React.FC<AreasPlanasPopupProps> = ({
             style={{ backgroundImage: "var(--close-icon)" }}
           ></div>
         </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del Área del Rectángulo</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Cálculo del área del rectángulo</h2>
           <p className="mb-4">
             La respuesta que tiene el área del rectángulo de base igual a 13 cm y perímetro igual a 42 cm es el <span className="font-bold">inciso b) 104 cm²</span>.
           </p>

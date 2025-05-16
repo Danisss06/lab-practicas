@@ -53,7 +53,7 @@ const CuadradoFraccionPage: React.FC = () => {
       
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
-        <span className="font-bold">Instrucciones:</span> Resuelva el sistema de
+        <span className="font-bold">Instrucciones:</span> resuelva el sistema de
         ecuaciones.
       </p>
       <p className="text-base mt-4 pl-8">{exampleQuestion}</p>
