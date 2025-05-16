@@ -45,7 +45,7 @@ const QuizPage: React.FC = () => {
   return (
     <div className="mb-24 w-full">
       <QuizComponent 
-        title={jsonToPass.title} // ✅ aquí tomas el título correcto con acento
+        title={jsonToPass.title} 
         description={jsonToPass.description || 'Lee y responde las preguntas del siguiente ejercicio.'}
         questions={jsonToPass.questions} 
         images={jsonToPass.images}

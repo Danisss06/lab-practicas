@@ -34,9 +34,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <NavBar />
         <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-16">
           {/* Botón de menú siempre visible en móvil */}
-            {isMobile && (
+            {isMobile && !isSidebarVisible && (
               <button
-                onClick={() => setIsSidebarVisible(!isSidebarVisible)}
+                onClick={() => setIsSidebarVisible(true)}
                 className="p-2 rounded-2xl transition-colors w-36 border fixed z-50 md:hidden"
                 style={{
                   left: "2rem",
@@ -46,9 +46,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                   borderColor: "var(--darkmode-btn-border)",
                 }}
               >
-                {isSidebarVisible ? "Cerrar" : "Menú"}
+                Menú
               </button>
             )}
+
 
           <SideBar
             elements={cognitiveSubjects}

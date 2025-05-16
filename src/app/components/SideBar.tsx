@@ -53,10 +53,24 @@ const SideBar: React.FC<SideBarProps> = ({
     <>
       {/* Sidebar Overlay */}
       <div
+        
+
   className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
     isSidebarVisible ? "translate-x-0" : "-translate-x-full"
   } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80 ${className ?? ""}`}
+  
 >
+  {isSidebarVisible && (
+    <button
+      onClick={onCloseSidebar}
+      className="absolute top-4 right-4 z-50 hover:opacity-80 md:hidden"
+    >
+      <div
+        className="w-6 h-6 bg-no-repeat bg-center bg-contain"
+        style={{ backgroundImage: "var(--close-icon)" }}
+      ></div>
+    </button>
+  )}
 
         <div className="mt-20 md:mt-0 flex h-full flex-col justify-between p-2">
           <div className="flex flex-col gap-4">
