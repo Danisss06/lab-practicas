@@ -96,18 +96,11 @@ const SideBar: React.FC<SideBarProps> = ({
                 >
                   <div className="w-6 h-6 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: "var(--fa-minus-icon)" }}></div>
                   <Link
-                    href={`/${
-                      pathname.includes(`${pathToNavigate}/`)
-                        ? pathname.slice(
-                            0,
-                            pathname.indexOf(`${pathToNavigate}/`) +
-                              `${pathToNavigate}/`.length
-                          )
-                        : `${pathToNavigate}/`
-                    }${normalizeTitle(element)}`}
-                    className="w-full"
-                    onClick={onCloseSidebar}
-                  >
+  href={`/${pathToNavigate}/${normalizeTitle(element)}`}
+  onClick={onCloseSidebar}
+  className="w-full"
+>
+
                     <p className="w-full text-[var(--sidebar-text)] text-base font-medium leading-normal">
                       {element}
                     </p>
