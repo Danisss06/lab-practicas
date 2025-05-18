@@ -1,11 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import GoBackBtn from "./GoBackBtn";
 import Link from "next/link";
 import { normalizeTitle } from "../utils/utils";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
 interface SubTopic {
   title: string;
@@ -37,29 +36,48 @@ const MathSideBar: React.FC<SideBarProps> = ({
 }) => {
   const [selected, setSelected] = useState<number | null>(null);
   const pathname = usePathname();
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const handleSelected = (index: number) => {
     setSelected(index === selected ? null : index);
     if (onSelect) onSelect(index);
   };
 
+  // Detectar clic fuera para cerrar
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        isSidebarVisible &&
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node)
+      ) {
+        onCloseSidebar?.();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isSidebarVisible, onCloseSidebar]);
+
   return (
     <div
+      ref={menuRef}
       className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
         isSidebarVisible ? "translate-x-0" : "-translate-x-full"
       } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80`}
     >
       {/* Close icon (mobile only) */}
-      <div
-        className="absolute top-6 right-4 md:hidden cursor-pointer"
-        onClick={onCloseSidebar}
-      >
+      {isSidebarVisible && (
         <div
-          className="w-6 h-6 bg-no-repeat bg-center bg-contain"
-          style={{ backgroundImage: "var(--close-icon)" }}
-        ></div>
-      </div>
-
+          className="absolute top-6 right-4 md:hidden cursor-pointer z-50"
+          onClick={onCloseSidebar}
+        >
+          <div
+            className="w-6 h-6 bg-no-repeat bg-center bg-contain"
+            style={{ backgroundImage: "var(--close-icon)" }}
+          ></div>
+        </div>
+      )}
 
       <div className="mt-20 md:mt-0 flex h-full flex-col justify-between p-2">
         <div className="flex flex-col gap-4">
@@ -75,7 +93,10 @@ const MathSideBar: React.FC<SideBarProps> = ({
                   } text-[var(--sidebar-text)]`}
                   onClick={() => handleSelected(index)}
                 >
-                  <div className="w-6 h-6 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: "var(--fa-minus-icon)" }} />
+                  <div
+                    className="w-6 h-6 bg-no-repeat bg-center bg-contain"
+                    style={{ backgroundImage: "var(--fa-minus-icon)" }}
+                  />
                   <p className="w-full text-[var(--sidebar-text)] text-base font-medium leading-normal">
                     {element.title}
                   </p>

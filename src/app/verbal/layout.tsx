@@ -37,7 +37,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
         <div className="flex flex-row gap-4 w-full lg:max-w-[1120px] self-center px-2 mb-16">
-          {/* Botón de menú solo visible en móvil cuando el sidebar NO está activo */}
+          {/* Botón de menú solo visible en móvil cuando el sidebar  NO está activo */}
           {isMobile && !isSidebarVisible && (
             <button
               onClick={() => setIsSidebarVisible(true)}
