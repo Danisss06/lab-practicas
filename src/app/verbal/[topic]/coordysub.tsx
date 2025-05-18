@@ -61,9 +61,7 @@ const CoordYSub: React.FC = () => {
         <span className="font-bold">Adonde:</span> Adverbio relativo, se usa
         cuando el <span className="text-green-700">antecedente va expreso</span>{" "}
         y también{" "}
-        <span className="text-green-700">como adverbio interrogativo.</span> &quot;
-        Pepe va a la misma escuela{" "}
-        <span className="text-green-700">adonde</span> tu vas &quot;. &quot;¿
+        <span className="text-green-700">como adverbio interrogativo.</span> &quot;<span>Pepe va a la misma escuela </span><span className="text-green-700">adonde</span><span> tu vas.&quot;</span> &quot;¿
         <span className="text-green-700">Adónde</span> vas tan temprano?&quot;
       </p>
       <p className="mt-4">
@@ -197,8 +195,9 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
+     <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

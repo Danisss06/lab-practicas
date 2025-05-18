@@ -55,20 +55,17 @@ const GerundioPage: React.FC = () => {
       </p>
       <p className="mt-4">
         <span className="text-green-600">Los barbarismos:</span> afectan
-        directamente a la Prosodia, Analogía y Ortografía.
+        directamente a la prosodia, analogía y ortografía.
       </p>
       <p className="mt-4">
         <span className="text-green-600">Los solecismos:</span> violan las leyes
         de la sintaxis.
       </p>
-      <ol className="mt-4 list-decimal list-inside pl-8">
+      <ol className="mt-4 list-decimal list-outside pl-8">
         <li>Escribir mal una palabra.</li>
         <li>Acentuar mal la palabra.</li>
         <li>Pronunciar mal la palabra.</li>
-        <li>
-          Emplear inútilmente voces de otros idiomas (anglicismos, galicismos,
-          italianismos, etc.).
-        </li>
+        <li>Emplear inútilmente voces de otros idiomas (anglicismos, galicismos, italianismos, etc.).</li>
         <li>
           Adoptar para la transcripción de voces extranjeras, letras distintas a
           las que pide el español.
@@ -138,8 +135,9 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
+      <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

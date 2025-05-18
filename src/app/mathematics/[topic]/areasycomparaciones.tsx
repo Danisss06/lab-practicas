@@ -109,8 +109,9 @@ const AreasYComparacionesPage: React.FC = () => {
           </button>
         </Link>
       </div>
+      <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

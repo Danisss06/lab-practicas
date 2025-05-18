@@ -59,8 +59,8 @@ const RazonamientoCondicionalPage: React.FC = () => {
       </p>
       <p className="text-base mt-4 ml-6">
         1. El inciso que tiene la conclusión de las siguientes premisas es:
-        <br />Todos los niños inventan juegos.
-        <br />Todos los que inventan juegos son creativos.
+        <li className="mt-1">Todos los niños inventan juegos.</li>
+        <li className="mt-1">Todos los que inventan juegos son creativos.</li>
         <br />Por lo tanto,
       </p>
       <div className="w-full flex flex-row flex-wrap gap-4 justify-center">
@@ -96,8 +96,9 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
+      <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

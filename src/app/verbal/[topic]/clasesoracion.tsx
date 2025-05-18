@@ -107,8 +107,9 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
+      <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}

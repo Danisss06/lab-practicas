@@ -28,7 +28,7 @@ const RazCondicionalPopup: React.FC<RazCondicionalPopupProps> = ({
           <p className=" mb-4">
             La respuesta correcta es el inciso{" "}
             <span className="font-bold">d{")"}</span> Todos los niños son
-            creativos ; porque:
+            creativos; porque:
           </p>
           <p className=" mb-4">
             Un diagrama de Venn permite visualizar más concretamente los
@@ -44,7 +44,7 @@ const RazCondicionalPopup: React.FC<RazCondicionalPopupProps> = ({
           </div>
           <p className=" mb-4">
             <span className="font-bold">a{")"}</span> Todos los niños son
-            jugadores. Incorrecto Esta no puede ser la conclusión porque
+            jugadores. Incorrecto. Esta no puede ser la conclusión porque
             sustituye el conjunto "personas que inventan juegos" por el de
             "personas jugadoras". El diagrama quedaría de esta forma.
           </p>
@@ -58,7 +58,7 @@ const RazCondicionalPopup: React.FC<RazCondicionalPopupProps> = ({
           </div>
           <p className=" mb-4">
             <span className="font-bold">b{")"}</span> Algunos niños son
-            creativos. Incorrecto Esta no puede ser la conclusión porque no
+            creativos. Incorrecto. Esta no puede ser la conclusión porque no
             considera la primera premisa y altera la segunda. El diagrama
             quedaría así.
           </p>
@@ -72,7 +72,7 @@ const RazCondicionalPopup: React.FC<RazCondicionalPopupProps> = ({
           </div>
           <p className=" mb-4">
             <span className="font-bold">c{")"}</span> Ningún niño es creativo.
-            Incorrecto Esta no puede ser la conclusión porque no toma en cuenta
+            Incorrecto. Esta no puede ser la conclusión porque no toma en cuenta
             ninguna de las dos premisas. El diagrama quedaría así.
           </p>
           <div className="flex justify-center mb-4">
@@ -85,7 +85,7 @@ const RazCondicionalPopup: React.FC<RazCondicionalPopupProps> = ({
           </div>
           <p className=" mb-4">
             <span className="font-bold">d{")"}</span> Todos los niños son
-            creativos. Correcto Esta conclusión combina correctamente a las dos
+            creativos. Correcto. Esta conclusión combina correctamente a las dos
             premisas.
           </p>
           <div className="flex justify-center mb-4">

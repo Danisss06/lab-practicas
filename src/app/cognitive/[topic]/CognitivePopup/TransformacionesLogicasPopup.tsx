@@ -23,7 +23,7 @@ const TransformacionesLogicasPopup: React.FC<TransformacionesLogicasPopupProps> 
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
           </button>
-          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta Correcta</h2>
+          <h2 className="mt-9 text-xl font-bold mb-4">Respuesta correcta</h2>
           <p className=" mb-4">
             La respuesta correcta es el inciso{" "}
             <span className="font-bold">b{")"} Rubén, Eduardo, Lucía, Saúl, Bety</span>; porque:
@@ -38,8 +38,8 @@ const TransformacionesLogicasPopup: React.FC<TransformacionesLogicasPopupProps> 
           </p>
           <h3 className="text-lg font-semibold mt-4">Referencia: distancia al gimnasio</h3>
           <p className=" mb-4">
-            Se utiliza el signo <span className="font-bold">&gt;</span> para indicar mayor distancia (más lejos) <br />
-            Se utiliza el signo <span className="font-bold">&lt;</span> para indicar menor distancia (más cerca)
+            Se utiliza el signo <span className="font-bold">&gt;</span> para indicar mayor distancia (más lejos). <br />
+            Se utiliza el signo <span className="font-bold">&lt;</span> para indicar menor distancia (más cerca).
           </p>
           <p className=" mb-4">
             L &lt; S <br />

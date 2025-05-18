@@ -73,7 +73,7 @@ const Diagramas2Page: React.FC = () => {
       </p>
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
-        <span className="font-bold">Instrucciones:</span> se presentan tres círculos identificados con las letras C, M y T., con estos círculos se forman siete sectores que se identifican con los números del 1 al 7. En el diagrama se presentan varias preguntas en los que tendrás que identificar la sección apropiada.
+        <span className="font-bold">Instrucciones:</span> se presentan tres círculos identificados con las letras C, M y T, con estos círculos se forman siete sectores que se identifican con los números del 1 al 7. En el diagrama se presentan varias preguntas en los que tendrás que identificar la sección apropiada.
       </p>
       <p className="text-base mt-4 pl-8">
         1. Un grupo de amigos comparten las actividades detalladas abajo. Con esa información, contesta lo que se te pide.
@@ -115,8 +115,9 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
+      <br/>
       <p className={`mt-4 text-[var(--text-color)]`}>
-        Nota: Podrás retomar el ejercicio cuantas veces lo desees.
+        <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>
 
       {/* Popup component */}
