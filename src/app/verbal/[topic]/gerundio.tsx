@@ -87,8 +87,7 @@ const GerundioPage: React.FC = () => {
       </p>
       <p className="mt-4">
         Así el gerundio denota <span className="underline">coexistencia</span> o{" "}
-        <span className="underline">anterioridad</span>{" "}
-        <span className="underline">inmediata</span> pero{" "}
+        <span className="underline">anterioridad inmediata</span> pero{" "}
         <span className="underline">nunca</span>,{" "}
         <span className="underline">posteridad</span>.
       </p>

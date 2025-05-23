@@ -3,7 +3,7 @@
   "description": "Selecciona el inciso que contiene la oración con significado equivalente al enunciado proporcionado.",
   "questions": [
     {
-      "question": "Es el inciso que tiene la oración con significado equivalente a: 'Se ha observado que las personas que padecen cáncer tienen bajos niveles de colesterol'.",
+      "question": "Es el inciso que tiene la oración con significado equivalente a: \"Se ha observado que las personas que padecen cáncer tienen bajos niveles de colesterol\".",
       "options": [
         "Se ha observado que las personas que tienen bajos niveles de colesterol padecen cáncer.",
         "Según se ha observado que para bajar el nivel de colesterol se prescribe el cáncer.",
@@ -14,7 +14,7 @@
       "explanation": "Se conserva íntegro el significado del mensaje."
     },
     {
-      "question": "Es el inciso que tiene la oración con significado equivalente a: 'En la fiesta del sábado, se vio a Joel muy entusiasmado con Verónica'.",
+      "question": "Es el inciso que tiene la oración con significado equivalente a: \"En la fiesta del sábado, se vio a Joel muy entusiasmado con Verónica\".",
       "options": [
         "Se vió Verónica muy entusiasmada con Joel, en la fiesta del sábado.",
         "El entusiasmo de Joel por Verónica se hizo notorio, en la fiesta del sábado.",
@@ -25,7 +25,7 @@
       "explanation": "Se conserva el significado completo del mensaje."
     },
     {
-      "question": "Es el inciso que tiene la oración con significado equivalente a: 'A baja temperatura el crecimiento de población microbiana es lento'.",
+      "question": "Es el inciso que tiene la oración con significado equivalente a: \"A baja temperatura el crecimiento de población microbiana es lento\".",
       "options": [
         "El crecimiento de microbios aumenta al bajar la temperatura.",
         "Al disminuir el crecimiento de la población microbiana, disminuye la temperatura.",
@@ -36,7 +36,7 @@
       "explanation": "Se conserva el significado del mensaje."
     },
     {
-      "question": "Es el inciso que tiene la oración con significado equivalente a: 'Hay la creencia de que, todo buen químico, es buen cocinero'.",
+      "question": "Es el inciso que tiene la oración con significado equivalente a: \"Hay la creencia de que, todo buen químico, es buen cocinero\".",
       "options": [
         "Hay la creencia de que, es buen cocinero, todo el que es buen químico.",
         "Hay la creencia de que, es buen químico, el que es buen cocinero.",

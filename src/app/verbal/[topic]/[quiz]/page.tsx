@@ -4,8 +4,8 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { QuizComponentProps } from "../../../components/Quiz";
 import QuizComponent from "../../../components/Quiz";
-import QuizClasesDeOracion from './quizclasesoracion.json';
-import QuizCoordinantesYSubordinantes from './quizcoordsub.json';
+import QuizClasesDeOracionJSON from './quizclasesoracion.json';
+import QuizCoordinantesYSubordinantesJSON from './quizcoordsub.json';
 import QuizElUsoDelGerundio from './quizusogerundio.json';
 import QuizLecturas from './quizlecturas.json';
 import QuizLosElementosComunesDeLaOracion from './quizelecomunes.json';
@@ -15,8 +15,8 @@ import QuizUsoDeLasPalabrasEnlazantes from './quizpalabrasenlazantes.json';
 import QuizUsoDeLasPreposiciones from './quizusopreposiciones.json';
 
 const quizesMap: { [key: string]: QuizComponentProps } = {
-  'quizclases-de-oracion': QuizClasesDeOracion,
-  'quizcoordinantes-o-subordinantes': QuizCoordinantesYSubordinantes,
+  'quizclases-de-oracion': QuizClasesDeOracionJSON,
+  'quizcoordinantes-o-subordinantes': QuizCoordinantesYSubordinantesJSON,
   'quizel-uso-del-gerundio': QuizElUsoDelGerundio,
   'quizlecturas': QuizLecturas,
   'quizlos-elementos-comunes-de-la-oracion': QuizLosElementosComunesDeLaOracion,

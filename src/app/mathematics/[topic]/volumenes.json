@@ -1,11 +1,11 @@
 {
   "topic": "Volúmenes",
-  "exampleQuestion": "¿Cuál es volumen en cm^3 de la siguiente figura?",
+  "exampleQuestion": "¿Cuál es volumen en cm³ de la siguiente figura?",
   "exampleOptions": [
-    "a) 28 cm^3",
-    "b) 12 cm^3",
-    "c) 21 cm^3",
-    "d) 84 cm^3"
+    "a) 28 cm³",
+    "b) 12 cm³",
+    "c) 21 cm³",
+    "d) 84 cm³"
   ],
   "answer": 3,
   "imageURL": [

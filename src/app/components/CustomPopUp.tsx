@@ -52,8 +52,13 @@ const Popup: React.FC<PopupProps> = ({
           ></div>
         </button>
 
-        <h2 className="mt-9 text-xl font-bold mb-4">{title}</h2>
-        <p className="mb-4">{answer}</p>
+        <h2 className="mt-9 text-xl font-bold mb-4"
+          dangerouslySetInnerHTML={{ __html: title }}
+        />
+        <p className="mb-4"
+          dangerouslySetInnerHTML={{ __html: answer }}
+        />
+
         {description && (
           <p
             className={`${

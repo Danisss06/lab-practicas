@@ -5,16 +5,16 @@
     {
       "question": "El inciso que tiene la oración en que se utiliza incorrectamente las palabras subrayadas.",
       "options": [
-        "Nadie lo sabe, si no el director.",
-        "Si no llegas pronto, me marcharé.",
-        "No es hermosa, sino simpática.",
-        "Si no me contestas, iré a buscarte."
+        "Nadie lo sabe, <u>si no</u> el director.",
+        "<u>Si no</u> llegas pronto, me marcharé.",
+        "No es hermosa, <u>sino</u> simpática.",
+        "<u>Si no</u> me contestas, iré a buscarte."
       ],
       "answer": 0,
       "explanation": "Está mal empleada la palabra porque se refiere a oposición o contrariedad."
     },
     {
-      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados correctamente? \nJorge prometió a su madre cuidarse (1) a simismo mientras ella estuviese fuera de casa. (2) Asimismo, prometió ir al consultorio de su médico cuando se sintiera mal. Durante ese intervalo él aprendió a cuidarse (3) a sí mismo porque (4) a simismo quería su madre que lo hiciera.",
+      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados correctamente? \nJorge prometió a su madre cuidarse (1) <u>a simismo</u> mientras ella estuviese fuera de casa. (2) <u>Asimismo</u>, prometió ir al consultorio de su médico cuando se sintiera mal. Durante ese intervalo él aprendió a cuidarse (3) <u>a sí mismo</u> porque (4) <u>a simismo</u> quería su madre que lo hiciera.",
       "options": [
         "2",
         "1",
@@ -25,7 +25,7 @@
       "explanation": "La palabra en el inciso 2 está utilizada para indicar también, por lo que está escrita correctamente."
     },
     {
-      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados incorrectamente? 'Le pregunté (1)porqué había venido, y me respondió que (2)porque se lo habían ordenado; pero, en realidad, él ignoraba el (3)porque, pero al irse, tampoco supo (4)porqué se iba.'",
+      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados incorrectamente? L\"e pregunté (1) porqué había venido, y me respondió <u>que</u> (2) <u>porque</u> se lo habían ordenado; pero, en realidad, él ignoraba el (3) <u>porque</u>, pero al irse, tampoco supo (4) <u>porqué</u> se iba.\"",
       "options": [
         "2",
         "1",
@@ -33,15 +33,15 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "Está incorrectamente escrita ya que aquí está empleada como un pronombre investigativo y debió haberse escrito separada 'por qué'."
+      "explanation": "Está incorrectamente escrita ya que aquí está empleada como un pronombre investigativo y debió haberse escrito separada \"por qué\"."
     },
     {
       "question": "El inciso que tiene la oración en que se utiliza incorrectamente las palabras subrayadas.",
       "options": [
-        "Dondequiera que te halles, escribe.",
-        "Diga que quienquiera entrar que entre.",
-        "Aquella es la casa adonde nos dirigimos.",
-        "Fueron adonde les habían indicado."
+        "<u>Dondequiera</u> que te halles, escribe.",
+        "Diga que <u>quienquiera</u> entrar que entre.",
+        "Aquella es la casa <u>adonde</u> nos dirigimos.",
+        "Fueron <u>adonde</u> les habían indicado."
       ],
       "answer": 3,
       "explanation": "Es incorrectamente escrita ya que el antecedente no está expreso."

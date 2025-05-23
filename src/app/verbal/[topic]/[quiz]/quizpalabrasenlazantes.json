@@ -5,13 +5,13 @@
     {
       "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada incorrectamente.",
       "options": [
-        "Pamela y Lorena corrían para alcanzar a Fernando.",
-        "Reunióse la gente y al primer aviso de fuego, huyeron despavoridos.",
-        "La casa donde se celebró la fiesta.",
-        "Todos los trabajos se harán bajo estas bases."
+        "<u>Pamela y Lorena corrían</u> para alcanzar a Fernando.",
+        "<u>Reunióse</u> la gente y al primer aviso de fuego, huyeron despavoridos.",
+        "La casa <u>donde</u> se celebró la fiesta.",
+        "Todos los trabajos se harán <u>bajo estas bases</u>."
       ],
-      "answer": 3,
-      "explanation": "Incorrectamente empleada porque hay cacofonía y galicismo en 'bajo estas bases'; lo correcto es 'sobre estas bases'."
+      "answer": 1,
+      "explanation": "Incorrectamente empleada porque hay cacofonía y galicismo en \"bajo estas bases\"; lo correcto es \"sobre estas bases\"."
     },
     {
       "question": "Es el inciso que tiene la oración en la que la palabra (o palabras) subrayada está empleada correctamente.",
@@ -29,11 +29,11 @@
       "options": [
         "Rodrigo corteja a Ana desde hace dos meses.",
         "Cuando Rosy paseaba encontró a Yolis.",
-        "Vicky se hace ilusiones sobre su futuro.",
+        "Vicky <u>se hace ilusiones</u> sobre su futuro.",
         "La búsqueda se dio por terminada."
       ],
       "answer": 2,
-      "explanation": "Incorrectamente empleada; la expresión 'se hace ilusiones' exhibe pobreza de vocabulario. Lo correcto es 'se forja ilusiones'."
+      "explanation": "Incorrectamente empleada; la expresión \"se hace ilusiones\" exhibe pobreza de vocabulario. Lo correcto es \"se forja ilusiones\"."
     },
     {
       "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada correctamente.",

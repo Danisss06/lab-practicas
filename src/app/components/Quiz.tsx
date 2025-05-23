@@ -101,7 +101,8 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         question: questions[currentQuestion].question,
         userAnswer: userAnswerText,
         correctAnswer: correctAnswerText,
-        color: isCorrect ? "bg-[#b0f2c2]" : "bg-[#fcb7af]",
+        color: isCorrect ? 
+        "bg-[#b0f2c2]" : "bg-[#fcb7af]",
         explanation: questions[currentQuestion].explanation || "",
         correct: isCorrect,
       },
@@ -134,25 +135,30 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               {questions.length}
             </h1>
             <h2 className="font-semibold text-lg mt-1">Resumen:</h2>
-            <ul className="w-full max-w-2xl mt-1 text-left text-black">
-            {summary.map((item, index) => (
-                <li
-                  key={index}
-                  className={`mb-2 p-2 border rounded-md ${item.color}`}
-                >
-                  <p className="font-semibold">Pregunta {index + 1}:</p>
-                  <p>{item.question}</p>
-                  <p>
-                    <strong>Tu respuesta:</strong> {item.userAnswer}
-                  </p>
-                  <p>
-                    <strong>Respuesta correcta:</strong> {item.correctAnswer}
-                  </p>
-                  {item.correct ? null : (
-                    <p>
-                      <strong>Explicación:</strong> {item.explanation}
-                    </p>
-                  )}
+<ul className="w-full max-w-2xl mt-1 text-left text-black">
+  {summary.map((item, index) => (
+    <li
+      key={index}
+      className={`mb-2 p-2 border rounded-md ${item.color}`}
+    >
+      <p className="font-semibold">Pregunta {index + 1}:</p>
+      <p>
+        <span dangerouslySetInnerHTML={{ __html: item.question }} />
+      </p>
+      <p>
+        <strong>Tu respuesta:</strong>{" "}
+        <span dangerouslySetInnerHTML={{ __html: item.userAnswer }} />
+      </p>
+      <p>
+        <strong>Respuesta correcta:</strong>{" "}
+        <span dangerouslySetInnerHTML={{ __html: item.correctAnswer }} />
+      </p>
+      {!item.correct && (
+        <p>
+          <strong>Explicación:</strong>{" "}
+          <span dangerouslySetInnerHTML={{ __html: item.explanation }} />
+        </p>
+      )}
                   <div className="flex justify-center">
                     {images &&
                       images.length > 0 &&
@@ -200,9 +206,11 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
             {questionDescription && (
               <p className="text-lg text-justify">{questionDescription}</p>
             )}
-            <h2 className="text-lg">
-              {questions[currentQuestion].question}
-            </h2>
+            <h2
+              className="text-lg"
+              dangerouslySetInnerHTML={{ __html: questions[currentQuestion].question }}
+            />
+
             <div className="flex flex-col gap-2">
 
             {questions[currentQuestion].options.map((option, index) => {
@@ -228,7 +236,8 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                   disabled={selectedOption !== null} // deshabilitar después de seleccionar
                   className={`w-72 min-h-14 cursor-pointer transition-all font-bold ${dynamicBackground} text-[var(--text-color)] px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 active:brightness-90`}
                 >
-                  {option}
+                  <span dangerouslySetInnerHTML={{ __html: option }} />
+
                 </button>
               );
             })}
@@ -268,8 +277,13 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
           </div>
         </div>
       )}
+      <div className="hidden">
+        bg-[#b0f2c2] bg-[#fcb7af]
+      </div>
     </>
   );
+  
+
 };
 
 export default QuizComponent;

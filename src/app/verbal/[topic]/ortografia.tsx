@@ -83,7 +83,7 @@ const OrtografiaPage: React.FC = () => {
             key={index}
             className={`bg-[var(--quiz-options-btn-bg)] text-[var(--quiz-options-btn-text)] p-4 rounded-2xl mt-4 transition-all hover:scale-105`}
           >
-            <p>{option}</p>
+            <p dangerouslySetInnerHTML={{ __html: option }} />
           </div>
         ))}
       </div>

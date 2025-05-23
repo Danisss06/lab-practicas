@@ -2,10 +2,10 @@
   "topic": "Ortografía",
   "exampleQuestion": "1. Es el inciso que tiene la palabra subrayada escrita incorrectamente.",
   "exampleOptions": [
-    "a) Debemos reflexionar sobre varios temas.",
-    "b) Se hizo la concesión de los terrenos.",
-    "c) Ella era a la sazón, una gran bailarina.",
-    "d) Era una gran extención de tierra."
+    "a) Debemos <u>reflexionar</u> sobre varios temas.",
+    "b) Se hizo la <u>concesión</u> de los terrenos.",
+    "c) Ella era a la <u>sazón</u>, una gran bailarina.",
+    "d) Era una gran <u>extención</u> de tierra."
   ],
   "answer": 1,
   "imageURL": ""
