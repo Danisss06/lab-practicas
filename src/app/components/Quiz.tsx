@@ -102,7 +102,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
         userAnswer: userAnswerText,
         correctAnswer: correctAnswerText,
         color: isCorrect ? 
-        "bg-[#b0f2c2]" : "bg-[#fcb7af]",
+        "bg-green-200" : "bg-red-200",
         explanation: questions[currentQuestion].explanation || "",
         correct: isCorrect,
       },
@@ -220,14 +220,13 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               let dynamicBackground = "bg-[--quiz-btn-color]"; // color por defecto
 
               if (selectedOption !== null) {
-                if (isSelected && isCorrect) {
-                  dynamicBackground = "bg-[#b0f2c2]"; // verde-400
-                } else if (isSelected && !isCorrect) {
-                  dynamicBackground = "bg-[#fcb7af]"; // rojo-400
-                }
-              } else if (isSelected) {
-                dynamicBackground = backgroundColor;
-              }
+  if (isSelected && isCorrect) {
+    dynamicBackground = "bg-green-200";
+  } else if (isSelected && !isCorrect) {
+    dynamicBackground = "bg-red-200";
+  }
+}
+
 
               return (
                 <button

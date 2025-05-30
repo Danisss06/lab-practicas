@@ -102,10 +102,23 @@ html.dark {
 
 --credits-titles: #e6e2e2;
 --credits-text: #f1f5f9;
---quiz-btn-color: #475569;;
+--quiz-btn-color: #475569;
 --quiz-message-btn: #374151; /* Color del botón de mensaje "Selecciona una respuesta" */
 
 
+}
+
+/* Sección específica */
+.cognitive {
+  --quiz-btn-color: #bde2b9;
+}
+
+.verbal {
+  --quiz-btn-color: #ff7e82;
+}
+
+.math {
+  --quiz-btn-color: #afdceb;
 }
 
 html, body {
