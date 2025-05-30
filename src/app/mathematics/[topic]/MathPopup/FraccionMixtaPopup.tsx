@@ -19,14 +19,22 @@ const FraccionMixtaPopup: React.FC<FraccionMixtaPopupProps> = ({
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <div className={`bg-[var(--popup-bg)] text-[var(--popup-text)] p-6 rounded-2xl shadow-md max-w-md w-full mx-3`}>
-        <button onClick={onClose} className="float-right hover:opacity-80">
-          <div
-            className="w-6 h-6 bg-no-repeat bg-center bg-contain"
-            style={{ backgroundImage: "var(--close-icon)" }}
-          ></div>
-        </button>
-        <h2 className="mt-9 text-xl font-bold mb-4">Fracción Mixta</h2>
-        <div className="max-h-96 overflow-y-auto pr-2">
+        <div className="relative h-[500px] overflow-hidden pt-6">
+          {/* Botón de cerrar */}
+          <button
+            onClick={onClose}
+            className="absolute top-0 right-[-4px] hover:opacity-80 z-20"
+          >
+            <div
+              className="w-6 h-6 bg-no-repeat bg-center bg-contain"
+              style={{ backgroundImage: "var(--close-icon)" }}
+            ></div>
+          </button>
+
+          {/* Contenedor con scroll y margen derecho reducido */}
+          <div className="h-full overflow-y-auto pr-3 pb-5">
+        <h2 className="text-xl font-bold mb-4">Fracción Mixta</h2>
+        <div className="overflow-y-auto pr-2">
           <p className="mb-4">
             Es aquella que consta de{" "}
             <span className="font-bold">
@@ -115,8 +123,10 @@ const FraccionMixtaPopup: React.FC<FraccionMixtaPopupProps> = ({
               height={30}
             />
           </div>
+          </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

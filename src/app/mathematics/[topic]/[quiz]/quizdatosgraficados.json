@@ -148,10 +148,10 @@
     {
       "question": "El inciso que tiene el comportamiento de la temperatura durante los meses de enero - junio.",
       "options": [
-        "fue constante",
-        "no varió",
-        "fue disminuyendo",
-        "fue aumentando"
+        "Fue constante",
+        "No varió",
+        "Fue disminuyendo",
+        "Fue aumentando"
       ],
       "answer": 3,
       "explanation": "La temperatura fue aumentando durante los meses de enero a junio."

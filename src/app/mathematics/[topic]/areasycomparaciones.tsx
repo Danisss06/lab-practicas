@@ -73,7 +73,7 @@ const AreasYComparacionesPage: React.FC = () => {
       </p>
       <ol className="list-decimal ml-8">
         <li>Tomar de referencia la figura para resolver el problema.</li>
-        <li>Considerar que el triángulo tiene una altura de 10 cm. y base de 15 cm.</li>
+        <li>Considerar que el triángulo tiene una altura de 10 cm y base de 15 cm.</li>
       </ol>
       <p className="text-base mt-4 pl-8">{exampleQuestion}</p>
       <div className="w-full flex flex-row flex-wrap gap-4 justify-center">

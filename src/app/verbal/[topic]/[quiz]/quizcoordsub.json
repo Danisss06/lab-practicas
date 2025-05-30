@@ -25,7 +25,7 @@
       "explanation": "La palabra en el inciso 2 está utilizada para indicar también, por lo que está escrita correctamente."
     },
     {
-      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados incorrectamente? L\"e pregunté (1) porqué había venido, y me respondió <u>que</u> (2) <u>porque</u> se lo habían ordenado; pero, en realidad, él ignoraba el (3) <u>porque</u>, pero al irse, tampoco supo (4) <u>porqué</u> se iba.\"",
+      "question": "¿Cuáles de los coordinantes subrayados están escritos y utilizados incorrectamente? \"Le pregunté (1) <u>porqué</u> había venido, y me respondió que (2) <u>porque</u> se lo habían ordenado; pero, en realidad, él ignoraba el (3) <u>porque</u>, pero al irse, tampoco supo (4) <u>porqué</u> se iba.\"",
       "options": [
         "2",
         "1",

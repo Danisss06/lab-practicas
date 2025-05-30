@@ -275,11 +275,11 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               )}
             </div>
           </div>
+        
         </div>
+        
       )}
-      <div className="hidden">
-        bg-[#b0f2c2] bg-[#fcb7af]
-      </div>
+      
     </>
   );
   

@@ -12,6 +12,10 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "bg-[#b0f2c2]",
+    "bg-[#fcb7af]",
+  ],
   darkMode: "class",
   theme: {
     extend: {

@@ -94,12 +94,10 @@ const GerundioPage: React.FC = () => {
 
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
-        <span className="font-bold">Instrucciones:</span> identifica el inciso
-        que representa el tipo de oración. Intencionalmente se han omitido los
-        signos de interrogación y admiración.
+        <span className="font-bold">Instrucciones:</span> identifica el inciso que tiene la oración en que se utiliza correcta o incorrectamente las palabras subrayadas.
       </p>
       <p className="text-base mt-4 ml-8">
-        1. Es el inciso que tiene la oración declarativa.
+        1. Es el inciso que tiene la oración en donde está incorrectamente utilizada la palabra subrayada.
       </p>
       <div className="w-full flex flex-row flex-wrap gap-4 justify-center">
         {exampleOptions.map((option, index) => (
@@ -107,7 +105,7 @@ const GerundioPage: React.FC = () => {
             key={index}
             className={`bg-[var(--quiz-options-btn-bg)] text-[var(--quiz-options-btn-text)] p-4 rounded-2xl mt-4 transition-all hover:scale-105`}
           >
-            <p>{option}</p>
+            <p dangerouslySetInnerHTML={{ __html: option }} />
           </div>
         ))}
       </div>

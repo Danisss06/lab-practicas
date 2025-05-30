@@ -45,6 +45,9 @@ export default function RootLayout({
           </main>
 
         </div>
+        <div className="hidden">
+          bg-[#b0f2c2] bg-[#fcb7af]
+        </div>
         <FooterComponent />
 
       </body>
