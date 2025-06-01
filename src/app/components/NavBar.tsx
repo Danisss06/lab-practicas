@@ -20,8 +20,7 @@ const NavBar: React.FC<NavBarProps> = () => {
   return (
     <header className={`flex flex-col md:flex-row ${imageAlign} md:items-center justify-between border-solid border-b-[#abb0b5] py-3 self-center`}>
 
-      
-      {/* Versión móvil */}
+      {/* Modo responsivo */}
       <div className="flex flex-col md:hidden w-full items-center gap-4 px-4 py-3">
         <div className="flex flex-row items-center justify-center gap-4 w-full">
           <Link href="https://tec.mx/es" target="_blank" rel="noopener noreferrer">
@@ -31,21 +30,19 @@ const NavBar: React.FC<NavBarProps> = () => {
             <Image src={CVALogo} alt="Centro Virtual de Aprendizaje" width={250} height={50} className="w-40 sm:w-60" />
           </Link>
         </div>
-        {/* Botón de modo oscuro: centrado solo en '/' */}
+        {/* Botón de cambio de modo centrado en modo responsivo */}
         <div
-          className={`flex w-full ${
-            pathname === "/" || pathname === "/credits"
+          className={`flex w-full ${pathname === "/" || pathname === "/credits"
               ? "justify-center"
               : "justify-end pr-4"
-          }`}
+            }`}
         >
           <DarkModeToggle />
         </div>
       </div>
-      
-      {/* MODO md+ (TABLET Y DESKTOP) */}
+
+      {/* Modo escritorio */}
       <div className="hidden md:flex flex-row w-full items-center justify-between">
-        {/* Logos TEC y CVA juntos a la izquierda */}
         <div className="flex items-center gap-12 px-5">
           <Link href="https://tec.mx/es" target="_blank" rel="noopener noreferrer">
             <Image
@@ -66,16 +63,11 @@ const NavBar: React.FC<NavBarProps> = () => {
             />
           </Link>
         </div>
-
-        {/* Botón modo oscuro alineado a la derecha */}
         <div className="items-center">
           <DarkModeToggle />
         </div>
       </div>
-
     </header>
-
-
   );
 };
 

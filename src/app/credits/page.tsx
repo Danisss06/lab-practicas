@@ -57,13 +57,13 @@ const Page = () => {
               </div>
 
               <h3 className="text-[var(--credits-titles)] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
-                Decana Asociada de Desarrollo de Facultad <br/>
-                Decana Asociada Interina de Educación Continua <br/>
-                Escuela de Humanidades y Educación              
+                Decana Asociada de Desarrollo de Facultad <br />
+                Decana Asociada Interina de Educación Continua <br />
+                Escuela de Humanidades y Educación
               </h3>
               <div className="flex items-center gap-4 px-4 min-h-14">
                 <p className="text-[var(--credits-text)] text-base font-normal leading-normal flex-1">
-                  Dra. Ivon Aída Cepeda Mayorga 
+                  Dra. Ivon Aída Cepeda Mayorga
                 </p>
               </div>
 

@@ -22,10 +22,10 @@ const GoBackBtn: React.FC<GoBackBtnProps> = ({ isDarkMode }) => {
   const backgroundColor = pathname.includes('cognitive')
     ? 'hover:bg-[#bde2b9]'
     : pathname.includes('verbal')
-    ? 'hover:bg-[#ff7e82]'
-    : pathname.includes('math')
-    ? 'hover:bg-[#afdceb]'
-    : 'hover:bg-gray-500';
+      ? 'hover:bg-[#ff7e82]'
+      : pathname.includes('math')
+        ? 'hover:bg-[#afdceb]'
+        : 'hover:bg-gray-500';
 
   return (
     /* From Uiverse.io by AKAspidey01 */
@@ -38,22 +38,20 @@ const GoBackBtn: React.FC<GoBackBtnProps> = ({ isDarkMode }) => {
         className={`bg-slate-300 ${backgroundColor} rounded-xl h-12 w-1/4 flex items-center justify-center absolute top-[4px] group-hover:w-full z-10 duration-500`}
       >
         <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  height="25px"
-  width="25px"
-  fill="none"
-  stroke="#000000"
-  strokeWidth="2"
-  strokeLinecap="round"
-  strokeLinejoin="round"
->
-  <path d="M3 9.75L12 3l9 6.75" /> 
-  <path d="M5 9.75v10.5h14V9.75" /> 
-  <path d="M9 20.25V14h6v6.25" />   
-</svg>
-
-
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="25px"
+          width="25px"
+          fill="none"
+          stroke="#000000"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M3 9.75L12 3l9 6.75" />
+          <path d="M5 9.75v10.5h14V9.75" />
+          <path d="M9 20.25V14h6v6.25" />
+        </svg>
 
       </div>
       <p className="translate-x-2">Volver</p>

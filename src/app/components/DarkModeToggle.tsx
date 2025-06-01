@@ -15,7 +15,7 @@ export default function DarkModeToggle() {
         borderColor: "var(--darkmode-btn-border)",
       }}
     >
-      {isDarkMode ? '☀️ Tema claro' : '🌙 Tema oscuro'}
+      {isDarkMode ? "☀️ Tema claro" : "🌙 Tema oscuro"}
     </button>
   );
 }

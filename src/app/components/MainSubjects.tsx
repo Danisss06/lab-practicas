@@ -9,6 +9,7 @@ interface MainSubjectsProps {
 /**
  * Renders main subjects with support for underlined text via HTML.
  */
+
 const MainSubjects: React.FC<MainSubjectsProps> = ({ children, title, description, points, isDarkMode }) => {
   return (
     <div className="layout-content-container flex flex-col max-w-[960px] flex-1">

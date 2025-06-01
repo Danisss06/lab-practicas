@@ -34,7 +34,7 @@ const MathematicsContent: React.FC<MathematicsContentProps> = ({
   const closeSidebar = () => {
     setIsSidebarVisible(false);
   };
-  
+
 
   return (
     <div className="relative w-full">
@@ -47,28 +47,28 @@ const MathematicsContent: React.FC<MathematicsContentProps> = ({
         onCloseSidebar={closeSidebar}
       />
 
-    <div className="flex flex-col w-full lg:max-w-[1120px] px-2">
-      <MainSubjects
-        title={mathematics.title}
-        description={mathematics.description}
-        points={mathematics.points}
-        isDarkMode={isDarkMode}
-      >
-        {selectedTopic ? (
-          selectedTopic.points.map((point, pointIndex) => (
-            <SubjectCard
-              key={pointIndex}
-              title={point.title}
-              description={point.description}
-              isDarkMode={isDarkMode}
-              colorToRender={mathematics.color}
-            />
-          ))
-        ) : (
-          <p className="text-gray-500 pl-4">Por favor selecciona un tema.</p>
-        )}
-      </MainSubjects>
-    </div>
+      <div className="flex flex-col w-full lg:max-w-[1120px] px-2">
+        <MainSubjects
+          title={mathematics.title}
+          description={mathematics.description}
+          points={mathematics.points}
+          isDarkMode={isDarkMode}
+        >
+          {selectedTopic ? (
+            selectedTopic.points.map((point, pointIndex) => (
+              <SubjectCard
+                key={pointIndex}
+                title={point.title}
+                description={point.description}
+                isDarkMode={isDarkMode}
+                colorToRender={mathematics.color}
+              />
+            ))
+          ) : (
+            <p className="text-gray-500 pl-4">Por favor selecciona un tema.</p>
+          )}
+        </MainSubjects>
+      </div>
     </div>
   );
 };

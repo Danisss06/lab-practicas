@@ -22,7 +22,7 @@ const SecuenciasMatricesPopup: React.FC<SecuenciasMatricesPopupProps> = ({
               className="w-6 h-6 bg-no-repeat bg-center bg-contain"
               style={{ backgroundImage: "var(--close-icon)" }}
             ></div>
-        </button>
+          </button>
           <h2 className="mt-9 text-xl font-bold mb-4">Respuesta del ejemplo</h2>
           <p className=" mb-4">
             La respuesta correcta es el inciso{" "}

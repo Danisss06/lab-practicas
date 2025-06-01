@@ -31,8 +31,8 @@ const SideBar: React.FC<SideBarProps> = ({
   const pathToNavigate = pathname.includes("cognitive")
     ? "cognitive"
     : pathname.includes("verbal")
-    ? "verbal"
-    : "cognitive";
+      ? "verbal"
+      : "cognitive";
 
   const handleSelected = (index: number) => {
     setSelected(index);
@@ -41,7 +41,6 @@ const SideBar: React.FC<SideBarProps> = ({
     }
   };
 
-  // Detect click outside to close sidebar
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -63,9 +62,8 @@ const SideBar: React.FC<SideBarProps> = ({
     <>
       <div
         ref={menuRef}
-        className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
-          isSidebarVisible ? "translate-x-0" : "-translate-x-full"
-        } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80 ${className ?? ""}`}
+        className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${isSidebarVisible ? "translate-x-0" : "-translate-x-full"
+          } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80 ${className ?? ""}`}
       >
         {isSidebarVisible && (
           <button
@@ -87,19 +85,18 @@ const SideBar: React.FC<SideBarProps> = ({
               {elements.map((element, index) => (
                 <div
                   key={index}
-                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer hover:scale-105 duration-200 ${
-                    selected === index
+                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer hover:scale-105 duration-200 ${selected === index
                       ? "bg-[var(--sidebar-selected-bg)]"
                       : "bg-[var(--sidebar-element-bg)]"
-                  } text-[var(--sidebar-text)]`}
+                    } text-[var(--sidebar-text)]`}
                   onClick={() => handleSelected(index)}
                 >
                   <div className="w-6 h-6 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: "var(--fa-minus-icon)" }}></div>
                   <Link
-  href={`/${pathToNavigate}/${normalizeTitle(element)}`}
-  onClick={onCloseSidebar}
-  className="w-full"
->
+                    href={`/${pathToNavigate}/${normalizeTitle(element)}`}
+                    onClick={onCloseSidebar}
+                    className="w-full"
+                  >
 
                     <p className="w-full text-[var(--sidebar-text)] text-base font-medium leading-normal">
                       {element}

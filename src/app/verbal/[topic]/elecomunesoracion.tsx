@@ -23,18 +23,18 @@ const EleComunesOracionPage: React.FC = () => {
   const backgroundColor = pathname.includes("cognitive")
     ? "bg-[#bde2b9]"
     : pathname.includes("verbal")
-    ? "bg-[#ff7e82]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-gray-500";
+      ? "bg-[#ff7e82]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-gray-500";
 
   const backgroundColor2 = pathname.includes("cognitive")
     ? "bg-[#addbad]"
     : pathname.includes("verbal")
-    ? "bg-[#ff585d]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-[#c0c0c0]";
+      ? "bg-[#ff585d]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-[#c0c0c0]";
 
   // State to control popup visibility
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -70,7 +70,7 @@ const EleComunesOracionPage: React.FC = () => {
         {exampleQuestion}
       </p>
       <p className="text-base mt-4 pl-8">
-      &quot;Rodeado de brezos y cenizos, se yergue la humilde amapola&quot;.
+        &quot;Rodeado de brezos y cenizos, se yergue la humilde amapola&quot;.
       </p>
       <div className="w-full flex flex-row flex-wrap gap-4 justify-center">
         {exampleOptions.map((option, index) => (
@@ -105,7 +105,7 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
-      <br/>
+      <br />
       <p className={`mt-4 text-[var(--text-color)]`}>
         <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>

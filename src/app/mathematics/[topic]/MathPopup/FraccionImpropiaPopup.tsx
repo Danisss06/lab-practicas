@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import xmark from '../../../../../public/icons/xmark.svg';
-import xmarkwhite from '../../../../../public/icons/xmarkwhite.svg';
 
 type FraccionImpropiaPopupProps = {
   isOpen: boolean;
@@ -32,7 +30,7 @@ const FraccionImpropiaPopup: React.FC<FraccionImpropiaPopupProps> = ({
         </p>
         <div className="flex justify-center mb-4">
           <Image
-            src="/images/7_3.gif" 
+            src="/images/7_3.gif"
             alt="Ejemplo de fracción impropia"
             width={80}
             height={25}
@@ -58,7 +56,7 @@ const FraccionImpropiaPopup: React.FC<FraccionImpropiaPopupProps> = ({
           />
         </div>
         <p className="">
-          Entonces la fracción mixta queda: 
+          Entonces la fracción mixta queda:
         </p>
         <div className="flex justify-center mt-4">
           <Image

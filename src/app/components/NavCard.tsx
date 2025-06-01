@@ -12,7 +12,7 @@ export interface NavCardProps {
   title: string;
   description: string;
   path: string;
-  icon: number; 
+  icon: number;
 }
 
 const iconMap: { [key: string]: StaticImageData } = {
@@ -50,13 +50,12 @@ const NavCard: React.FC<NavCardProps> = ({
       `}
       >
         <div
-          className={`w-24 h-24 rounded-full absolute -right-5 -top-7 ${
-            num === 1
+          className={`w-24 h-24 rounded-full absolute -right-5 -top-7 ${num === 1
               ? "bg-light_green"
               : num === 2
-              ? "bg-kinda_red"
-              : "bg-indigo_blue"
-          }`}
+                ? "bg-kinda_red"
+                : "bg-indigo_blue"
+            }`}
         >
           <p className="absolute bottom-5 left-9 text-white text-2xl font-bold">{num}</p>
         </div>

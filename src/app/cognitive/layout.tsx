@@ -69,6 +69,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           {React.cloneElement(children as React.ReactElement, {
             selectedTopicIndex,
           })}
+          
         </div>
       </div>
     </div>

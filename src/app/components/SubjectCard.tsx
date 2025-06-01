@@ -8,10 +8,9 @@ import { useDarkMode } from "../hooks/useDarkMode";
 interface SubjectCardProps {
   title: string;
   description: string;
-  isDarkMode: boolean; 
+  isDarkMode: boolean;
   colorToRender?: string;
 }
-
 
 /**
  * @param title gets the title of the subject
@@ -23,26 +22,23 @@ interface SubjectCardProps {
 const SubjectCard: React.FC<SubjectCardProps> = ({
   title,
   description,
-  isDarkMode, 
+  isDarkMode,
   colorToRender,
 }) => {
   const pathname = usePathname();
   const lastText = pathname.substring(pathname.lastIndexOf("/") + 1);
 
-
-
   return (
     <>
       <Link
-        href={`/${
-          lastText === "cognitive"
+        href={`/${lastText === "cognitive"
             ? "cognitive"
             : lastText === "verbal"
-            ? "verbal"
-            : lastText === "mathematics"
-            ? "mathematics"
-            : ""
-        }/${normalizeTitle(title)}`}
+              ? "verbal"
+              : lastText === "mathematics"
+                ? "mathematics"
+                : ""
+          }/${normalizeTitle(title)}`}
       >
         <div
           className={`div h-32 w-36 sm:w-52 bg-[var(--subjectcard-bg)] text-[var(--subjectcard-text)] m-auto rounded-[1em] relative group p-2 z-0 overflow-hidden flex items-center justify-center shadow-md`}

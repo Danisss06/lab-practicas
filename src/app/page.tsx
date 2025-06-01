@@ -43,7 +43,7 @@ export default function Home() {
             description={description}
             imageURL={imageUrls}
           /> */}
-          
+
           <div className="@container">
             <div className="@[480px]:p-4">
               {/* <div
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-          
+
     </div>
   );
 }

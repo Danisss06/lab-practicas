@@ -3,7 +3,7 @@ import Image from "next/image";
 
 type EcuacionesLinealesPopupProps = {
   isOpen: boolean;
-  isDarkMode: boolean; 
+  isDarkMode: boolean;
   onClose: () => void;
 };
 

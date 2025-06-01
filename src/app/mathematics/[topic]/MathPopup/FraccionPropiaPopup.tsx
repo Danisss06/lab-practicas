@@ -32,7 +32,7 @@ const FraccionPropiaPopup: React.FC<FraccionPropiaPopupProps> = ({
           es positiva, representa a un número que está entre el cero y el uno.
         </p>
         <p className="mb-4 font-bold">
-          Ejemplo: 
+          Ejemplo:
         </p>
         <Image
           src="/images/3_7.gif"

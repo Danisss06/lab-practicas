@@ -61,9 +61,8 @@ const Popup: React.FC<PopupProps> = ({
 
         {description && (
           <p
-            className={`${
-              isDarkMode ? "bg-gray-800" : "bg-white"
-            }text-gray-600 mb-4 preserve-whitespace`}
+            className={`${isDarkMode ? "bg-gray-800" : "bg-white"
+              }text-gray-600 mb-4 preserve-whitespace`}
             style={{ whiteSpace: "pre-wrap" }}
           >
             {description}

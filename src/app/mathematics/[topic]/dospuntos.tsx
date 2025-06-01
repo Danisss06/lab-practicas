@@ -19,18 +19,18 @@ const DistanciaDosPuntosPage: React.FC = () => {
   const backgroundColor = pathname.includes("cognitive")
     ? "bg-[#bde2b9]"
     : pathname.includes("verbal")
-    ? "bg-[#ff7e82]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-gray-500";
+      ? "bg-[#ff7e82]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-gray-500";
 
   const backgroundColor2 = pathname.includes("cognitive")
     ? "bg-[#addbad]"
     : pathname.includes("verbal")
-    ? "bg-[#ff585d]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-[#c0c0c0]";
+      ? "bg-[#ff585d]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-[#c0c0c0]";
 
   const renderImage = (image: string) => {
     if (!image) {
@@ -62,7 +62,7 @@ const DistanciaDosPuntosPage: React.FC = () => {
   return (
     <>
       <h1 className="text-xl font-bold">{topic}</h1>
-      {renderImage(imageURL[0])}  
+      {renderImage(imageURL[0])}
       <p className="mt-4 font-bold text-green-500">Ejemplo</p>
       <p className="mt-4">
         <span className="font-bold">Instrucciones:</span> analizar los puntos de
@@ -102,7 +102,7 @@ const DistanciaDosPuntosPage: React.FC = () => {
           </button>
         </Link>
       </div>
-      <br/>
+      <br />
       <p className={`mt-4 text-[var(--text-color)]`}>
         <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>

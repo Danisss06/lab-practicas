@@ -43,7 +43,7 @@ const MathSideBar: React.FC<SideBarProps> = ({
     if (onSelect) onSelect(index);
   };
 
-  // Detectar clic fuera para cerrar
+  // Detecta si se hace clic fuera para cerrar el menú
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -62,11 +62,10 @@ const MathSideBar: React.FC<SideBarProps> = ({
   return (
     <div
       ref={menuRef}
-      className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${
-        isSidebarVisible ? "translate-x-0" : "-translate-x-full"
-      } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80`}
+      className={`fixed top-0 left-0 h-full w-64 bg-[var(--sidebar-bg)] p-2 rounded-r-2xl md:rounded-2xl shadow-xl z-40 transition-transform duration-300 transform ${isSidebarVisible ? "translate-x-0" : "-translate-x-full"
+        } md:relative md:translate-x-0 layout-content-container flex flex-col min-w-80`}
     >
-      {/* Close icon (mobile only) */}
+      {/* Botón para cerrar el menú en modo responsivo */}
       {isSidebarVisible && (
         <div
           className="absolute top-6 right-4 md:hidden cursor-pointer z-50"
@@ -86,11 +85,10 @@ const MathSideBar: React.FC<SideBarProps> = ({
             {elements.map((element, index) => (
               <div key={index} className="flex flex-col">
                 <div
-                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer hover:scale-105 duration-200 ${
-                    selected === index
+                  className={`flex items-center gap-3 px-3 py-2 rounded-xl cursor-pointer hover:scale-105 duration-200 ${selected === index
                       ? "bg-[var(--sidebar-selected-bg)]"
                       : "bg-[var(--sidebar-element-bg)]"
-                  } text-[var(--sidebar-text)]`}
+                    } text-[var(--sidebar-text)]`}
                   onClick={() => handleSelected(index)}
                 >
                   <div
@@ -107,15 +105,14 @@ const MathSideBar: React.FC<SideBarProps> = ({
                     {element.points.map((point, subIndex) => (
                       <Link
                         key={subIndex}
-                        href={`${
-                          pathname.includes("mathematics/")
+                        href={`${pathname.includes("mathematics/")
                             ? pathname.slice(
-                                0,
-                                pathname.indexOf("mathematics/") +
-                                  "mathematics/".length
-                              )
+                              0,
+                              pathname.indexOf("mathematics/") +
+                              "mathematics/".length
+                            )
                             : "/mathematics/"
-                        }${normalizeTitle(point.title)}`}
+                          }${normalizeTitle(point.title)}`}
                         onClick={onCloseSidebar}
                         className="flex items-center gap-2 px-3 py-1 rounded-md bg-[var(--sidebar-element-bg)]"
                       >

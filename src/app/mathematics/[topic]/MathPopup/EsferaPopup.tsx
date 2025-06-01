@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import xmark from '../../../../../public/icons/xmark.svg';
-import xmarkwhite from '../../../../../public/icons/xmarkwhite.svg';
+
 
 type EsferaPopupProps = {
   isOpen: boolean;
@@ -38,7 +37,7 @@ const EsferaPopup: React.FC<EsferaPopupProps> = ({
         </p>
         <div className="flex justify-center mb-4">
           <Image
-            src="/images/vol_5.gif" 
+            src="/images/vol_5.gif"
             alt="Esfera"
             width={300}
             height={200}

@@ -26,18 +26,18 @@ const SignificadoMetaforasPage: React.FC = () => {
   const backgroundColor = pathname.includes("cognitive")
     ? "bg-[#bde2b9]"
     : pathname.includes("verbal")
-    ? "bg-[#ff7e82]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-gray-500";
+      ? "bg-[#ff7e82]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-gray-500";
 
   const backgroundColor2 = pathname.includes("cognitive")
     ? "bg-[#addbad]"
     : pathname.includes("verbal")
-    ? "bg-[#ff585d]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-[#c0c0c0]";
+      ? "bg-[#ff585d]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-[#c0c0c0]";
 
   // State to control popup visibility
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -69,7 +69,7 @@ const SignificadoMetaforasPage: React.FC = () => {
         {exampleOptions.map((option, index) => (
           <div
             key={index}
-            className={`bg-[var(--quiz-options-btn-bg)] text-[var(--quiz-options-btn-text)] p-4 rounded-2xl mt-4 transition-all hover:scale-105`}          
+            className={`bg-[var(--quiz-options-btn-bg)] text-[var(--quiz-options-btn-text)] p-4 rounded-2xl mt-4 transition-all hover:scale-105`}
           >
             <p>{option}</p>
           </div>
@@ -98,7 +98,7 @@ active:border-b-[2px] active:brightness-90 active:translate-y-[2px]`}
           </button>
         </Link>
       </div>
-      <br/>
+      <br />
       <p className={`mt-4 text-[var(--text-color)]`}>
         <strong>Nota:</strong> Podrás retomar el ejercicio cuantas veces lo desees.
       </p>

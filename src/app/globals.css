@@ -23,7 +23,7 @@
   --sidebar-element-bg: #e2e8f0; /* Fondo del elemento */
   --sidebar-selected-bg: #94a3b8; /* Fondo del elemento seleccionado en modo claro (slate-200) */
   --goback-btn-bg: #f8fafc;
-  --goback-btn-text: #171717;
+  --goback-btn-text: #171717; /* Color del texto "Volver" */
   --fa-minus-icon: url('/icons/faMinus.svg'); /* Ícono "-" antes de los temas */
 
   --menu-button-bg: #dee2e7;
@@ -108,18 +108,6 @@ html.dark {
 
 }
 
-/* Sección específica */
-.cognitive {
-  --quiz-btn-color: #bde2b9;
-}
-
-.verbal {
-  --quiz-btn-color: #ff7e82;
-}
-
-.math {
-  --quiz-btn-color: #afdceb;
-}
 
 html, body {
   @apply font-sans;

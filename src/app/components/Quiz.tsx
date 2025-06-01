@@ -45,18 +45,18 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
   const backgroundColor = pathname.includes("cognitive")
     ? "bg-[#bde2b9]"
     : pathname.includes("verbal")
-    ? "bg-[#ff7e82]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-blue-500";
+      ? "bg-[#ff7e82]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-blue-500";
 
   const backgroundColor2 = pathname.includes("cognitive")
     ? "bg-[#addbad]"
     : pathname.includes("verbal")
-    ? "bg-[#ff585d]"
-    : pathname.includes("math")
-    ? "bg-[#afdceb]"
-    : "bg-[#c0c0c0]";
+      ? "bg-[#ff585d]"
+      : pathname.includes("math")
+        ? "bg-[#afdceb]"
+        : "bg-[#c0c0c0]";
 
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -86,35 +86,34 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
       setTimeout(() => setMessageSelectAnswer(false), 2000);
       return;
     }
-  
+
     const isCorrect = selectedOption === questions[currentQuestion].answer;
     const userAnswerText = questions[currentQuestion].options[selectedOption];
     const correctAnswerText = questions[currentQuestion].options[questions[currentQuestion].answer];
-  
+
     if (isCorrect) {
       setCorrectAnswers(correctAnswers + 1);
     }
-  
+
     setSummary((prevSummary) => [
       ...prevSummary,
       {
         question: questions[currentQuestion].question,
         userAnswer: userAnswerText,
         correctAnswer: correctAnswerText,
-        color: isCorrect ? 
-        "bg-green-200" : "bg-red-200",
+        color: isCorrect ?
+          "bg-green-200" : "bg-red-200",
         explanation: questions[currentQuestion].explanation || "",
         correct: isCorrect,
       },
     ]);
-  
+
     if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
       setShowFinalResults(true);
     }
   };
-  
 
   const handleRestartQuiz = () => {
     setCurrentQuestion(0);
@@ -135,30 +134,30 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               {questions.length}
             </h1>
             <h2 className="font-semibold text-lg mt-1">Resumen:</h2>
-<ul className="w-full max-w-2xl mt-1 text-left text-black">
-  {summary.map((item, index) => (
-    <li
-      key={index}
-      className={`mb-2 p-2 border rounded-md ${item.color}`}
-    >
-      <p className="font-semibold">Pregunta {index + 1}:</p>
-      <p>
-        <span dangerouslySetInnerHTML={{ __html: item.question }} />
-      </p>
-      <p>
-        <strong>Tu respuesta:</strong>{" "}
-        <span dangerouslySetInnerHTML={{ __html: item.userAnswer }} />
-      </p>
-      <p>
-        <strong>Respuesta correcta:</strong>{" "}
-        <span dangerouslySetInnerHTML={{ __html: item.correctAnswer }} />
-      </p>
-      {!item.correct && (
-        <p>
-          <strong>Explicación:</strong>{" "}
-          <span dangerouslySetInnerHTML={{ __html: item.explanation }} />
-        </p>
-      )}
+            <ul className="w-full max-w-2xl mt-1 text-left text-black">
+              {summary.map((item, index) => (
+                <li
+                  key={index}
+                  className={`mb-2 p-2 border rounded-md ${item.color}`}
+                >
+                  <p className="font-semibold">Pregunta {index + 1}:</p>
+                  <p>
+                    <span dangerouslySetInnerHTML={{ __html: item.question }} />
+                  </p>
+                  <p>
+                    <strong>Tu respuesta:</strong>{" "}
+                    <span dangerouslySetInnerHTML={{ __html: item.userAnswer }} />
+                  </p>
+                  <p>
+                    <strong>Respuesta correcta:</strong>{" "}
+                    <span dangerouslySetInnerHTML={{ __html: item.correctAnswer }} />
+                  </p>
+                  {!item.correct && (
+                    <p>
+                      <strong>Explicación:</strong>{" "}
+                      <span dangerouslySetInnerHTML={{ __html: item.explanation }} />
+                    </p>
+                  )}
                   <div className="flex justify-center">
                     {images &&
                       images.length > 0 &&
@@ -170,8 +169,7 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
                           height={400}
                           className="rounded-2xl"
                         />
-                    )}
-
+                      )}
 
                   </div>
                 </li>
@@ -194,14 +192,14 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               Pregunta {currentQuestion + 1} de {questions.length}
             </p>
             {images && images.length > 0 && (
-  <Image
-    src={images.length === 1 ? images[0] : images[currentQuestion] ?? images[0]}
-    alt="quiz-image"
-    width={400}
-    height={400}
-    className="rounded-2xl"
-  />
-)}
+              <Image
+                src={images.length === 1 ? images[0] : images[currentQuestion] ?? images[0]}
+                alt="quiz-image"
+                width={400}
+                height={400}
+                className="rounded-2xl"
+              />
+            )}
 
             {questionDescription && (
               <p className="text-lg text-justify">{questionDescription}</p>
@@ -213,33 +211,32 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
 
             <div className="flex flex-col gap-2">
 
-            {questions[currentQuestion].options.map((option, index) => {
-              const isSelected = selectedOption === index;
-              const isCorrect = questions[currentQuestion].answer === index;
+              {questions[currentQuestion].options.map((option, index) => {
+                const isSelected = selectedOption === index;
+                const isCorrect = questions[currentQuestion].answer === index;
 
-              let dynamicBackground = "bg-[--quiz-btn-color]"; // color por defecto
+                let dynamicBackground = "bg-[--quiz-btn-color]"; // color por defecto
 
-              if (selectedOption !== null) {
-  if (isSelected && isCorrect) {
-    dynamicBackground = "bg-green-200";
-  } else if (isSelected && !isCorrect) {
-    dynamicBackground = "bg-red-200";
-  }
-}
+                if (selectedOption !== null) {
+                  if (isSelected && isCorrect) {
+                    dynamicBackground = "bg-green-200";
+                  } else if (isSelected && !isCorrect) {
+                    dynamicBackground = "bg-red-200";
+                  }
+                }
 
+                return (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedOption(index)}
+                    disabled={selectedOption !== null} // deshabilitar después de seleccionar
+                    className={`w-72 min-h-14 cursor-pointer transition-all font-bold ${dynamicBackground} text-[var(--text-color)] px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 active:brightness-90`}
+                  >
+                    <span dangerouslySetInnerHTML={{ __html: option }} />
 
-              return (
-                <button
-                  key={index}
-                  onClick={() => setSelectedOption(index)}
-                  disabled={selectedOption !== null} // deshabilitar después de seleccionar
-                  className={`w-72 min-h-14 cursor-pointer transition-all font-bold ${dynamicBackground} text-[var(--text-color)] px-6 py-2 rounded-2xl ${backgroundColor2} border-b-[4px] hover:brightness-110 active:brightness-90`}
-                >
-                  <span dangerouslySetInnerHTML={{ __html: option }} />
-
-                </button>
-              );
-            })}
+                  </button>
+                );
+              })}
 
               <div className="self-end">
                 <button
@@ -274,15 +271,10 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
               )}
             </div>
           </div>
-        
         </div>
-        
       )}
-      
     </>
   );
-  
-
 };
 
 export default QuizComponent;

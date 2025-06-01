@@ -32,7 +32,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div className="w-full lg:max-w-[1120px] self-center">
         <NavBar />
 
-        {/* Botón Menú solo si es móvil y el sidebar está cerrado */}
         {isMobile && !isSidebarVisible && (
           <button
             onClick={() => setIsSidebarVisible(true)}

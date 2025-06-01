@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import xmark from '../../../../../public/icons/xmark.svg';
-import xmarkwhite from '../../../../../public/icons/xmarkwhite.svg';
 
 type FraccionPopupProps = {
   isOpen: boolean;
@@ -23,7 +21,7 @@ const FraccionPopup: React.FC<FraccionPopupProps> = ({ isOpen, isDarkMode, onClo
         </button>
         <h2 className="mt-9 text-xl font-bold mb-4">Fracción</h2>
         <p className="mb-4">Es una expresión matemática que consta de: numerador y denominador separados por una línea horizontal.</p>
-        <Image src="/images/n_d.gif" alt="fraccion" width={100} height={30} className="justify-self-center"/>
+        <Image src="/images/n_d.gif" alt="fraccion" width={100} height={30} className="justify-self-center" />
       </div>
     </div>
   );
