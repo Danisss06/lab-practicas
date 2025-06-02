@@ -44,13 +44,11 @@ const GoBackBtn: React.FC<GoBackBtnProps> = ({ isDarkMode }) => {
           width="25px"
           fill="none"
           stroke="#000000"
-          strokeWidth="2"
+          strokeWidth="3"
           strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M3 9.75L12 3l9 6.75" />
-          <path d="M5 9.75v10.5h14V9.75" />
-          <path d="M9 20.25V14h6v6.25" />
+          strokeLinejoin="round">
+          <path d="M3 10l9-7 9 7" />
+          <path d="M5 10v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9" />
         </svg>
 
       </div>
