@@ -3,12 +3,12 @@
   "description": "Selecciona el inciso en el cual la palabra subrayada está empleada correctamente o incorrectamente según se solicita.",
   "questions": [
     {
-      "question": "Es el inciso en el cual la palabra subrayada está empleada correctamente.",
+      "question": "Es el inciso en el cual las palabras subrayadas están empleadas correctamente.",
       "options": [
-        "Carlos irá al cine, a menos de que tenga que ir al aeropuerto.",
-        "Iré a visitar a mi abuelo, con tal de que me regale un auto.",
-        "Estaba segura de que él vendría a buscarla.",
-        "Todo me gusta, a parte esto."
+        "Carlos irá al cine, <u>a menos de que</u> tenga que ir al aeropuerto.",
+        "Iré a visitar a mi abuelo, <u>con tal de que</u> me regale un auto.",
+        "Estaba segura <u>de que</u> él vendría a buscarla.",
+        "Todo me gusta, <u>a parte</u> esto."
       ],
       "answer": 2,
       "explanation": "Correctamente empleada, ya que aporta mayor claridad al enunciado."
@@ -16,10 +16,10 @@
     {
       "question": "Es el inciso en el cual la palabra subrayada está empleada incorrectamente.",
       "options": [
-        "En este momento Laura <u>está por</u> salir de su casa.",
-        "Iremos a la playa por vacaciones.",
-        "Trabaja mucho por su familia.",
-        "Iremos a Morelia, para la navidad."
+        "En este momento Laura está <u>por</u> salir de su casa.",
+        "Iremos a la playa <u>por</u> vacaciones.",
+        "Trabaja mucho <u>por</u> su familia.",
+        "Iremos a Morelia, <u>para</u> la navidad."
       ],
       "answer": 0,
       "explanation": "Incorrectamente empleada porque \"estar por\" indica \"estar a favor de\". Lo correcto es \"está para salir\", lo cual indica que está preparada para salir."
@@ -27,10 +27,10 @@
     {
       "question": "Es el inciso en el cual la palabra subrayada está empleada correctamente.",
       "options": [
-        "Se mueve bajo la acción de gravedad.",
-        "Vino a ver a Carmen con el pretexto de traer un libro.",
-        "Escribe en dondequiera que puede.",
-        "Karla irá al baile con o sin el consentimiento de su novio."
+        "Se mueve <u>sobre</u> la acción de gravedad.",
+        "Vino a ver a Carmen <u>con</u> el pretexto de traer un libro.",
+        "Escribe <u>en</u> dondequiera que puede.",
+        "Karla irá al baile <u>entre</u> o sin el consentimiento de su novio."
       ],
       "answer": 1,
       "explanation": "Correctamente empleada. Es la palabra enlazante correcta."
@@ -38,10 +38,10 @@
     {
       "question": "Es el inciso en el cual la palabra subrayada está empleada incorrectamente.",
       "options": [
-        "Emilio está para marcharse.",
-        "Para ser pequeño habla muy bien.",
-        "Me habló <u>bajo la excusa</u> de saber de Pablo.",
-        "Coloca tu ropa dentro de la maleta."
+        "Emilio está <u>para</u> marcharse.",
+        "<u>Para</u> ser pequeño habla muy bien.",
+        "Me habló <u>bajo</u> la excusa de saber de Pablo.",
+        "Coloca tu ropa <u>dentro</u> de la maleta."
       ],
       "answer": 2,
       "explanation": "Incorrectamente empleada, exhibe pobreza del lenguaje. Lo correcto es \"con la excusa\"."

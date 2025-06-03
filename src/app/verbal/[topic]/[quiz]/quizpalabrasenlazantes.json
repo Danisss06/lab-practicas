@@ -5,21 +5,21 @@
     {
       "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada incorrectamente.",
       "options": [
-        "<u>Pamela y Lorena corrían</u> para alcanzar a Fernando.",
-        "<u>Reunióse</u> la gente y al primer aviso de fuego, huyeron despavoridos.",
+        "Pamela y Lorena corrían <u>para</u> alcanzar a Fernando.",
+        "Reunióse la gente y͟ al primer aviso de fuego, huyeron despavoridos.",
         "La casa <u>donde</u> se celebró la fiesta.",
-        "Todos los trabajos se harán <u>bajo estas bases</u>."
+        "Todos los trabajos se harán <u>bajo</u> estas bases."
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Incorrectamente empleada porque hay cacofonía y galicismo en \"bajo estas bases\"; lo correcto es \"sobre estas bases\"."
     },
     {
       "question": "Es el inciso que tiene la oración en la que la palabra (o palabras) subrayada está empleada correctamente.",
       "options": [
-        "Me dedico a leer y a pintar, en mis ratos de ocio.",
-        "Raúl se ocupa de sus negocios.",
-        "Desde que se graduó, Julián hace política.",
-        "Mario era tan pendenciero que su propio padre lo reprendía."
+        "Me dedico a leer y <u>a</u> pintar, en mis ratos de ocio.",
+        "Raúl se ocupa <u>en</u> sus negocios.",
+        "<u>Hasta</u> que se graduó, Julián hace política.",
+        "Mario era <u>muy</u> pendenciero que su propio padre lo reprendía."
       ],
       "answer": 0,
       "explanation": "Correctamente empleada ya que cumple con todas las reglas de la sintaxis."
@@ -27,10 +27,10 @@
     {
       "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada incorrectamente.",
       "options": [
-        "Rodrigo corteja a Ana desde hace dos meses.",
-        "Cuando Rosy paseaba encontró a Yolis.",
+        "Rodrigo corteja a Ana <u>desde</u> hace dos meses.",
+        "<u>Cuando</u> Rosy paseaba encontró a Yolis.",
         "Vicky <u>se hace ilusiones</u> sobre su futuro.",
-        "La búsqueda se dio por terminada."
+        "La búsqueda se dio <u>por</u> terminada."
       ],
       "answer": 2,
       "explanation": "Incorrectamente empleada; la expresión \"se hace ilusiones\" exhibe pobreza de vocabulario. Lo correcto es \"se forja ilusiones\"."
@@ -38,10 +38,10 @@
     {
       "question": "Es el inciso que tiene la oración en la cual la palabra (o palabras) subrayada está empleada correctamente.",
       "options": [
-        "El auto donde venías, tiene una llanta desinflada.",
-        "Los libros que compramos están sobre la mesa.",
-        "La blusa y el pantalón es de la misma tela.",
-        "El dinero cuanto depositaste, fue el que te envió mi tío."
+        "El auto <u>donde</u> venías, tiene una llanta desinflada.",
+        "Los libros que compramos están <u>sobre</u> la mesa.",
+        "La blusa y el pantalón <u>es</u> de la misma tela.",
+        "El dinero <u>cuanto</u> depositaste, fue el que te envió mi tío."
       ],
       "answer": 1,
       "explanation": "Correctamente empleada ya que cumple con todas las reglas de la sintaxis."
