@@ -1,5 +1,5 @@
 
-# Laboratiorio de Practias
+# Laboratiorio de Practicas
 
 Laboratiorio de Practicas para el desarrollo de habilidades congitivas, matemáticas y razonamiento verbal.
 
