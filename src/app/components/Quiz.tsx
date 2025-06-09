@@ -219,9 +219,9 @@ const QuizComponent: React.FC<QuizComponentProps> = ({
 
                 if (selectedOption !== null) {
                   if (isSelected && isCorrect) {
-                    dynamicBackground = "bg-green-200";
+                    dynamicBackground = "bg-green-300";
                   } else if (isSelected && !isCorrect) {
-                    dynamicBackground = "bg-red-200";
+                    dynamicBackground = "bg-red-300";
                   }
                 }
 
