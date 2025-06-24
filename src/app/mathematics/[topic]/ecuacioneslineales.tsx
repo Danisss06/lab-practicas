@@ -132,7 +132,7 @@ const EcuacionesLinealesPage: React.FC = () => {
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
           Los signos en la multiplicación.
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
           <p>
             (+) * (+) = +<br />
             (+) * (-) = -<br />
@@ -145,7 +145,7 @@ const EcuacionesLinealesPage: React.FC = () => {
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
           Los signos en la división.
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
           <p>
             (+) / (+) = +<br />
             (+) / (-) = -<br />
@@ -175,12 +175,16 @@ const EcuacionesLinealesPage: React.FC = () => {
             cero.
           </p>
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
-          <p>+2 - 2 = 0</p>
-          <p>
-            <sup>1</sup>/<sub>2</sub> + -<sup>1</sup>/<sub>2</sub> = 0
-          </p>
-          <p>-3 + 3 = 0</p>
+        <div className="p-4 border flex items-center justify-center text-center"
+          style={{ borderColor: "var(--math-table-border)" }}
+        >
+          <div className="flex flex-col gap-1">
+            <p>+2 - 2 = 0</p>
+            <p>
+              <sup>1</sup>/<sub>2</sub> + -<sup>1</sup>/<sub>2</sub> = 0
+            </p>
+            <p>-3 + 3 = 0</p>
+          </div>
         </div>
 
         {/* Row 3: Multiplicative Inverse Property */}
@@ -195,14 +199,16 @@ const EcuacionesLinealesPage: React.FC = () => {
             producto uno.
           </p>
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
-          <p>(-2) &times; (-1/2) = 1</p>
-          <p>
-            <sup>1</sup>/<sub>2</sub> &times; <sup>2</sup>/<sub>1</sub> = 1
-          </p>
-          <p>
-            <sup>7</sup>/<sub>8</sub> &times; -<sup>8</sup>/<sub>7</sub> = 1
-          </p>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
+          <div className="flex flex-col gap-1">
+            <p>(-2) &times; (-1/2) = 1</p>
+            <p>
+              <sup>1</sup>/<sub>2</sub> &times; <sup>2</sup>/<sub>1</sub> = 1
+            </p>
+            <p>
+              <sup>7</sup>/<sub>8</sub> &times; -<sup>8</sup>/<sub>7</sub> = 1
+            </p>
+          </div>
         </div>
       </div>
 

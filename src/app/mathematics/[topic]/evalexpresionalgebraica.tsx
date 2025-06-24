@@ -71,9 +71,11 @@ const ExpresionAlgebraicaPage: React.FC = () => {
             absoluto.
           </p>
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
-          <p>-9 + 7 = -2</p>
-          <p>9 - 7 = +2</p>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
+          <div className="flex flex-col gap-1">
+            <p>-9 + 7 = -2</p>
+            <p>9 - 7 = +2</p>
+          </div>
         </div>
 
         {/* Row 3: Same Sign Addition */}
@@ -83,9 +85,11 @@ const ExpresionAlgebraicaPage: React.FC = () => {
             signo que lleven los números.
           </p>
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
-          <p>9 + 7 = +16</p>
-          <p>-9 - 7 = -16</p>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
+          <div className="flex flex-col gap-1"> 
+            <p>9 + 7 = +16</p>
+            <p>-9 - 7 = -16</p>
+          </div>
         </div>
 
         {/* Row 4: Multiplication Sign Rules */}
@@ -97,7 +101,7 @@ const ExpresionAlgebraicaPage: React.FC = () => {
             La multiplicación de números con signos diferentes da resultado
             negativo (-).
           </p>
-          <p>
+          <p className="text-center">
             (+) × (-) = -<br />
             (-) × (+) = -
           </p>
@@ -110,7 +114,7 @@ const ExpresionAlgebraicaPage: React.FC = () => {
             positivo (+).
           </p>
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
           <p>
             (-) × (-) = +<br />
             (+) × (+) = +

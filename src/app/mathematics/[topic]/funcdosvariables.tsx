@@ -132,7 +132,7 @@ const FuncionDosVariablePage: React.FC = () => {
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
           Los signos en la multiplicación.
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
           <p>
             (+) * (+) = +<br />
             (+) * (-) = -<br />
@@ -145,7 +145,7 @@ const FuncionDosVariablePage: React.FC = () => {
         <div className="p-4 bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
           Los signos en la división.
         </div>
-        <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 border flex items-center justify-center text-center" style={{ borderColor: "var(--math-table-border)" }}>
           <p>
             (+) / (+) = +<br />
             (+) / (-) = -<br />

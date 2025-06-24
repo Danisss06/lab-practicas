@@ -60,7 +60,8 @@ const SistemasEcuacionesPage: React.FC = () => {
         <div className={`bg-[var(--math-table-header)] font-bold text-center p-2`}>Descripción</div>
 
         {/* Row 2: Condition 1 */}
-        <div className="p-4 text-center bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 bg-[var(--math-table-bg)] border flex items-center justify-center text-2xl font-bold"
+          style={{ borderColor: "var(--math-table-border)" }}>
           1
         </div>
         <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
@@ -73,7 +74,8 @@ const SistemasEcuacionesPage: React.FC = () => {
         </div>
 
         {/* Row 3: Condition 2 */}
-        <div className="p-4 text-center bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 bg-[var(--math-table-bg)] border flex items-center justify-center text-2xl font-bold"
+          style={{ borderColor: "var(--math-table-border)" }}>
           2
         </div>
         <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>
@@ -85,7 +87,8 @@ const SistemasEcuacionesPage: React.FC = () => {
         </div>
 
         {/* Row 4: Condition 3 */}
-        <div className="p-4 text-center bg-[var(--math-table-bg)] border" style={{ borderColor: "var(--math-table-border)" }}>
+        <div className="p-4 bg-[var(--math-table-bg)] border flex items-center justify-center text-2xl font-bold"
+          style={{ borderColor: "var(--math-table-border)" }}>
           3
         </div>
         <div className="p-4 border" style={{ borderColor: "var(--math-table-border)" }}>

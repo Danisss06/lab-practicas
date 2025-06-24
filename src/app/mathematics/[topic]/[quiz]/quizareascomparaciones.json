@@ -1,9 +1,9 @@
 {
-  "title": "Ejercicio de ejercicios de áreas y comparaciones",
+  "title": "Ejercicio de áreas y comparaciones",
   "description": "Selecciona el inciso que contiene la respuesta correcta basada en las figuras y datos proporcionados.",
   "questions": [
     {
-      "question": "Es el inciso que tiene el área del paralelogramo ABDE que aparece en la figura de arriba:",
+      "question": "Considera que el triángulo tiene una altura de 10 cm. y base de 15 cm. ¿Cuál es el inciso que tiene el área del paralelogramo ABDE que aparece en la figura de arriba?",
       "options": [
         "7.5 cm²",
         "75 cm²",
@@ -14,7 +14,7 @@
       "explanation": "El área del paralelogramo ABDE es 75 cm²."
     },
     {
-      "question": "¿El inciso que tiene el área del cuadrado MNOP es?",
+      "question": "MNOP es un cuadrado. Las figuras interiores son cuadrados. El área interior de color celeste mide 21 cm². ¿Cuál es el inciso que tiene el área del cuadrado MNOP?",
       "options": [
         "84 cm²",
         "9 cm²",
@@ -25,7 +25,7 @@
       "explanation": "El área del cuadrado MNOP es 63 cm², dado que el área interior mide 21 cm²."
     },
     {
-      "question": "Si B está en AC, D está en AE y además se define la trayectoria 1 y 2 como sigue: Trayectoria 1 = AF + FB + BD + DC y Trayectoria 2 = AE + EC. ¿El inciso que tiene la relación correcta entre las dos trayectorias es?",
+      "question": "Si B está en AC, D está en AE y además se define la trayectoria 1 y 2 como sigue: Trayectoria 1 = AF + FB + BD + DC y Trayectoria 2 = AE + EC. ¿Cuál es el inciso que tiene la relación correcta entre las dos trayectorias?",
       "options": [
         "Trayectoria 1 > Trayectoria 2",
         "Trayectoria 1 = Trayectoria 2",
@@ -36,7 +36,7 @@
       "explanation": "Las trayectorias son iguales, por lo que Trayectoria 1 = Trayectoria 2."
     },
     {
-      "question": "La figura KMNO es un rectángulo, el punto L está sobre el lado KM. ¿El inciso que tiene la relación correcta entre la medida de las áreas de los dos triángulos es?",
+      "question": "La figura KMNO es un rectángulo, el punto L está sobre el lado KM. ¿Cuál es el inciso que tiene la relación correcta entre la medida de las áreas de los dos triángulos?",
       "options": [
         "No se puede saber",
         "Área del triángulo OLN > Área del triángulo OMN",
@@ -47,7 +47,7 @@
       "explanation": "Ambas áreas son iguales porque comparten la misma base y altura."
     },
     {
-      "question": "Es el inciso que tiene la comparación correcta entre el perímetro de la región coloreada de celeste y el perímetro del rectángulo AFEC.",
+      "question": "¿Cuál es el inciso que tiene la comparación correcta entre el perímetro de la región coloreada de celeste y el perímetro del rectángulo AFEC?",
       "options": [
         "Perímetro del rectángulo AFEC = perímetro de la región celeste",
         "Perímetro del rectángulo AFEC > perímetro de la región celeste",
@@ -58,7 +58,7 @@
       "explanation": "El perímetro del rectángulo AFEC es igual al perímetro de la región celeste."
     },
     {
-      "question": "En la figura siguiente el triángulo ACE es equilátero. B, D y F son los puntos medios de los lados y el área coloreada mide 15 m². El inciso que tiene el área del triángulo ACE es:",
+      "question": "En la figura siguiente el triángulo ACE es equilátero. B, D y F son los puntos medios de los lados y el área coloreada mide 15 m². ¿Cuál es el inciso que tiene el área del triángulo ACE?",
       "options": [
         "5 m²",
         "20 m²",
@@ -69,7 +69,7 @@
       "explanation": "El área total del triángulo ACE es 20 m²."
     },
     {
-      "question": "La figura ABCD. M, N, O y P son puntos medios de sus lados. El área celeste mide 28 m². El inciso que tiene el área del cuadrado ABCD es:",
+      "question": "La figura ABCD. M, N, O y P son puntos medios de sus lados. El área celeste mide 28 m². ¿Cuál es el inciso que tiene el área del cuadrado ABCD?",
       "options": [
         "42 m²",
         "112 m²",
@@ -80,7 +80,7 @@
       "explanation": "El área del cuadrado ABCD es 56 m²."
     },
     {
-      "question": "Si la recta M es paralela a la recta N, el inciso que tiene la medida del ángulo x es:",
+      "question": "Si la recta M es paralela a la recta N, ¿cuál es el inciso que tiene la medida del ángulo x?",
       "options": [
         "100°",
         "25°",
@@ -100,7 +100,7 @@
       ],
       "answer": 0,
       "explanation": "El radio del círculo es igual a la mitad de la diagonal del cuadrado, y el área es 100π cm²."
-    }
+      }
   ],
   "images": [
     "/images/quizes/math/geometria/comparaciones/preg01.gif",
